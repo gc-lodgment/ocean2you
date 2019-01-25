@@ -55,15 +55,15 @@
     
 	/* 190125_죽기전에 꼭 가봐야할 국내 여행 도서 추가  */
     .oc2point .ul0 .book-list {width: 100%; height: auto; /*min-height: 248px;*/ padding: 0 15px; background: #f5f5f5;} 
-    .oc2point .ul0 .book-list .book-area {position: relative; padding: 20px 0 72px; border-top: 1px solid #e2e2e2;}
+    .oc2point .ul0 .book-list .book-area {position: relative; padding: 20px 0 25px; border-top: 1px solid #e2e2e2;}
     .oc2point .ul0 .book-list .book-box {}
     .oc2point .ul0 .book-list .book-box .img-book {position: absolute; width: 80px; top: 87px; left: 0;}
-    .oc2point .ul0 .book-list .book-box .book-txt-box {}
-    .oc2point .ul0 .book-list .book-box .book-txt-box p {line-height: 1.6; letter-spacing: -1.5px;}
+    .oc2point .ul0 .book-list .book-box .book-txt-box {text-align: center;}
+    .oc2point .ul0 .book-list .book-box .book-txt-box p {text-align: left; line-height: 1.6; letter-spacing: -1.5px;}
     .oc2point .ul0 .book-list .book-box .book-txt-box .p-0 {font-size: 17px; font-weight: 500; color: #373737;}
     .oc2point .ul0 .book-list .book-box .book-txt-box .p-1 {padding-top: 2px; font-size: 14px; font-weight: 400; color: #666;}
-    .oc2point .ul0 .book-list .book-box .book-txt-box .p-2 {min-height: 78px; padding: 18px 0 0 90px; font-size: 13px; /*letter-spacing: -2px;*/ word-break: keep-all; color: #777;}
-    .oc2point .ul0 .book-list .book-box .book-txt-box .btn-link {position: absolute; display: inline-block; width: 96px; height: 30px; bottom: 26px; right: 0; font-size: 13px; text-align: center; line-height: 30px; color: #666; border: 1px solid #999;}
+    .oc2point .ul0 .book-list .book-box .book-txt-box .p-2 {min-height: 118px; padding: 18px 0 0 90px; font-size: 13px; /*letter-spacing: -2px;*/ word-break: keep-all; color: #777;}
+    .oc2point .ul0 .book-list .book-box .book-txt-box .btn-link {position: relative; display: inline-block; /*width: 96px;*/ height: 30px; margin-top: 20px; padding: 0 15px; font-size: 13px; text-align: center; line-height: 30px; color: #666; border: 1px solid #999;}
     .oc2point .ul0 .book-list .book-box .book-txt-box .btn-link .ic-rArrow {margin-left: 3px;}
     .oc2point .ul0 .book-list .book-box .book-txt-box .btn-link .ic-rArrow:after {width: 5px; height: 5px; border-color: #666;}
 }
@@ -137,7 +137,7 @@
     .oc2point .ul0 .book-list .book-box .book-txt-box .p-0 {font-size: 20px; font-weight: 500;}
     .oc2point .ul0 .book-list .book-box .book-txt-box .p-1 {padding: 9px 0 15px; font-size: 17px; font-weight: 400;}
     .oc2point .ul0 .book-list .book-box .book-txt-box .p-2 {font-size: 13px; letter-spacing: -2px; color: #888;}
-    .oc2point .ul0 .book-list .book-box .book-txt-box .btn-link {position: absolute; display: block; width: 100px; height: 26px; top: 0; right: 0; font-size: 12px; text-align: center; line-height: 26px; color: #666; border: 1px solid #999;}
+    .oc2point .ul0 .book-list .book-box .book-txt-box .btn-link {position: absolute; display: inline-block; /*width: 100px;*/ height: 26px; top: 0; right: 0; padding: 0 11px; font-size: 12px; text-align: center; line-height: 26px; color: #666; border: 1px solid #999;}
     .oc2point .ul0 .book-list .book-box .book-txt-box .btn-link .ic-rArrow {margin-left: 3px;}
     .oc2point .ul0 .book-list .book-box .book-txt-box .btn-link .ic-rArrow:after {width: 4px; height: 4px; border-color: #666;}
 }
@@ -201,7 +201,7 @@
     .oc2point .ul0 .book-list .book-box .book-txt-box .p-0 {font-size: 26px; font-weight: 500;}
     .oc2point .ul0 .book-list .book-box .book-txt-box .p-1 {padding: 13px 0 20px; font-size: 20px; font-weight: 400;}
     .oc2point .ul0 .book-list .book-box .book-txt-box .p-2 {font-size: 18px; letter-spacing: -2px; color: #888;}
-    .oc2point .ul0 .book-list .book-box .book-txt-box .btn-link {position: absolute; display: block; width: 114px; height: 34px; top: 0; right: 0; font-size: 16px; text-align: center; line-height: 34px; color: #666; border: 1px solid #999;}
+    .oc2point .ul0 .book-list .book-box .book-txt-box .btn-link {position: absolute; display: inline-block; /*width: 114px;*/ height: 34px; top: 0; right: 0; padding: 0 18px; font-size: 16px; text-align: center; line-height: 34px; color: #666; border: 1px solid #999;}
     .oc2point .ul0 .book-list .book-box .book-txt-box .btn-link .ic-rArrow {margin-left: 6px;}
     .oc2point .ul0 .book-list .book-box .book-txt-box .btn-link .ic-rArrow:after { border-color: #666;}
 }
@@ -264,7 +264,7 @@
     .oc2point .ul0 .book-list .book-box .book-txt-box .p-0 {font-size: 26px; font-weight: 500;}
     .oc2point .ul0 .book-list .book-box .book-txt-box .p-1 {padding: 13px 0 20px; font-size: 20px; font-weight: 400;}
     .oc2point .ul0 .book-list .book-box .book-txt-box .p-2 {font-size: 18px; letter-spacing: -2px; color: #888;}
-    .oc2point .ul0 .book-list .book-box .book-txt-box .btn-link {position: absolute; display: block; width: 114px; height: 34px; top: 0; right: 0; font-size: 16px; text-align: center; line-height: 34px; color: #666; border: 1px solid #999;}
+    .oc2point .ul0 .book-list .book-box .book-txt-box .btn-link {position: absolute; display: inline-block; /*width: 114px;*/ height: 34px; top: 0; right: 0; padding: 0 20px; font-size: 16px; text-align: center; line-height: 34px; color: #666; border: 1px solid #999;}
     .oc2point .ul0 .book-list .book-box .book-txt-box .btn-link .ic-rArrow {margin-left: 6px;}
     .oc2point .ul0 .book-list .book-box .book-txt-box .btn-link .ic-rArrow:after { border-color: #666;}
 	

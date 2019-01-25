@@ -62,7 +62,7 @@
 .oc2point .ul0 .book-list .book-box .book-txt-box .p-0 {font-size: 26px; font-weight: 500;}
 .oc2point .ul0 .book-list .book-box .book-txt-box .p-1 {padding: 13px 0 20px; font-size: 20px; font-weight: 400;}
 .oc2point .ul0 .book-list .book-box .book-txt-box .p-2 {font-size: 18px; letter-spacing: -2px; color: #888;}
-.oc2point .ul0 .book-list .book-box .book-txt-box .btn-link {position: absolute; display: block; width: 114px; height: 34px; top: 0; right: 0; font-size: 16px; text-align: center; line-height: 34px; color: #666; border: 1px solid #999;}
+.oc2point .ul0 .book-list .book-box .book-txt-box .btn-link {position: absolute; display: inline-block; /*width: 114px;*/ height: 34px; top: 0; right: 0; padding: 0 20px; font-size: 16px; text-align: center; line-height: 34px; color: #666; border: 1px solid #999;}
 .oc2point .ul0 .book-list .book-box .book-txt-box .btn-link .ic-rArrow {margin-left: 6px;}
 .oc2point .ul0 .book-list .book-box .book-txt-box .btn-link .ic-rArrow:after { border-color: #666;}
 

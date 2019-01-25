@@ -143,18 +143,6 @@
 	.intro .colth-2 > div > .more-a:after {content: ""; height: 115%; display: inline-block; vertical-align: middle;}
 	.intro .colth-2 > div > .more-a:hover {color: #00c6ff; border-color: #00c6ff;}
 	
-    /* 190125_죽기전에 꼭 가봐야할 국내 여행 도서 추가  */
-    .intro .book-area {cursor: pointer; position: relative; box-sizing: border-box; width: 111%; margin-left: -5.5%; padding: 18px 16px 19px 24px; background: #000;}
-    .intro .book-area .img-book {float: left; display: block; width: 84px; position: relative;}
-    .intro .book-area .img-book img {width: 100%;}
-    .intro .book-area .book-txt-box {float: left; display: block; /*width: 74%;*/ position: relative; padding-left: 13px;}
-    .intro .book-area .book-txt-box p {font-size: 13px; letter-spacing: -0.7px; line-height: 18px; color: #fff;}
-    .intro .book-area .book-txt-box p em {font-weight: 600; color: #fff76f;}
-    .intro .book-area .book-txt-box .p-1 {}
-    .intro .book-area .book-txt-box .p-2 {margin-top: 2px;}
-    .intro .book-area .book-txt-box .btn-book {display: block; margin-top: 14px;}
-    .intro .book-area .book-txt-box .btn-book span {display: inline-block; position: relative; font-size: 12px; font-weight: 600; letter-spacing: -0.7px; line-height: 20px; color: #fff;}
-    .intro .book-area .book-txt-box .btn-book span:before {content: 'GO'; display: 800; position: absolute; width: 20px; height: 20px; right: -26px; font-size: 10px; line-height: 20px; text-align: center; color: #000; border-radius: 30px; background: #fff;}
     
 	.package {position: relative; width: 100%; padding: 0 0 64px;/*padding: 60px 0 64px;*/}
 	.package .in-bg {position: relative; width: 100%;
@@ -271,13 +259,6 @@
     .main .txt-box .p2 {margin-bottom: 25px;}
     .weath-wrap {display:none}
     .main #scr-box {display: none}
-	
-    /* 190125_죽기전에 꼭 가봐야할 국내 여행 도서 추가  */
-    .intro .book-area {padding: 15px 10px 16px 14px;}
-    .intro .book-area .img-book {width: 76px;}
-    .intro .book-area .book-txt-box {padding-left: 10px;}
-    .intro .book-area .book-txt-box p {font-size: 12px; line-height: 16px;}
-    .intro .book-area .book-txt-box .btn-book span {font-size: 11px;}
 	
 }
 
@@ -411,20 +392,6 @@
 	.intro .colth-2 > div > .more-a:after {content: ""; height: 110%; display: inline-block; vertical-align: middle;}
 	.intro .colth-2 > div > .more-a:hover {color: #00c6ff; border-color: #00c6ff;}
 	
-    /* 190125_죽기전에 꼭 가봐야할 국내 여행 도서 추가  */
-    .intro .book-area {cursor: pointer; position: absolute; bottom: 125px; left: 65px;}
-    .intro .book-area .img-book {float: left; display: block; position: relative;}
-    .intro .book-area .img-book img {width: 110px;}
-    .intro .book-area .book-txt-box {float: left; display: block; position: relative; margin-left: 14px;}
-    .intro .book-area .book-txt-box p {font-size: 15px; letter-spacing: -0.7px; line-height: 22px; color: #fff;}
-    .intro .book-area .book-txt-box p em {font-size: 16px; font-weight: 600; color: #fff76f;}
-    .intro .book-area .book-txt-box .p-1 {}
-    .intro .book-area .book-txt-box .p-2 {margin-top: 2px;}
-    .intro .book-area .book-txt-box .btn-book {display: block; margin-top: 26px; }
-    .intro .book-area .book-txt-box .btn-book span {display: inline-block; position: relative; font-size: 14px; font-weight: 600; letter-spacing: -0.7px; line-height: 24px; color: #fff;}
-    .intro .book-area .book-txt-box .btn-book span:before {content: 'GO'; display: 800; position: absolute; width: 24px; height: 24px; right: -33px; font-size: 12px; line-height: 24px; text-align: center; color: #000; border-radius: 30px; background: #fff;}
-	
-    
     /* 180712_패키지 수정_다솜 */
 	.package {position: relative; width: 100%; padding: 0 0 80px;/*padding: 60px 0 94px;*/}	
 	.package .in-bg {position: relative; width: 100%; 
@@ -636,19 +603,6 @@
 	.intro .colth-2 > div > .more-a:after {content: ""; height: 110%; display: inline-block; vertical-align: middle;}
 	.intro .colth-2 > div > .more-a:hover {color: #00c6ff; border-color: #00c6ff;}
 	
-    /* 190125_죽기전에 꼭 가봐야할 국내 여행 도서 추가  */
-    .intro .book-area {cursor: pointer; position: absolute; bottom: 110px; left: 60px;}
-    .intro .book-area .img-book {float: left; display: block; position: relative;}
-    .intro .book-area .img-book img {}
-    .intro .book-area .book-txt-box {float: left; display: block; position: relative; margin-left: 20px;}
-    .intro .book-area .book-txt-box p {font-size: 18px; line-height: 26px; letter-spacing: -0.7px; color: #fff;}
-    .intro .book-area .book-txt-box p em {font-size: 20px; font-weight: 600; color: #fff76f;}
-    .intro .book-area .book-txt-box .p-1 {}
-    .intro .book-area .book-txt-box .p-2 {margin-top: 2px;}
-    .intro .book-area .book-txt-box .btn-book {display: block; margin-top: 26px; }
-    .intro .book-area .book-txt-box .btn-book span {display: inline-block; position: relative; font-size: 18px; font-weight: 600; letter-spacing: -0.7px; line-height: 28px; color: #fff;}
-    .intro .book-area .book-txt-box .btn-book span:before {content: 'GO'; display: 800; position: absolute; width: 28px; height: 28px; right: -40px; font-size: 14px; line-height: 28px; text-align: center; color: #000; border-radius: 30px; background: #fff;}
-    
 	
     /* 180712_패키지 수정_다솜 */
 	.package {position: relative; width: 100%; padding: 0 0 80px;/*padding: 90px 0 140px;*/}	
@@ -851,20 +805,7 @@
 	}
 	.intro .colth-2 > div > .more-a:after {content: ""; height: 110%; display: inline-block; vertical-align: middle;}
 	.intro .colth-2 > div > .more-a:hover {color: #00c6ff; border-color: #00c6ff;}
-    
-    /* 190125_죽기전에 꼭 가봐야할 국내 여행 도서 추가  */
-    .intro .book-area {cursor: pointer; position: absolute; bottom: 55px; left: 60px;}
-    .intro .book-area .img-book {float: left; display: block; position: relative;}
-    .intro .book-area .img-book img {}
-    .intro .book-area .book-txt-box {float: left; display: block; position: relative; margin-left: 25px;}
-    .intro .book-area .book-txt-box p {font-size: 20px; letter-spacing: -0.7px; line-height: 28px; color: #fff;}
-    .intro .book-area .book-txt-box p em {font-size: 22px; font-weight: 600; color: #fff76f;}
-    .intro .book-area .book-txt-box .p-1 {}
-    .intro .book-area .book-txt-box .p-2 {margin-top: 2px;}
-    .intro .book-area .book-txt-box .btn-book {display: block; margin-top: 19px; }
-    .intro .book-area .book-txt-box .btn-book span {display: inline-block; position: relative; font-size: 20px; font-weight: 600; letter-spacing: -0.7px; line-height: 30px; color: #fff;}
-    .intro .book-area .book-txt-box .btn-book span:before {content: 'GO'; display: 800; position: absolute; width: 30px; height: 30px; right: -40px; font-size: 16px; line-height: 30px; text-align: center; color: #000; border-radius: 30px; background: #fff;}
-	
+
 	
     /* 180712_패키지 수정_다솜 */
 	.package {position: relative; width: 100%; padding: 0 0 80px;/*padding: 110px 0 151px;*/}	

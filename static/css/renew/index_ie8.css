@@ -117,19 +117,6 @@
 .intro .colth-2 > div > .more-a:after {content: ""; height: 110%; display: inline-block; vertical-align: middle;}
 .intro .colth-2 > div > .more-a:hover {color: #00c6ff; border-color: #00c6ff;}
     
-/* 190125_죽기전에 꼭 가봐야할 국내 여행 도서 추가  */
-.intro .book-area {cursor: pointer; position: absolute; bottom: 55px; left: 60px;}
-.intro .book-area .img-book {float: left; display: block; position: relative;}
-.intro .book-area .img-book img {}
-.intro .book-area .book-txt-box {float: left; display: block; position: relative; margin-left: 25px;}
-.intro .book-area .book-txt-box p {font-size: 20px; line-height: 28px; color: #fff;}
-.intro .book-area .book-txt-box p em {font-size: 22px; font-weight: 600; color: #fff76f;}
-.intro .book-area .book-txt-box .p-1 {}
-.intro .book-area .book-txt-box .p-2 {margin-top: 2px;}
-.intro .book-area .book-txt-box .btn-book {display: block; margin-top: 19px; }
-.intro .book-area .book-txt-box .btn-book span {display: inline-block; position: relative; font-size: 20px; font-weight: 600; line-height: 30px; color: #fff;}
-.intro .book-area .book-txt-box .btn-book span:before {content: 'GO'; display: 800; position: absolute; width: 30px; height: 30px; right: -40px; font-size: 16px; line-height: 30px; text-align: center; color: #000; border-radius: 30px; background: #fff;}
-
 /* 180712_패키지 수정_다솜 */
 .package {position: relative; width: 100%; padding: 0 0 80px;/*padding: 110px 0 151px;*/}	
 .package .in-bg {position: relative; width: 100%; /*height: 549px;*/

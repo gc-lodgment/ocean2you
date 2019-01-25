@@ -145,9 +145,9 @@
 	
     /* 190125_죽기전에 꼭 가봐야할 국내 여행 도서 추가  */
     .intro .book-area {cursor: pointer; position: relative; box-sizing: border-box; width: 111%; margin-left: -5.5%; padding: 18px 16px 19px 24px; background: #000;}
-    .intro .book-area .img-book {float: left; display: block; width: 26%; position: relative;}
+    .intro .book-area .img-book {float: left; display: block; width: 84px; position: relative;}
     .intro .book-area .img-book img {width: 100%;}
-    .intro .book-area .book-txt-box {float: left; display: block; width: 74%; position: relative; padding-left: 13px;}
+    .intro .book-area .book-txt-box {float: left; display: block; /*width: 74%;*/ position: relative; padding-left: 13px;}
     .intro .book-area .book-txt-box p {font-size: 13px; letter-spacing: -0.7px; line-height: 18px; color: #fff;}
     .intro .book-area .book-txt-box p em {font-weight: 600; color: #fff76f;}
     .intro .book-area .book-txt-box .p-1 {}
@@ -274,6 +274,7 @@
 	
     /* 190125_죽기전에 꼭 가봐야할 국내 여행 도서 추가  */
     .intro .book-area {padding: 15px 10px 16px 14px;}
+    .intro .book-area .img-book {width: 76px;}
     .intro .book-area .book-txt-box {padding-left: 10px;}
     .intro .book-area .book-txt-box p {font-size: 12px; line-height: 16px;}
     .intro .book-area .book-txt-box .btn-book span {font-size: 11px;}

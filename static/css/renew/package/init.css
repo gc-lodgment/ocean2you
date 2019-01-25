@@ -12,14 +12,14 @@
 @media (max-width: 767px) {
 	.xs-block {display: block;}
 	
-	.vid-wrap {height: 390px;}
+	.vid-wrap {height: auto;}
 	
 	.title {position: relative;}
-	.title .tit-box {text-align: center; padding-top: 0px; color: #fff;}
+	.title .tit-box {text-align: center; padding-top: 0px; padding-bottom:22px; color: #fff;}
 	.title .tit-box h2 {font-size: 20px;}
 	.title .tit-box .mg- {display: block; height: 1px; width: 30px; margin: 18px auto 20px; background: #fff;}
 	.title .tit-box .titTxt img {width: 310px;}
-	.title .pkg-tab {position: relative; margin: 22px auto 0; width: 310px; left: 1.5px;}
+	.title .pkg-tab {position: relative; box-sizing:border-box; margin: 22px auto 0; min-width: 310px; max-width: 360px; left: 1.5px;}
 	.title .pkg-tab > li {position: relative; float: left; top: 0; width: 48%; margin: 1%;}
 	.title .pkg-tab > li a {display: block; width: 100%; height: 45px; letter-spacing: -1px; font-size: 16px; border: 2px solid #a8a6a4; font-weight: 400; color: #fff;}
 	.title .pkg-tab > li:first-child a {font-size: 15px;}
@@ -27,10 +27,11 @@
 	.title .pkg-tab > li.on a {border: 2px solid #fff; padding-left: 0;}
 
     /* 180425 pkg-tab 변경_다솜 */
-	.title .pkg-tab.tab-wid > li a {box-sizing: border-box; line-height:17px; padding:11px 0;}
-    .title .pkg-tab.tab-wid > li.nth-1 a, .title .pkg-tab.tab-wid > li.nth-2 a {padding:3px 0;}
+    .title .pkg-tab.tab-wid > li a {box-sizing: border-box; line-height:17px; padding:11px 0;}
+    .title .pkg-tab.tab-wid > li.nth-2 a, .title .pkg-tab.tab-wid > li.nth-7 a {padding:3px 0;}
+    .title .pkg-tab.tab-wid > li .line-two {padding:3px 0;}
     .title .pkg-tab.tab-wid > li a span {display:block}
-	.title .pkg-tab.tab-wid > li a:after {content: none;}
+    .title .pkg-tab.tab-wid > li a:after {content: none;}
 	
 	.pkg-wrap {padding: 40px 0 50px;}
 	.pkg-wrap .container {width: 94%;}
@@ -55,6 +56,14 @@
 	.pkg-wrap .ul0 > li .p-txt.i-s:before {content: "※"; display: inline-block; position: absolute; left: 0;}
 	.pkg-wrap .ul0 > li .p-txt.i-d {padding-left: 8px;}
 	.pkg-wrap .ul0 > li .p-txt.i-d:before {content: "-"; display: inline-block; position: absolute; left: 0;}
+    .pkg-wrap .ul0 > li .p-txt em {display:block; font-weight:bold; margin-top:5px;}
+	.pkg-wrap .ul0 > li h5 + .p-txt em {margin-top: 0;}
+    .pkg-wrap .ul0 > li .p-txt.i-m {padding-left: 20px; margin-bottom:5px; line-height:15px}
+    .pkg-wrap .ul0 > li .p-txt.i-m:before {content: ""; display: inline-block; position: absolute; width:15px; height:100%; left: 0; background:url(http://img.ocean2you.co.kr/renew/package/bg_i_m.png); background-position: center; background-repeat:no-repeat; background-size:15px auto}
+    
+    .pkg-wrap .line {display:inline-block; width:1px; height:10px; margin:0 5px; vertical-align:middle; background:#7c7c7c}
+    .pkg-wrap .ul-box em {font-weight:bold}
+    .pkg-wrap .ul-box .sub-tit {display:block; padding-top:3px; font-weight:bold; color:#373737}
 	
     /* 180425 이미지 리스트_다솜 */
     .pkg-wrap .pkg-img-list li {box-sizing:border-box; float:left; width:100%; margin-top:12px; }
@@ -74,9 +83,9 @@
 	.pkg-wrap .ul-box .i-d {position:relative; padding-left:8px;}
 	.pkg-wrap .ul-box .i-d:before {content: ""; display: inline-block; position: absolute; width:5px; height:1px; top:7px; left: 0; background:#7c7c7c}
 	
-	.pkg-wrap .rv-a {display: block; margin: 55px auto 0; width: 206px; height: 46px; font-size: 16px; font-family: "Nanum Gothic", sans-serif; text-align: center; background: #44a8ff; color: #fff; line-height: 45px; border-radius: 4px;}
+	.pkg-wrap .rv-a {display: block; position:relative; margin: 55px auto 0; width: 206px; height: 46px; font-size: 16px; font-family: "Nanum Gothic", sans-serif; text-align: center; background: #44a8ff; color: #fff; line-height: 45px; border-radius: 4px;}
 	.pkg-wrap .rv-a > * {vertical-align: middle;}
-	.pkg-wrap .rv-a .gt {position: relative; left: 45px; width: 7px;}
+	.pkg-wrap .rv-a .gt {position: absolute; width: 7px; top:50%; right: 15px; margin-top:-5px }
 	
 	
 	.bx-wrapper {width: 100%;}
@@ -109,24 +118,25 @@
 	
 	.pkg-wrap [class*=pkg-] > .p-row {font-size: 17px; text-align: center; padding-top: 25px; margin: 30px auto -20px; line-height: 1.5; border-top: 1px solid #e1e1e1;}
 	
-    /* 180425 하단 패키지 탭 추가_다솜 */
-    .pkg-b-tab-box {width:94%; margin:0 auto; text-align:center; padding:0 0 25px}
-    .pkg-b-tab-box .pkg-b-tab li {float:left; box-sizing:border-box; width:48%; height:45px; margin:1%; border:1px solid #e2e2e2; background:#fff}
-    .pkg-b-tab-box .pkg-b-tab li a {display:block; padding:14px 0; font-size:15px; font-weight:700; line-height:17px; color:#373737;}
-    .pkg-b-tab-box .pkg-b-tab .nth-1 a, .pkg-b-tab-box .pkg-b-tab .nth-2 a {padding:5px 0;}
-    .pkg-b-tab-box .pkg-b-tab li a > span {display:block}
-    .pkg-b-tab-box .pkg-b-tab .on { background:#3197f0}
-    .pkg-b-tab-box .pkg-b-tab .on a {color:#fff;}
+	/* 180425 하단 패키지 탭 추가_다솜 */
+	.pkg-b-tab-box {width:94%; margin:0 auto; text-align:center; padding:0 0 25px}
+	.pkg-b-tab-box .pkg-b-tab li {float:left; box-sizing:border-box; width:48%; height:45px; margin:1%; border:1px solid #e2e2e2; background:#fff}
+	.pkg-b-tab-box .pkg-b-tab li a {display:block; padding:14px 0; font-size:15px; font-weight:700; line-height:17px; color:#373737;}
+	.pkg-b-tab-box .pkg-b-tab .nth-2 a, .pkg-b-tab-box .pkg-b-tab .nth-7 a  {padding:5px 0;}
+	.pkg-b-tab-box .pkg-b-tab li .line-two  {padding:5px 0;}
+	.pkg-b-tab-box .pkg-b-tab li a > span {display:block}
+	.pkg-b-tab-box .pkg-b-tab .on { background:#3197f0}
+	.pkg-b-tab-box .pkg-b-tab .on a {color:#fff;}
 	
 	.vari-wrap {padding: 0px 0 80px; letter-spacing: -1px;}
 	.vari-wrap .container {width: 96%; padding-top: 25px; border-top: 1px solid #e1e1e1;}
 	.vari-wrap h3 {font-size: 18px; font-weight: 700; line-height: 1.3;}
 	.vari-wrap h3 > .thColor2 {display: block;}
 	.vari-wrap .ul1 {position: relative; margin-top: 12px;}
-	.vari-wrap .ul1 > li {position: relative; float: left; margin-left: 2%; font-size: 0; width: 49%;}
-	.vari-wrap .ul1 > li:first-child, .vari-wrap .ul1 > li:nth-child(3) {margin-left: 0;}
-	.vari-wrap .ul1 > li:first-child, .vari-wrap .ul1 > li:nth-child(2) {margin-bottom: 2%;}
-	.vari-wrap .ul1 > li a {position: relative; display: block; min-height: 190px; padding: 28px 12px 15px 12px; border: 1px solid #e2e2e2; color: #222; word-break: keep-all;}
+	.vari-wrap .ul1 > li {position: relative; float: left; margin-left: 2%; margin-bottom: 2%; font-size: 0; width: 49%;}
+	.vari-wrap .ul1 > li:first-child, .vari-wrap .ul1 > li:nth-of-type(2n-1) {margin-left: 0;}
+	/* .vari-wrap .ul1 > li:first-child, .vari-wrap .ul1 > li:nth-child(2) {margin-bottom: 2%;} */
+	.vari-wrap .ul1 > li a {position: relative; display: block; min-height: 205px; padding: 25px 12px 15px 12px; border: 1px solid #e2e2e2; color: #222; word-break: keep-all;}
 	.vari-wrap .ul1 > li a .i-scut {display: block; position: absolute; right: 0; top: 0; color: #fff; width: 66px; height: 74px; background: url(http://img.ocean2you.co.kr/renew/i-scut.png) no-repeat right top; text-align: right; padding: 6px 4px 0 0; font-size: 13px; background-size: 90%}
 	.vari-wrap .ul1 > li a h4 {font-size: 15px;}
 	.vari-wrap .ul1 > li a .p1 {font-size: 12px;line-height: 1.5; margin-top: 12px;}
@@ -141,6 +151,8 @@
 
 @media (max-device-width: 320px) {
 	.pkg-wrap [class*=pkg-] .p0 {font-size: 14.5px;}
+	.vari-wrap .ul1 > li a .p1 {font-size:11px}
+	.vari-wrap .ul1 > li a .p1 .xs-block {display:inline-block;}
 }
 
 
@@ -150,20 +162,22 @@
 	.title .tit-box h2 {font-size: 24px; letter-spacing:-2.5px}
 	.title .tit-box .mg- {display: block; height: 1px; width: 30px; margin: 18px auto 20px; background: #fff;}
 	.title .tit-box .titTxt img {width: 500px;}
-	.title .pkg-tab {position: relative; margin: 22px auto 0; width: 700px; left: 1.5px;}
+	.title .pkg-tab {position: relative; margin: 22px auto 0; width: 750px; left: 1.5px;}
 	.title .pkg-tab > li {position: relative; float: left; top: 0; width: 25%; border: 2px solid transparent; border-left: 1px solid #a8a6a4; margin-left: -1px; padding-left: 1px;}
 	.title .pkg-tab > li.nth-1 {border-left: none; margin-left: 0;}
 	.title .pkg-tab > li.on {border: 2px solid #fff; z-index: 1; padding-left: 0;}
 	.title .pkg-tab > li.nth-1.on {padding-right: 1px;}
-	.title .pkg-tab > li a {display: block; width: 100%; height: 45px; font-size: 16px; font-weight: 400; color: #fff;}
+	.title .pkg-tab > li a {display: block; width: 100%; height: 45px; font-size: 15px; font-weight: 400; color: #fff;}
 	.title .pkg-tab > li a:after {content: ""; display: inline-block; height: 108%; vertical-align: middle;}
 
     /* 180425 pkg-tab 변경_다솜 */
 	.title .pkg-tab.tab-wid {margin:45px auto 0;}
 	.title .pkg-tab.tab-wid > li {width: 18%;}
-	.title .pkg-tab.tab-wid > li.nth-2 {width: 28%;}
+	/*.title .pkg-tab.tab-wid > li.nth-2 {width: 28%;}*/
 	.title .pkg-tab.tab-wid > li a {box-sizing: border-box; height: 46px; line-height:20px; padding:12px 0;}
-    .title .pkg-tab.tab-wid > li.nth-1 a {padding:3px 0;}
+    /* .title .pkg-tab.tab-wid > li.nth-1 a {padding:3px 0;} */
+    .title .pkg-tab.tab-wid > li.nth-2 a, .title .pkg-tab.tab-wid > li.nth-7 a {padding:3px 0;}
+    .title .pkg-tab.tab-wid > li .line-two {padding:3px 0;}
     .title .pkg-tab.tab-wid > li a span {display:block}
 	.title .pkg-tab.tab-wid > li a:after {content: none;}
 	
@@ -190,6 +204,14 @@
 	.pkg-wrap .ul0 > li .p-txt.i-s:before {content: "※"; display: inline-block; position: absolute; left: 0;}
 	.pkg-wrap .ul0 > li .p-txt.i-d {padding-left: 8px;}
 	.pkg-wrap .ul0 > li .p-txt.i-d:before {content: "-"; display: inline-block; position: absolute; left: 0;}
+    .pkg-wrap .ul0 > li .p-txt em {display:block; font-weight:bold; margin-top:10px;}
+	.pkg-wrap .ul0 > li h5 + .p-txt em {margin-top: 0;}
+    .pkg-wrap .ul0 > li .p-txt.i-m {padding-left: 22px; margin-bottom:5px; line-height:18px}
+    .pkg-wrap .ul0 > li .p-txt.i-m:before {content: ""; display: inline-block; position: absolute; width:18px; height:100%; left: 0; background:url(http://img.ocean2you.co.kr/renew/package/bg_i_m.png); background-position: center; background-repeat:no-repeat; background-size:18px auto}
+    
+    .pkg-wrap .line {display:inline-block; width:1px; height:15px; margin:0 10px; vertical-align:middle; background:#7c7c7c}
+    .pkg-wrap .ul-box em {font-weight:bold}
+    .pkg-wrap .ul-box .sub-tit {display:block; padding-top:3px; font-weight:bold; color:#373737}
     
     /* 180425 이미지 리스트_다솜 */
     .pkg-wrap .pkg-img-list li {box-sizing:border-box; float:left; width:48.6%; margin-top:20px; margin-left:20px; }
@@ -214,9 +236,9 @@
 	.pkg-wrap .ul-box .i-d {position:relative; padding-left:9px;}
 	.pkg-wrap .ul-box .i-d:before {content: ""; display: inline-block; position: absolute; width:5px; height:1px; top:7px; left: 0; background:#7c7c7c}
     
-	.pkg-wrap .rv-a {display: block; margin: 55px auto 0; width: 206px; height: 46px; font-size: 16px; font-family: "Nanum Gothic", sans-serif; text-align: center; background: #44a8ff; color: #fff; line-height: 45px; border-radius: 4px;}
+	.pkg-wrap .rv-a {display: block; position:relative; margin: 55px auto 0; width: 206px; height: 46px; font-size: 16px; font-family: "Nanum Gothic", sans-serif; text-align: center; background: #44a8ff; color: #fff; line-height: 45px; border-radius: 4px;}
 	.pkg-wrap .rv-a > * {vertical-align: middle;}
-	.pkg-wrap .rv-a .gt {position: relative; left: 45px; width: 7px;}
+	.pkg-wrap .rv-a .gt {position: absolute; width: 7px; top:50%; right: 15px; margin-top:-5px }
 	
 	.pkg-wrap .sltMenu-intro .ul1 > li .p-txt {position: relative; line-height: 1.6; word-break: keep-all; letter-spacing: -0.5px; color: #7c7c7c; font-size: 14px;}
 	.pkg-wrap .sltMenu-intro .ul1 > li .p-txt.i-s {padding-left: 15px;}
@@ -240,17 +262,19 @@
 	
 	.pkg-wrap [class*=pkg-] > .p-row {font-size: 17px; text-align: center; padding-top: 30px; margin: 40px auto -30px; line-height: 1.5; border-top: 1px solid #e1e1e1;}
 	
-    /* 180425 하단 패키지 탭 추가_다솜 */
-    .pkg-b-tab-box {width:768px; margin:0 auto; text-align:center; padding:0 7px 38px}
-    /*.pkg-b-tab-box .pkg-b-tab li {float:left; box-sizing:border-box; width:16.666%; height:62px; border:1px solid #e2e2e2; border-left:0; background:#fff}*/
+	/* 180425 하단 패키지 탭 추가_다솜 */
+	.pkg-b-tab-box {width:768px; margin:0 auto; text-align:center; padding:0 7px 38px}
+	/*.pkg-b-tab-box .pkg-b-tab li {float:left; box-sizing:border-box; width:16.666%; height:62px; border:1px solid #e2e2e2; border-left:0; background:#fff}*/
 	.pkg-b-tab-box .pkg-b-tab li {float:left; box-sizing:border-box; width: 18%; height:62px; border:1px solid #e2e2e2; border-left:0; background:#fff}
-    .pkg-b-tab-box .pkg-b-tab .nth-1 {border-left:1px solid #e2e2e2;}
+	.pkg-b-tab-box .pkg-b-tab .nth-1 {border-left:1px solid #e2e2e2;}
 	.pkg-b-tab-box .pkg-b-tab .nth-2 {width: 28%;}
-    .pkg-b-tab-box .pkg-b-tab li a {display:block; padding:20px 0; font-size:16px; font-weight:700; line-height:20px; color:#373737;}
-    .pkg-b-tab-box .pkg-b-tab .nth-1 a {padding:10px 0;}
-    .pkg-b-tab-box .pkg-b-tab li a > span {display:block}
-    .pkg-b-tab-box .pkg-b-tab .on { background:#3197f0}
-    .pkg-b-tab-box .pkg-b-tab .on a {color:#fff;}
+	.pkg-b-tab-box .pkg-b-tab li a {display:block; padding:20px 0; font-size:15px; font-weight:700; line-height:20px; color:#373737;}
+	/* .pkg-b-tab-box .pkg-b-tab .nth-1 a {padding:10px 0;} */
+    .pkg-b-tab-box .pkg-b-tab .nth-2 a, .pkg-b-tab-box .pkg-b-tab .nth-7 a {padding:10px 0;} 
+	.pkg-b-tab-box .pkg-b-tab li .line-two  {padding:10px 0;}
+	.pkg-b-tab-box .pkg-b-tab li a > span {display:block}
+	.pkg-b-tab-box .pkg-b-tab .on { background:#3197f0}
+	.pkg-b-tab-box .pkg-b-tab .on a {color:#fff;}
 	
 	.vari-wrap {padding: 0px 0 80px; letter-spacing: -1px;}
 	.vari-wrap .container {padding-top: 35px; border-top: 1px solid #e1e1e1;}
@@ -274,7 +298,7 @@
 	.title .tit-box h2 {font-size: 24px; letter-spacing:-2.5px}
 	.title .tit-box .mg- {display: block; height: 1px; width: 60px; margin: 18px auto 20px; background: #fff;}
 	.title .titTxt img {width: 500px;}
-	.title .pkg-tab {position: relative; margin: 22px auto 0; width: 826px; left: 1.5px;}
+	.title .pkg-tab {position: relative; margin: 22px auto 0; width: 850px; left: 1.5px;}
 	.title .pkg-tab > li {position: relative; float: left; top: 0; width: 25%; border: 2px solid transparent; border-left: 1px solid #a8a6a4; margin-left: -1px; padding-left: 1px;}
 	.title .pkg-tab > li.nth-1 {border-left: none; margin-left: 0;}
 	.title .pkg-tab > li.on {border: 2px solid #fff; z-index: 1; padding-left: 0;}
@@ -285,9 +309,10 @@
     /* 180425 pkg-tab 변경_다솜 */
 	.title .pkg-tab.tab-wid {margin:47px auto 0;}
 	.title .pkg-tab.tab-wid > li {width: 18%;}
-	.title .pkg-tab.tab-wid > li.nth-2 {width: 28%;}
 	.title .pkg-tab.tab-wid > li a {box-sizing: border-box; height: 46px; line-height:20px; padding:12px 0;}
-    .title .pkg-tab.tab-wid > li.nth-1 a {padding:3px 0;}
+    /* .title .pkg-tab.tab-wid > li.nth-1 a {padding:3px 0;} */
+    .title .pkg-tab.tab-wid > li.nth-2 a, .title .pkg-tab.tab-wid > li.nth-7 a {padding:3px 0;}
+    .title .pkg-tab.tab-wid > li .line-two {padding:3px 0;}
     .title .pkg-tab.tab-wid > li a span {display:block}
 	.title .pkg-tab.tab-wid > li a:after {content: none;}
 	
@@ -314,6 +339,14 @@
 	.pkg-wrap .ul0 > li .p-txt.i-s:before {content: "※"; display: inline-block; position: absolute; left: 0;}
 	.pkg-wrap .ul0 > li .p-txt.i-d {padding-left: 10px;}
 	.pkg-wrap .ul0 > li .p-txt.i-d:before {content: "-"; display: inline-block; position: absolute; left: 0;}
+    .pkg-wrap .ul0 > li .p-txt em {display:block; font-weight:bold; margin-top:20px;}
+	.pkg-wrap .ul0 > li h5 + .p-txt em {margin-top: 0;}
+    .pkg-wrap .ul0 > li .p-txt.i-m {padding-left: 27px; margin-bottom:5px; line-height:21px}
+    .pkg-wrap .ul0 > li .p-txt.i-m:before {content: ""; display: inline-block; position: absolute; width:21px; height:100%; left: 0; background:url(http://img.ocean2you.co.kr/renew/package/bg_i_m.png); background-position: center; background-repeat:no-repeat}
+    
+    .pkg-wrap .line {display:inline-block; width:1px; height:15px; margin:0 15px; vertical-align:middle; background:#7c7c7c}
+    .pkg-wrap .ul-box em {font-weight:bold}
+    .pkg-wrap .ul-box .sub-tit {display:block; padding-top:5px; font-weight:bold; color:#373737}
     
     /* 180425 이미지 리스트_다솜 */
     .pkg-wrap .pkg-img-list li {box-sizing:border-box; float:left; width:48.4%; margin-top:30px; margin-left:30px; }
@@ -344,10 +377,13 @@
 	.pkg-wrap .ul-box .i-s:before {content: "※"; display: inline-block; position: absolute; left: 0;}
 	.pkg-wrap .ul-box .i-d {position:relative; padding-left:9px;}
 	.pkg-wrap .ul-box .i-d:before {content: ""; display: inline-block; position: absolute; width:5px; height:1px; top:9px; left: 0; background:#7c7c7c}
+    
+    .pkg-wrap .ul-box .ul0-1.li-left-2 li {float:left; width:50%; margin-top:0}
+    .pkg-wrap .ul-box .ul0-1.li-left-2 .clr-li {clear:both; width:100%; margin-top:0; padding-top:20px}
 	
-	.pkg-wrap .rv-a {display: block; margin: 65px auto 0; width: 306px; height: 64px; font-size: 24px; font-family: "Nanum Gothic", sans-serif; text-align: center; background: #44a8ff; color: #fff; line-height: 57px; border-radius: 4px; font-weight: 600;}
+	.pkg-wrap .rv-a {display: block; position:relative; margin: 65px auto 0; width: 306px; height: 64px; font-size: 24px; font-family: "Nanum Gothic", sans-serif; text-align: center; background: #44a8ff; color: #fff; line-height: 57px; border-radius: 4px; font-weight: 600;}
 	.pkg-wrap .rv-a > * {vertical-align: middle;}
-	.pkg-wrap .rv-a .gt {position: relative; left: 80px; top: 1px;	}
+	.pkg-wrap .rv-a .gt {position: absolute; top:50%; right: 25px; margin-top:-8px }
 	
 	.pkg-wrap .sltMenu-intro .ul1 > li .p-txt {color: #7c7c7c;}
 	.pkg-wrap .sltMenu-intro .ul1 > li .p-txt {position: relative; line-height: 1.6; word-break: keep-all; letter-spacing: -0.5px;}
@@ -374,16 +410,18 @@
 	
 	.pkg-wrap [class*=pkg-] > .p-row {font-size: 24px; text-align: center; padding-top: 40px; margin: 40px auto -45px; line-height: 1.5; border-top: 1px solid #e1e1e1;}
 	
-    /* 180425 하단 패키지 탭 추가_다솜 */
-    .pkg-b-tab-box {width:992px; margin:0 auto; text-align:center; padding:0 4px 38px}
-    /*.pkg-b-tab-box .pkg-b-tab li {float:left; box-sizing:border-box; width:16.666%; height:62px; border:1px solid #e2e2e2; border-left:0; background:#fff}*/
+	/* 180425 하단 패키지 탭 추가_다솜 */
+	.pkg-b-tab-box {width:992px; margin:0 auto; text-align:center; padding:0 4px 38px}
+	/*.pkg-b-tab-box .pkg-b-tab li {float:left; box-sizing:border-box; width:16.666%; height:62px; border:1px solid #e2e2e2; border-left:0; background:#fff}*/
 	.pkg-b-tab-box .pkg-b-tab li {float:left; box-sizing:border-box; width: 20%; height:62px; border:1px solid #e2e2e2; border-left:0; background:#fff}
-    .pkg-b-tab-box .pkg-b-tab .nth-1 {border-left:1px solid #e2e2e2;}
-    .pkg-b-tab-box .pkg-b-tab li a {display:block; padding:20px 0; font-size:17px; font-weight:700; line-height:21px; color:#373737;}
-    .pkg-b-tab-box .pkg-b-tab .nth-1 a {padding:9px 0;}
-    .pkg-b-tab-box .pkg-b-tab li a > span {display:block}
-    .pkg-b-tab-box .pkg-b-tab .on { background:#3197f0}
-    .pkg-b-tab-box .pkg-b-tab .on a {color:#fff;}
+	.pkg-b-tab-box .pkg-b-tab .nth-1 {border-left:1px solid #e2e2e2;}
+	.pkg-b-tab-box .pkg-b-tab li a {display:block; padding:20px 0; font-size:17px; font-weight:700; line-height:21px; color:#373737;}
+	/* .pkg-b-tab-box .pkg-b-tab .nth-1 a {padding:9px 0;} */
+    .pkg-b-tab-box .pkg-b-tab .nth-2 a, .pkg-b-tab-box .pkg-b-tab .nth-7 a {padding:9px 0;} 
+    .pkg-b-tab-box .pkg-b-tab li .line-two {padding:9px 0;} 
+	.pkg-b-tab-box .pkg-b-tab li a > span {display:block}
+	.pkg-b-tab-box .pkg-b-tab .on { background:#3197f0}
+	.pkg-b-tab-box .pkg-b-tab .on a {color:#fff;}
 	
 	.vari-wrap {padding: 0px 0 130px; letter-spacing: -1px;}
 	.vari-wrap .container {padding-top: 35px; border-top: 1px solid #e1e1e1;}
@@ -416,7 +454,7 @@
 	.title .pkg-tab > li a:after {content: ""; display: inline-block; height: 108%; vertical-align: middle;}
     
     /* 180425 pkg-tab 변경_다솜 */
-	.title .pkg-tab.tab-wid {width:1220px; margin:47px auto 0;}
+	.title .pkg-tab.tab-wid {width:1280px; margin:47px auto 0;}
 	.title .pkg-tab.tab-wid > li {width:20%;}
 	.title .pkg-tab.tab-wid > li a {box-sizing: border-box; height: 46px;}
     .title .pkg-tab.tab-wid > li a span {display:none}
@@ -439,11 +477,19 @@
 	.pkg-wrap .ul0 > li:first-child {margin-left: 0;}
 	.pkg-wrap .ul0 > li h5 {margin-top: 21px; font-size: 18px; font-weight: 600;}
 	.pkg-wrap .ul0 > li h5 + .p-txt {margin-top: 12px;}
-	.pkg-wrap .ul0 > li .p-txt {position: relative; line-height: 1.6; word-break: keep-all; letter-spacing: -0.5px;}
+	.pkg-wrap .ul0 > li .p-txt {position: relative; line-height: 1.7; word-break: keep-all; letter-spacing: -0.5px;}
 	.pkg-wrap .ul0 > li .p-txt.i-s {padding-left: 15px;}
 	.pkg-wrap .ul0 > li .p-txt.i-s:before {content: "※"; display: inline-block; position: absolute; left: 0;}
 	.pkg-wrap .ul0 > li .p-txt.i-d {padding-left: 10px;}
 	.pkg-wrap .ul0 > li .p-txt.i-d:before {content: "-"; display: inline-block; position: absolute; left: 0;}
+    .pkg-wrap .ul0 > li .p-txt em {display:block; font-weight:bold; margin-top:20px;}
+	.pkg-wrap .ul0 > li h5 + .p-txt em {margin-top: 0;}
+	.pkg-wrap .ul0 > li .p-txt.i-m {padding-left: 27px; margin-bottom:5px; line-height:21px}
+	.pkg-wrap .ul0 > li .p-txt.i-m:before {content: ""; display: inline-block; position: absolute; width:21px; height:100%; left: 0; background:url(http://img.ocean2you.co.kr/renew/package/bg_i_m.png); background-position: center; background-repeat:no-repeat}
+    
+    .pkg-wrap .line {display:inline-block; width:1px; height:15px; margin:0 15px; vertical-align:middle; background:#7c7c7c}
+    .pkg-wrap .ul-box em {font-weight:bold}
+    .pkg-wrap .ul-box .sub-tit {display:block; padding-top:5px; font-weight:bold; color:#373737}
     
     /* 180425 이미지 리스트_다솜 */
     .pkg-wrap .pkg-img-list li {box-sizing:border-box; float:left; width:50%; max-width:620px; margin-top:40px; margin-left:40px; }
@@ -476,9 +522,12 @@
 	.pkg-wrap .ul-box .i-d {position:relative; padding-left:9px;}
 	.pkg-wrap .ul-box .i-d:before {content: ""; display: inline-block; position: absolute; width:5px; height:1px; top:9px; left: 0; background:#7c7c7c}
     
-	.pkg-wrap .rv-a {display: block; margin: 65px auto 0; width: 306px; height: 64px; font-size: 24px; font-family: "Nanum Gothic", sans-serif; text-align: center; background: #44a8ff; color: #fff; line-height: 57px; border-radius: 4px; font-weight: 600;}
+    .pkg-wrap .ul-box .ul0-1.li-left-2 li {float:left; width:50%; margin-top:0}
+    .pkg-wrap .ul-box .ul0-1.li-left-2 .clr-li {clear:both; width:100%; margin-top:0; padding-top:20px}
+    
+	.pkg-wrap .rv-a {display: block; position:relative; margin: 65px auto 0; width: 306px; height: 64px; font-size: 24px; font-family: "Nanum Gothic", sans-serif; text-align: center; background: #44a8ff; color: #fff; line-height: 57px; border-radius: 4px; font-weight: 600;}
 	.pkg-wrap .rv-a > * {vertical-align: middle;}
-	.pkg-wrap .rv-a .gt {position: relative; left: 80px; top: 1px;	}
+	.pkg-wrap .rv-a .gt {position: absolute; top:50%; right: 25px; margin-top:-8px }
 	
 	.pkg-wrap .sltMenu-intro .ul1 > li .p-txt {color: #7c7c7c;}
 	.pkg-wrap .sltMenu-intro .ul1 > li .p-txt {position: relative; line-height: 1.6; word-break: keep-all; letter-spacing: -0.5px;}
@@ -510,7 +559,7 @@
     /*.pkg-b-tab-box .pkg-b-tab li {float:left; box-sizing:border-box; width:16.666%; height:62px; border:1px solid #e2e2e2; border-left:0; background:#fff}*/
 	.pkg-b-tab-box .pkg-b-tab li {float:left; box-sizing:border-box; width: 20%; height:62px; border:1px solid #e2e2e2; border-left:0; background:#fff}
     .pkg-b-tab-box .pkg-b-tab .nth-1 {border-left:1px solid #e2e2e2;}
-    .pkg-b-tab-box .pkg-b-tab li a {display:block; padding:20px 0; font-size:18px; font-weight:700; /*line-height:60px;*/ color:#373737;}
+    .pkg-b-tab-box .pkg-b-tab li a {display:block; padding:20px 0; font-size:16px; font-weight:700; /*line-height:60px;*/ color:#373737;}
     .pkg-b-tab-box .pkg-b-tab li a > span {display:none}
     .pkg-b-tab-box .pkg-b-tab .on { background:#3197f0}
     .pkg-b-tab-box .pkg-b-tab .on a {color:#fff;}

@@ -127,7 +127,7 @@ body.of-hidden {overflow: hidden;}
     #pop-bustour .bus-pop-con img {position: relative; width: 100%;}
 	#pop-bustour .btn-pop-close {display: block; position: fixed; width: 25px; height: 36px; top: 55px; right: 5px; background: url(http://img.ocean2you.co.kr/renew/common/btn_cls.png) no-repeat center / cover;}
 
-	.rtBookingBn {position: fixed; display: block; right: 6px; bottom: 65px;background: rgba(38, 154, 255, 0.76); font-size: 14px; color: #fff; line-height: 1.2; text-align: center; box-sizing: border-box; padding: 8px 20px; box-shadow: 1px 2px 2px 2px rgba(0,0,0, 0.2); letter-spacing: -0.5px;}
+	.rtBookingBn {position: fixed; display: block; right: 6px; bottom: 65px;background: rgba(38, 154, 255, 0.76); font-size: 14px; color: #fff !important; line-height: 1.2; text-align: center; box-sizing: border-box; padding: 8px 20px; box-shadow: 1px 2px 2px 2px rgba(0,0,0, 0.2); letter-spacing: -0.5px;}
 	.rtBookingBn img {width: 19px; margin-bottom: 2px;}
 	.header.on, .header.on .nav-bar .nav > li {height: 78px;}
 
@@ -626,27 +626,28 @@ body.of-hidden {overflow: hidden;}
 	.header .logo-box .mg-l {display: inline-block; margin: 0 5px; width: 1px; height: 48px;
 		background: rgba(255,255,255, 0.5); vertical-align: middle;
 	}
-	.header .logo-box {display: block; position: absolute; left: 10px; top: 15px;/* width: 302px;*/}
+	.header .logo-box {display: block; position: absolute; left: 10px; top: 10px;/* width: 302px;*/}
     
     /* 180711_로고수정_다솜 */
-    .header .logo-box .logo {float:left; margin-right:20px;}
-    .header .logo-box .logo-txt {float:left; margin-top:31px; font-size:18px; line-height:18px; font-weight:600;}
-    .header .logo-box .logo-txt span {display:block; margin-top:4px; font-size:15px; line-height:15px;}
+    .header .logo-box .logo {float:left; margin-right:10px;}
+    .header .logo-box .logo-txt {float:left; margin-top:31px; font-size:17px; line-height:17px; font-weight:600;}
+    .header .logo-box .logo-txt span {display:block; margin-top:4px; font-size:14px; line-height:14px;}
     
 	.header .nav-bar {position: absolute; right: 0;}
 	.header .nav-bar .nav {}
-	.header .d1 {position: absolute; left: -178px; top: 41px;}
-	.header .d1 .faq-a {display: inline-block; color: #fff; border: 1px solid #fff; font-size: 16px; text-align: center; line-height: 1.1; padding: 6px 10px 4px; word-break: keep-all; font-weight: 300; letter-spacing: -1px;}
+	.header .d1 {position: absolute; top: 17px; right: 130px;}
+	.header .d1 .faq-a {display: inline-block; color: #fff; border: 1px solid #fff; font-size: 13px; text-align: center; line-height: 1.1; padding: 6px 10px 4px; word-break: keep-all; font-weight: 300; letter-spacing: -1px;}
 	.header .d1 .faq-a.on, .header.on .d1 .faq-a {color: #44a8ff; border: 1px solid #44a8ff;}
 	.header.on .d1 .faq-a {font-weight: 500; font-family: "Noto Sans KR", "Nanum Gothic", sans-serif;}
-	.header .nav-bar .nav > li {float: left; height: 97px; padding: 50px 8px 0;}
-	.header .nav-bar .nav > li > a {position: relative; font-size: 16px; display: block; color: #fff;}
+	.header .nav-bar .nav > li {float: left; height: 97px; padding: 42px 6px 0;}
+	.header .nav-bar .nav > li > a {position: relative; font-size: 15px; display: block; color: #fff;}
 	.header .nav-bar .nav > li > a:hover {color: #44a8ff;}
-	.header .nav-bar .nav > li.lst {background: #44a8ff; padding-left: 15px; padding-right: 15px; letter-spacing: 0;}
+	.header .nav-bar .nav > li.lst {background: #44a8ff; padding-top: 55px; padding-left: 15px; padding-right: 15px; letter-spacing: 0;}
 	.header .nav-bar .nav > li.lst > a:before {position: absolute; content: "";
 	display: block; width: 22px; height: 20px; background: url(http://img.ocean2you.co.kr/renew/i_cal.png) no-repeat;
 	left: 50%; margin-left: -11px; top: -27px;}
 	.header .nav-bar .nav > li.lst > a:hover {color: #fff;}
+	.header.type-2 .nav-bar .nav > li {padding-top: 55px;}
 
 	.header .mNav-btn {
 		display: none;
@@ -754,7 +755,7 @@ body.of-hidden {overflow: hidden;}
 	.header .logo-box .mg-l {display: inline-block; margin: 0 5px; width: 1px; height: 48px;
 		background: rgba(255,255,255, 0.5); vertical-align: middle;
 	}
-	.header .logo-box {display: block; position: absolute; left: 5%; top: 15px; /*width: 302px;*/}
+	.header .logo-box {display: block; position: absolute; left: 5%; top: 10px; /*width: 302px;*/}
     
     /* 180711_로고수정_다솜 */
     .header .logo-box .logo {float:left; margin-right:20px;}
@@ -763,18 +764,19 @@ body.of-hidden {overflow: hidden;}
 
 	.header .nav-bar {position: absolute; right: 0;}
 	.header .nav-bar .nav {}
-	.header .d1 {position: absolute; left: -245px; top: 40px;}
-	.header .d1 .faq-a {display: inline-block; color: #fff; border: 1px solid #fff; font-size: 20px; text-align: center; line-height: 1.1; padding: 6px 10px 4px; word-break: keep-all; font-weight: 300;}
+	.header .d1 {position: absolute; top: 16px; right: 160px;}
+	.header .d1 .faq-a {display: inline-block; color: #fff; border: 1px solid #fff; font-size: 15px; text-align: center; line-height: 1.1; padding: 6px 10px 4px; word-break: keep-all; font-weight: 300;}
 	.header .d1 .faq-a.on, .header.on .d1 .faq-a {color: #44a8ff; border: 1px solid #44a8ff;}
 	.header.on .d1 .faq-a {font-weight: 500; font-family: "Noto Sans KR", "Nanum Gothic", sans-serif;}
-	.header .nav-bar .nav > li {float: left; height: 97px; padding: 50px 20px 0;}
-	.header .nav-bar .nav > li > a {position: relative; font-size: 20px; display: block; color: #fff;}
+	.header .nav-bar .nav > li {float: left; height: 97px; padding: 42px 15px 0;}
+	.header .nav-bar .nav > li > a {position: relative; font-size: 19px; display: block; color: #fff;}
 	.header .nav-bar .nav > li > a:hover {color: #44a8ff;}
-	.header .nav-bar .nav > li.lst {background: #44a8ff; padding-left: 15px; padding-right: 15px; letter-spacing: 0;}
+	.header .nav-bar .nav > li.lst {background: #44a8ff; padding-top: 54px; padding-left: 15px; padding-right: 15px; letter-spacing: 0;}
 	.header .nav-bar .nav > li.lst > a:before {position: absolute; content: "";
 	display: block; width: 22px; height: 20px; background: url(http://img.ocean2you.co.kr/renew/i_cal.png) no-repeat;
 	left: 50%; margin-left: -11px; top: -27px;}
 	.header .nav-bar .nav > li.lst > a:hover {color: #fff;}
+	.header.type-2 .nav-bar .nav > li {padding-top: 54px;}
 
 	.header .mNav-btn {
 		display: none;

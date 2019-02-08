@@ -737,9 +737,12 @@
 	.main .txt-box .p1 {margin: 45px auto 18px;}
     .main .txt-box .p2 {margin-bottom:36px; font-size:32px; font-weight:800; line-height:32px;}
     
-	.main .txt-box .more-a {display: block; margin: 0 auto; 
+	.main .txt-box .more-a {
+		display: block; margin: 0 auto; 
 		font-size: 24px; border: 4px solid #fff;
-		width: 208px; height: 54px;}
+		width: 208px; height: 54px;
+	}
+	.main .txt-box .more-a img {position: relative; top: -2px; left: 7px;}
 	.main .txt-box .more-a:after {content: ""; height: 110%; display: inline-block; vertical-align: middle;}
 	
 	.main #scr-box {position: absolute; left: 50%; margin-left: -14px; bottom: 10px;}

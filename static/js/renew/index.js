@@ -1,9 +1,11 @@
 $(function () {
 
 	// 브라우저 높이 -> 화면 높이 적용
+    resizeWin();
+	
 	$(window).on('resize', function () {
         resizeWin();
-	}).resize();
+	});
 	
 	// 자세히보기 클릭시
 	$("#txt-box .more-a").on('click', function() {
@@ -47,8 +49,9 @@ $(function () {
 		nextText: '<img src="http://img.ocean2you.co.kr/btn_next.png" alt="다음">',
 	});
 	
-	// 왕복이용권 배너 클릭시
-	$('.topbn-wrap .bn-ocean').on('click', function(){
+    
+	// 눈썰매장 배너 클릭시
+	$('.topbn-wrap .bn-link').on('click', function(){
 		$('#pop-bustour').show();
         $('html').css({'overflow': 'hidden', 'height': '100%'});
         $('#pop-bustour').on('scroll', function(event) { 
@@ -58,13 +61,24 @@ $(function () {
         });
 	});
     
+	// 왕복이용권 팝업 닫기
+	$('#pop-bustour .btn-pop-close').on('click', function(){
+		$('#pop-bustour').hide();
+        
+        $('html').css({'overflow': 'auto', 'height': '100%'});
+        $('#pop-bustour').off('scroll');
+	});
+
 });
 
 //리사이즈 
 function resizeWin(){
     var wt = $(window).width();
-    var ht = $(window).height();
+	var ht = $(window).height();
+    //var busTourpt = $('#pop-bustour').css('padding-top').slice(0, -2);
     
+    $('section.main, section.main-bg, .m-vid').height(ht);
+
     $('.topbn-wrap .slide-banner').bxSlider({
         mode: 'fade',
         auto: true,
@@ -74,6 +88,7 @@ function resizeWin(){
         autoHover: true,
         speed: 500
     });
+    
     if( wt <= 768 ){
         $(window).load(function(){
             //console.log('load')
@@ -86,13 +101,23 @@ function resizeWin(){
                 });
             });
         });
+        if( $('.topbn-wrap').css('display') == 'block' ){
+            $('#pop-bustour').css({'height' : ht+'px'});
+        }
     }else{
         //console.log('pc')
-        $('#bgMov').get(0).pause();
+        //(navigator.appName == 'Netscape' && navigator.userAgent.search('Trident') != -1) || (agent.indexOf("msie") != -1 )
+        /*if($.browser.msie){
+            $("#bgMo").stop();
+        }else{
+            $("#bgMo").get(0).pause(); 
+        }*/
+        $("#bgMov").stop();
         $('.m-vid').css({'display' : 'none'});
         
         if( $('.topbn-wrap').css('display') == 'block' ){
             $('.header').css({'margin-top' : 77+'px'});
+            $('#pop-bustour').css({'height' : ht+'px'});
             //console.log(busTourpt)
             var scr = $(window).scrollTop();
             var setTop = $("#setTop").offset().top;
@@ -116,3 +141,22 @@ function resizeWin(){
     }
 }
 
+//띠배너 팝업 open
+/*function tpopFn(popValue){
+	$('.bn-'+popValue).on('click', function(){
+		$('#pop-'+popValue).show();
+        $('html').css({'overflow': 'hidden', 'height': '100%'});
+        $('#pop-'+popValue).on('scroll', function(event) { 
+            event.preventDefault();     
+            event.stopPropagation();     
+            return false; 
+        });
+	});
+    
+	$('#pop-'+popValue).find('.btn-pop-close').on('click', function(){
+		$('#pop-'+popValue).hide();
+        
+        $('html').css({'overflow': 'auto', 'height': '100%'});
+        $('#pop-'+popValue).off('scroll');
+	});
+}*/

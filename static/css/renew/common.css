@@ -75,7 +75,7 @@ body.of-hidden {overflow: hidden;}
 .header.on {position: fixed; background: rgba(255,255,255, 0.8); box-shadow: 0 1px 8px 2px rgba(0,0,0,.2);}
 .header.on .logo-box .mg-l {background: #636466;}
 .header.on .logo-box .logo-txt {color:#5a5a5a}
-.header.on, .header.on .nav-bar .nav > li {height: 98px;}
+.header.on, .header.on .nav-bar .nav > li {height: 97px;}
 .header.on .nav-bar .nav > li > a {color: #323232;}
 .header.on .nav-bar .nav > li.lst > a {color: #fff;}
 
@@ -84,16 +84,18 @@ body.of-hidden {overflow: hidden;}
 .header .mNav-btn.on {position: fixed;}
 .mNav-box {
 	position: fixed; right: -260px; top: 0;
-	height: 100%; width: 260px; background: url(http://img.ocean2you.co.kr/renew/intro_bg.jpg) center top;
+	height: 100%; width: 260px; 
+    background: #000;
+    /*background: url(http://img.ocean2you.co.kr/renew/intro_bg.jpg) center top;
 	background-attachment: fixed;
 	-webkit-background-size: cover;
-	background-size: cover;
+	background-size: cover;*/
 	z-index: 4; /*z-index: 99995;*/
 	color: #fff;
 }
 .mNav-box.on {right: 0;}
-.mNav-box h2 {padding: 40px 20px; font-size: 18px; border-bottom: 1px solid #fff;}
-.mNav-box .mNav {}
+.mNav-box h2 {padding: 40px 20px; font-size: 18px;}
+.mNav-box .mNav {border-top: 1px solid #fff;}
 .mNav-box .mNav > li {padding: 12px 20px;}
 .mNav-box .mNav > li:first-child {padding-top: 20px;}
 .mNav-box h2 a, .mNav-box .mNav > li a {color: #fff; font-size: 16px;}
@@ -131,7 +133,7 @@ body.of-hidden {overflow: hidden;}
 	.rtBookingBn img {width: 19px; margin-bottom: 2px;}
 	.header.on, .header.on .nav-bar .nav > li {height: 78px;}
 
-	.header {}
+	.header {font-family: "Noto Sans KR", "Nanum Gothic", sans-serif;}
 	.header {position: absolute; z-index: 5; top:0; width: 100%; height: 98px;}
 	.header .logo-box .mg-l {display: inline-block; margin: 0 5px; width: 1px; height: 48px;
 		background: rgba(255,255,255, 0.5); vertical-align: middle;
@@ -357,9 +359,6 @@ body.of-hidden {overflow: hidden;}
 	.contact-pop .li-tr .wd-8 {width: 228px;}
 	
 	.privacy-bg .cm-s {width: 310px; margin-left: -155px;}
-}
-
-@media (max-device-width:320px){
     /* 180711_로고 320 화면에 맞추기 위한 간격 조정_다솜 */
     .header .logo-box .logo-txt {margin-top:32px; font-size:13px; line-height:13px;}
     .header .logo-box .logo-txt span {margin-top:4px; font-size:11px; line-height:11px;}
@@ -508,7 +507,7 @@ body.of-hidden {overflow: hidden;}
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-	.header {}
+	.header {font-family: "Noto Sans KR", "Nanum Gothic", sans-serif;}
 	.header {position: absolute; z-index: 1; top:0; width: 100%; height: 98px;}
 	.header .logo-box .mg-l {display: inline-block; margin: 0 5px; width: 1px; height: 48px;
 		background: rgba(255,255,255, 0.5); vertical-align: middle;
@@ -529,14 +528,14 @@ body.of-hidden {overflow: hidden;}
 	.header.on .d1 .faq-a {font-weight: 500; font-family: "Noto Sans KR", "Nanum Gothic", sans-serif;}
 
 	.header .mNav-btn {
-	z-index: 2;
-	position: absolute; right: 30px; top: 30px;
-	-webkit-appearance: none; -moz-appearance: none; appearance: none;
-	border: none; background: #44a8ff;
-	width: 50px; height: 46px;
-	cursor: pointer;
-	outline: none;
-	-webkit-tap-highlight-color:rgba(0,0,0,0);
+	    z-index: 11;
+        position: absolute; right: 11px; top: 24px;
+        -webkit-appearance: none; -moz-appearance: none; appearance: none;
+        border: none; background: #44a8ff;
+        width: 50px; height: 46px;
+        cursor: pointer;
+        outline: none;
+        -webkit-tap-highlight-color:rgba(0,0,0,0);
 	}
 	.header .mNav-btn span {display: block;
 		width: 28px; margin: 6px auto; height: 3px; background: #fff;
@@ -598,34 +597,10 @@ body.of-hidden {overflow: hidden;}
 
 }
 
-@media (min-width: 992px) {
-	/*.faqWrap {position: absolute; width: 824px; border: 2px solid #44a8ff; border-top: 0; left: 50%; margin-left: -412px; top: 50%; margin-top: -313px; background: #fff; letter-spacing: -1px;}
-	.faqWrap {font-family: "Nanum Gothic", sans-serif;}
-	.faqWrap h2 {background: #44a8ff; color: #fff; font-size: 23px; width: 100%; height: 62px; text-align: center; padding-top: 21px; font-family: "NanumBarunGothic", sans-serif; letter-spacing: -0.5px;}
-	.faqWrap h2 .s1 {color: #f6ff00;}
-	.faqWrap h2 .i-x {position: absolute; top: 16px; right: 16px; }
-	.faqWrap .ul1 {overflow-y: auto;}
-	.faqWrap .ul1 > li {border-bottom: 1px solid #c8c8c8;}
-	.faqWrap .ul1 > li > div {position: relative; line-height: 1.5; padding: 15px 33px 15px 37px; word-break: keep-all;}
-	.faqWrap .ul1 > li .d1 {color: #2f2f2f; font-size: 19px; cursor: pointer;}
-	.faqWrap .ul1 > li .d1.on {color: #44a8ff;}
-	.faqWrap .ul1 > li .d1:hover {color: #44a8ff;}
-	.faqWrap .ul1 > li .d1 .s-tit {display: inline-block; position: relative;}
-	.faqWrap .ul1 > li .d1.on .s-tit:after {content: ""; position: absolute; bottom: 0; left: 0; display: inline-block; width: 100%; height: 1px; background: #44a8ff;}
-	.faqWrap .ul1 > li .d2 {color: #545353; font-size: 18px; background: #f1f1f1; padding-left: 48px; display: none;}
-	.faqWrap .ul1 > li .d2 {border-top: 1px solid #c8c8c8;}
-	.faqWrap .ul1 > li .d1:before, .faqWrap .d2:before {content: "Q."; position: absolute; left: 15px;}
-	.faqWrap .ul1 > li .d2:before {content: "A"; color: #fff; background: #3192e6; border-radius: 50%; width: 24px; height: 24px; text-align: center; display: inline-block; font-size: 16px; text-indent: -2px; box-sizing: border-box;}
-	.faqWrap .ul1 > li .d1:after {content: ""; position: absolute; top: 20px; right: 18px;	 display: inline-block; width: 11px; height: 11px; border: 2px solid #858585; border-top: 0; border-right: 0;
-		-webkit-transform: rotate(-45deg);
-		-ms-transform: rotate(-45deg);
-		-o-transform: rotate(-45deg);
-		transform: rotate(-45deg);
-	}*/
-}
 @media (min-width: 992px) and (max-width: 1431px) {
 
-	.header {}
+	.header {font-family: "Noto Sans KR", "Nanum Gothic", sans-serif;}
+	.header .container {margin: 0 auto; text-align: center;}
 	.header {position: absolute; z-index: 1; top:0; width: 100%; height: 98px;
 		border-bottom: 1px solid rgba(255,255,255, 0.5);}
 	.header .logo-box .mg-l {display: inline-block; margin: 0 5px; width: 1px; height: 48px;
@@ -635,19 +610,19 @@ body.of-hidden {overflow: hidden;}
     
     /* 180711_로고수정_다솜 */
     .header .logo-box .logo {float:left; margin-right:10px;}
-    .header .logo-box .logo-txt {float:left; margin-top:31px; font-size:17px; line-height:17px; font-weight:600;}
-    .header .logo-box .logo-txt span {display:block; margin-top:4px; font-size:14px; line-height:14px;}
+    .header .logo-box .logo-txt {float:left; margin-top:31px; /*font-size:17px;*/ font-size:15px; text-align: left; line-height:17px; font-weight:600;}
+    .header .logo-box .logo-txt span {display:block; margin-top:4px; /*font-size:14px;*/ font-size:10px; line-height:14px;}
     
 	.header .nav-bar {position: absolute; right: 0;}
-	.header .nav-bar .nav {}
-	.header .d1 {position: absolute; top: 17px; right: 130px;}
+	.header .nav-bar .nav {padding-right: 144px;}
+	.header .d1 {position: absolute; top: 17px; right: 144px; margin-right: 10px;}
 	.header .d1 .faq-a {display: inline-block; color: #fff; border: 1px solid #fff; font-size: 13px; text-align: center; line-height: 1.1; padding: 6px 10px 4px; word-break: keep-all; font-weight: 300; letter-spacing: -1px;}
 	.header .d1 .faq-a.on, .header.on .d1 .faq-a {color: #44a8ff; border: 1px solid #44a8ff;}
 	.header.on .d1 .faq-a {font-weight: 500; font-family: "Noto Sans KR", "Nanum Gothic", sans-serif;}
-	.header .nav-bar .nav > li {float: left; height: 97px; padding: 42px 6px 0;}
-	.header .nav-bar .nav > li > a {position: relative; font-size: 15px; display: block; color: #fff;}
+	.header .nav-bar .nav > li {float: left; height: 97px; padding: 42px 10px 0;}
+	.header .nav-bar .nav > li > a {position: relative; font-size: 17px; display: block; color: #fff;}
 	.header .nav-bar .nav > li > a:hover {color: #44a8ff;}
-	.header .nav-bar .nav > li.lst {background: #44a8ff; padding-top: 55px; padding-left: 15px; padding-right: 15px; letter-spacing: 0;}
+	.header .nav-bar .nav > li.lst {position: absolute; right: 0; background: #44a8ff; padding-top: 55px; padding-left: 15px; padding-right: 15px; letter-spacing: 0;}
 	.header .nav-bar .nav > li.lst > a:before {position: absolute; content: "";
 	display: block; width: 22px; height: 20px; background: url(http://img.ocean2you.co.kr/renew/i_cal.png) no-repeat;
 	left: 50%; margin-left: -11px; top: -27px;}
@@ -737,6 +712,20 @@ body.of-hidden {overflow: hidden;}
 	.footer .cf-in .s4 {}
 	.footer .cf-in .s4 .i-mail {width: 16px;}
 }
+
+/* 992~1280 헤더 */
+@media (min-width: 992px) and (max-width: 1279px){
+    /* 180711_로고수정_다솜 */
+    .header {height: 96px;}
+    .header .d1 {right: 130px; margin-right: 7px;}
+    .header .logo-box .logo {margin-top: 7px; margin-right:5px; width: 100px;}
+    .header .logo-box .logo-txt {font-size:14px; }
+    
+	.header .nav-bar .nav {padding-right: 130px;}
+	.header .nav-bar .nav > li { padding: 42px 7px 0;}
+	.header .nav-bar .nav > li > a {font-size: 13px; }
+}
+
 @media (min-width: 1190px ) {
 	.show-lg-1190 {display: inline-block !important;}
 	.contact-pop, .contact-pop2 {width: 760px; margin-left: -380px;}
@@ -749,12 +738,13 @@ body.of-hidden {overflow: hidden;}
 	.contact-pop .li-tr .wd-3 {width: 365px;}
 	.contact-pop .li-tr .wd-8 {width: 564px;}
 }
+
 @media (min-width: 1432px) {
 	.xs-hidden {display: inline-block !important;}
 	.footer .container, .container {width: 1432px;}
 
-	.header {}
-	.header .container {width: 100%;}
+	.header {font-family: "Noto Sans KR", "Nanum Gothic", sans-serif;}
+	.header .container {width: 100%; margin: 0 auto; text-align: center;}
 	.header {position: absolute; z-index: 1; top:0; width: 100%; height: 98px;
 		border-bottom: 1px solid rgba(255,255,255, 0.5);}
 	.header .logo-box .mg-l {display: inline-block; margin: 0 5px; width: 1px; height: 48px;
@@ -768,15 +758,15 @@ body.of-hidden {overflow: hidden;}
     .header .logo-box .logo-txt span {display:block; margin-top:4px; font-size:15px; line-height:15px;}
 
 	.header .nav-bar {position: absolute; right: 0;}
-	.header .nav-bar .nav {}
+	.header .nav-bar .nav {padding-right: 144px;}
 	.header .d1 {position: absolute; top: 16px; right: 160px;}
 	.header .d1 .faq-a {display: inline-block; color: #fff; border: 1px solid #fff; font-size: 15px; text-align: center; line-height: 1.1; padding: 6px 10px 4px; word-break: keep-all; font-weight: 300;}
 	.header .d1 .faq-a.on, .header.on .d1 .faq-a {color: #44a8ff; border: 1px solid #44a8ff;}
 	.header.on .d1 .faq-a {font-weight: 500; font-family: "Noto Sans KR", "Nanum Gothic", sans-serif;}
-	.header .nav-bar .nav > li {float: left; height: 97px; padding: 42px 15px 0;}
+	.header .nav-bar .nav > li {float: left; height: 97px; padding: 42px 10px 0;}
 	.header .nav-bar .nav > li > a {position: relative; font-size: 19px; display: block; color: #fff;}
 	.header .nav-bar .nav > li > a:hover {color: #44a8ff;}
-	.header .nav-bar .nav > li.lst {background: #44a8ff; padding-top: 54px; padding-left: 15px; padding-right: 15px; letter-spacing: 0;}
+	.header .nav-bar .nav > li.lst {position: absolute; background: #44a8ff; right: 0; padding-top: 54px; padding-left: 15px; padding-right: 15px; letter-spacing: 0;}
 	.header .nav-bar .nav > li.lst > a:before {position: absolute; content: "";
 	display: block; width: 22px; height: 20px; background: url(http://img.ocean2you.co.kr/renew/i_cal.png) no-repeat;
 	left: 50%; margin-left: -11px; top: -27px;}
@@ -869,6 +859,7 @@ body.of-hidden {overflow: hidden;}
 .show-xxs, .show-xs, .show-sm, .show-md, .show-lg {
   display: none !important;
 }
+
 @media (max-device-width: 320px) {
   .hidden-xxs {
     display: none !important;

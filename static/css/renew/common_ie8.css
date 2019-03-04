@@ -158,15 +158,15 @@ background: rgb(255,255,255); vertical-align: middle;
 .header .logo-box .logo-txt span {display:block; margin-top:4px; font-size:15px; line-height:15px;}
 
 .header .nav-bar {position: absolute; right: 0;}
-.header .nav-bar .nav {}
+.header .nav-bar .nav {padding-right: 144px;}
 .header .d1 {position: absolute; top: 16px; right: 160px;}
 .header .d1 .faq-a {display: inline-block; color: #fff; border: 1px solid #fff; font-size: 15px; text-align: center; line-height: 1.1; padding: 6px 10px 4px; word-break: keep-all; font-weight: 300;}
 .header .d1 .faq-a.on, .header.on .d1 .faq-a {color: #44a8ff; border: 1px solid #44a8ff;}
 .header.on .d1 .faq-a {font-weight: 700;}
-.header .nav-bar .nav > li {float: left; height: 97px; padding: 42px 15px 0;}
+.header .nav-bar .nav > li {float: left; height: 97px; padding: 42px 10px 0;}
 .header .nav-bar .nav > li > a {position: relative; font-size: 19px; display: block; color: #fff;}
 .header .nav-bar .nav > li > a:hover {color: #00c6ff;}
-.header .nav-bar .nav > li.lst {background: #44a8ff; padding-top: 54px; padding-left: 15px; padding-right: 15px; letter-spacing: 0;}
+.header .nav-bar .nav > li.lst {position: absolute; background: #44a8ff; right: 0; padding-top: 54px; padding-left: 15px; padding-right: 15px; letter-spacing: 0;}
 .header .nav-bar .nav > li.lst > a:before {position: absolute; content: "";
 display: block; width: 22px; height: 20px; background: url(http://img.ocean2you.co.kr/renew/i_cal.png) no-repeat;
 left: 50%; margin-left: -11px; top: -27px;}

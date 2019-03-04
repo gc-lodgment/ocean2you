@@ -107,20 +107,56 @@
 	.bx-wrapper .bx-prev {left: 5px;}
 	.bx-wrapper .bx-next {right: 5px;}
 	
+    /* 190304 다이닝 및 연회&부대시설 리스트 디자인 리뉴 */
+    .facil-wrap {font-family: "Noto Sans KR", "Nanum Gothic", sans-serif;}
+    .facil-wrap .banner-box {margin-top: 17px; margin-bottom: 15px;}
+    .facil-wrap .facil-list {position: relative; width: 100%; margin-top: 17px;}
+    .facil-wrap .banner-box + .facil-list {margin-top: 0;}
+    .facil-wrap .facil-list > li {position: relative; box-sizing: border-box; margin-top: 12px; border: 1px solid #cecece;}
+    .facil-wrap .facil-list > li:first-child {margin-top: 0;}
+    .facil-wrap .facil-list .fc-img, .facil-wrap .facil-list .fc-box {position: relative; box-sizing: border-box; width: 100%; text-align: left;}
+    .facil-wrap .facil-list .fc-img {}
+    .facil-wrap .facil-list .fc-img img {width: 100%;}
+    .facil-wrap .facil-list .fc-box {padding: 15px 10px 10px 13px;}
+    .facil-wrap .facil-list .fc-box p {letter-spacing: -0.5px; color: #2b2b2b;}
+    .facil-wrap .facil-list .fc-box .p-0 {font-size: 17px; font-weight: bold; line-height: 27px;}
+    .facil-wrap .facil-list .fc-box .p-1 {margin-top: 2px; font-size: 14px; line-height: 20px;}
+    .facil-wrap .facil-list .fc-box .p-2 {margin-top: 10px; font-size: 13px; font-weight: 300; line-height: 18px; color: #666;}
+    .facil-wrap .facil-list .fc-box .p-list {margin-top: 15px;}
+    .facil-wrap .facil-list .fc-box .p-list li {position: relative; padding-left: 6px; font-size: 13px; font-weight: 300; line-height: 20px; color: #666;} 
+    .facil-wrap .facil-list .fc-box .p-list li:before {content: ''; display: block; position: absolute; width: 2px; height: 2px; left: 0; top: 9px; border-radius: 50%; background: #666;}
+    .facil-wrap .facil-list .fc-box .p-list li em {padding-right: 3px; font-weight: 500;}
+    .facil-wrap .facil-list .fc-box .p-list li span {}
+    .facil-wrap .facil-list .fc-box .p-mark {font-size: 13px; font-weight: 300; line-height: 20px; color: #666;}
+    .facil-wrap .facil-list .btn-view {display: inline-block; margin-bottom: 15px; text-align: center; border: 1px solid #666;}
+    .facil-wrap .facil-list .btn-view span {position: relative; display: inline-block; height: 25px; padding: 0 27px 0 11px; font-size: 12px; line-height: 25px;}
+    .facil-wrap .facil-list .btn-view span:before, .facil-wrap .facil-list .btn-view span:after {content: ''; position: absolute; display: block; height: 1px; top: 50%; background: #5c5c5c;}
+    .facil-wrap .facil-list .btn-view span:before {width: 14px; right: 7px; margin-top: 1px;}
+    .facil-wrap .facil-list .btn-view span:after {width: 5px; right: 6px; margin-top: -1px; -webkit-transform: rotate(45deg); -ms-transform: rotate(45deg);  -o-transform: rotate(45deg); transform: rotate(45deg);}
+    
 	
 }
 
 
 @media (min-width: 768px) and (max-width: 992px) {
 	
-	
+    .vid-wrap {height: auto;}
 	.title {position: relative;}
 	.title .tit-box {text-align: center; padding-top: 47px; color: #fff;}
 	.title .tit-box h2 {font-size: 24px;}
 	.title .tit-box .mg- {display: block; height: 1px; width: 30px; margin: 18px auto 20px; background: #fff;}
 	.title .titTxt img {width: 650px;}
     
-	.title .facil-tab {position: relative; margin: 45px auto 0; width: 750px; left: 1.5px;}
+	.title .facil-tab {position: relative; box-sizing:border-box; margin: 22px auto 0; padding-bottom: 20px; max-width: 768px; left: 1.5px;}
+	.title .facil-tab > li {position: relative; float: left; top: 0; width: 50%; padding: 1%;}
+	.title .facil-tab > li a {display: block; width: 100%; box-sizing: border-box; line-height:17px; padding:11px 0; height: 45px; letter-spacing: -1.3px; font-size: 13px; border: 2px solid #a8a6a4; font-weight: 400; color: #fff;}
+    .title .facil-tab > li.nth-2 a, .title .facil-tab > li.nth-7 a {padding:3px 0;}
+    .title .facil-tab > li .line-two {padding:3px 0;}
+	.title .facil-tab > li a:after {content: none; display: inline-block; height: 108%; vertical-align: middle;}
+	.title .facil-tab > li.on a {border: 2px solid #fff; padding-left: 0;}
+    .title .facil-tab > li a span {display:block}
+    
+	/*.title .facil-tab {position: relative; margin: 45px auto 0; width: 750px; left: 1.5px;}
 	.title .facil-tab > li {position: relative; float: left; top: 0; width: 18%; border: 2px solid transparent; border-left: 1px solid #a8a6a4; margin-left: -1px; padding-left: 1px;}
 	.title .facil-tab > li.nth-1 {border-left: none; margin-left: 0;}
 	.title .facil-tab > li.on {border: 2px solid #fff; z-index: 1; padding-left: 0;}
@@ -129,7 +165,7 @@
     .title .facil-tab > li.nth-2 a, .title .facil-tab > li.nth-7 a {padding:3px 0;}
     .title .facil-tab > li .line-two {padding:3px 0;}
     .title .facil-tab > li a span {display:block}
-	.title .facil-tab > li a:after {content: none; display: inline-block; height: 108%; vertical-align: middle;}
+	.title .facil-tab > li a:after {content: none; display: inline-block; height: 108%; vertical-align: middle;}*/
     
 	.facil-wrap {padding: 60px 0 170px;}
 	.bx-wrapper, .bx-wrapper, .facil-wrap .container {width: 768px;}
@@ -204,6 +240,33 @@
 	.bx-wrapper .bx-prev {left: 14px;}
 	.bx-wrapper .bx-next {right: 14px;}
 	
+    
+    /* 190304 다이닝 및 연회&부대시설 리스트 디자인 리뉴 */
+    .facil-wrap {font-family: "Noto Sans KR", "Nanum Gothic", sans-serif;}
+    .facil-wrap .banner-box {margin-top: 35px; margin-bottom: 20px;}
+    .facil-wrap .facil-list {position: relative; width: 100%; margin-top: 35px;}
+    .facil-wrap .banner-box + .facil-list {margin-top: 0;}
+    .facil-wrap .facil-list > li {position: relative; box-sizing: border-box; margin-top: 25px; border: 1px solid #cecece;}
+    .facil-wrap .facil-list > li:first-child {margin-top: 0;}
+    .facil-wrap .facil-list .fc-img, .facil-wrap .facil-list .fc-box {position: relative; float: left; box-sizing: border-box; width: 50%; text-align: left;}
+    .facil-wrap .facil-list .fc-img {}
+    .facil-wrap .facil-list .fc-img img {width: 100%;}
+    .facil-wrap .facil-list .fc-box {padding: 14px 9px 9px 20px;}
+    .facil-wrap .facil-list .fc-box p {letter-spacing: -0.5px; color: #2b2b2b;}
+    .facil-wrap .facil-list .fc-box .p-0 {font-size: 25px; font-weight: bold; line-height: 35px;}
+    .facil-wrap .facil-list .fc-box .p-1 {margin-top: 2px; font-size: 14px; line-height: 20px;}
+    .facil-wrap .facil-list .fc-box .p-2 {margin-top: 10px; font-size: 13px; font-weight: 300; line-height: 18px; color: #666;}
+    .facil-wrap .facil-list .fc-box .p-list {margin-top: 15px;}
+    .facil-wrap .facil-list .fc-box .p-list li {position: relative; padding-left: 8px; font-size: 13px; font-weight: 300; line-height: 22px; color: #666;} 
+    .facil-wrap .facil-list .fc-box .p-list li:before {content: ''; display: block; position: absolute; width: 3px; height: 3px; left: 0; top: 10px; border-radius: 50%; background: #666;}
+    .facil-wrap .facil-list .fc-box .p-list li em {padding-right: 5px; font-weight: 500;}
+    .facil-wrap .facil-list .fc-box .p-list li span {}
+    .facil-wrap .facil-list .fc-box .p-mark {font-size: 13px; font-weight: 300; line-height: 22px; color: #666;}
+    .facil-wrap .facil-list .btn-view {position: absolute; display: inline-block; bottom: 14px; right: 14px; text-align: center; border: 1px solid #666;}
+    .facil-wrap .facil-list .btn-view span {position: relative; display: inline-block; height: 30px; padding: 0 40px 0 14px; font-size: 13px; line-height: 30px;}
+    .facil-wrap .facil-list .btn-view span:before, .facil-wrap .facil-list .btn-view span:after {content: ''; position: absolute; display: block; height: 1px; top: 50%; background: #5c5c5c;}
+    .facil-wrap .facil-list .btn-view span:before {width: 18px; right: 11px; margin-top: 1px;}
+    .facil-wrap .facil-list .btn-view span:after {width: 8px; right: 10px; margin-top: -2px; -webkit-transform: rotate(45deg); -ms-transform: rotate(45deg);  -o-transform: rotate(45deg); transform: rotate(45deg);}
 	
 	
 }
@@ -297,8 +360,33 @@
 	}
 	.bx-wrapper .bx-pager.bx-default-pager a:hover, .bx-wrapper .bx-pager.bx-default-pager a.active {background: #44a8ff; border-color: #44a8ff;}
 	
-	
-	
+    
+    /* 190304 다이닝 및 연회&부대시설 리스트 디자인 리뉴 */
+    .facil-wrap {font-family: "Noto Sans KR", "Nanum Gothic", sans-serif;}
+    .facil-wrap .banner-box {margin-bottom: 30px;}
+    .facil-wrap .facil-list {position: relative; width: 100%;}
+    .facil-wrap .facil-list > li {position: relative; box-sizing: border-box; margin-top: 35px; border: 1px solid #cecece;}
+    .facil-wrap .facil-list > li:first-child {margin-top: 0;}
+    .facil-wrap .facil-list .fc-img, .facil-wrap .facil-list .fc-box {position: relative; float: left; box-sizing: border-box; width: 50%; text-align: left;}
+    .facil-wrap .facil-list .fc-img {}
+    .facil-wrap .facil-list .fc-img img {width: 100%;}
+    .facil-wrap .facil-list .fc-box {padding: 33px 18px 18px 25px;}
+    .facil-wrap .facil-list .fc-box p {letter-spacing: -0.5px; color: #2b2b2b;}
+    .facil-wrap .facil-list .fc-box .p-0 {font-size: 33px; font-weight: bold; line-height: 42px;}
+    .facil-wrap .facil-list .fc-box .p-1 {margin-top: 8px; font-size: 16px; line-height: 22px;}
+    .facil-wrap .facil-list .fc-box .p-2 {margin-top: 15px; font-size: 15px; font-weight: 300; line-height: 20px; color: #666;}
+    .facil-wrap .facil-list .fc-box .p-list {margin-top: 25px;}
+    .facil-wrap .facil-list .fc-box .p-list li {position: relative; padding-left: 8px; font-size: 15px; font-weight: 300; line-height: 26px; color: #666;} 
+    .facil-wrap .facil-list .fc-box .p-list li:before {content: ''; display: block; position: absolute; width: 3px; height: 3px; left: 0; top: 12px; border-radius: 50%; background: #666;}
+    .facil-wrap .facil-list .fc-box .p-list li em {padding-right: 5px; font-weight: 500;}
+    .facil-wrap .facil-list .fc-box .p-list li span {}
+    .facil-wrap .facil-list .fc-box .p-mark {font-size: 15px; font-weight: 300; line-height: 26px; color: #666;}
+    .facil-wrap .facil-list .btn-view {position: absolute; display: inline-block; bottom: 20px; right: 20px; text-align: center; border: 1px solid #666;}
+    .facil-wrap .facil-list .btn-view span {position: relative; display: inline-block; height: 36px; padding: 0 50px 0 18px; font-size: 15px; line-height: 36px;}
+    .facil-wrap .facil-list .btn-view span:before, .facil-wrap .facil-list .btn-view span:after {content: ''; position: absolute; display: block; height: 1px; top: 50%; background: #5c5c5c;}
+    .facil-wrap .facil-list .btn-view span:before {width: 26px; right: 11px; margin-top: 1px;}
+    .facil-wrap .facil-list .btn-view span:after {width: 9px; right: 10px; margin-top: -2px; -webkit-transform: rotate(45deg); -ms-transform: rotate(45deg);  -o-transform: rotate(45deg); transform: rotate(45deg);}
+    
 }
 
 
@@ -310,15 +398,15 @@
 	.title .tit-box h2 {font-size: 27px; letter-spacing:-2.5px}
 	.title .tit-box .mg- {display: block; height: 1px; width: 60px; margin: 22px auto 14px; background: #fff;}
     /* 201800614 tab수정 */
-    .title .facil-tab {position: relative; width:1280px; margin: 47px auto 0; left: 1.5px;}
+    .title .facil-tab {position: relative; width: 1180px; margin: 47px auto 0; left: 1.5px;}
     /*.title .facil-tab > li {position: relative; float: left; top: 0; width: 16.666%; border: 2px solid transparent; border-left: 1px solid #a8a6a4; margin-left: -1px; padding-left: 1px;}*/
     .title .facil-tab > li {position: relative; float: left; top: 0; width: 20%; border: 2px solid transparent; border-left: 1px solid #a8a6a4; margin-left: -1px; padding-left: 1px;}
     .title .facil-tab > li.nth-1 {border-left: none; margin-left: 0;}
     /*.title .facil-tab > li.on {border: 2px solid #fff; z-index: 1; padding-left: 0;}
     .title .facil-tab > li.nth-1.on {padding-right: 1px;}*/
-    .title .facil-tab > li a {display: block; box-sizing: border-box; width: 100%; height: 46px; font-size: 16px; font-weight: 400; color: #fff;}
+    .title .facil-tab > li a {display: block; box-sizing: border-box; width: 100%; height: 46px; font-size: 16px; letter-spacing: -1px; font-weight: 400; color: #fff;}
     .title .facil-tab > li a:after {content: ""; display: inline-block; height: 108%; vertical-align: middle;}
-    .title .facil-tab > li a span {display:none}
+    .title .facil-tab > li a span {display: none}
     
 	.facil-wrap {padding:100px 0 170px;}
 	.bx-wrapper, .bx-wrapper, .facil-wrap .container {width: 1180px;}
@@ -390,6 +478,31 @@
 	}
 	.bx-wrapper .bx-pager.bx-default-pager a:hover, .bx-wrapper .bx-pager.bx-default-pager a.active {background: #44a8ff; border-color: #44a8ff;}
 	
-	
+    
+    /* 190304 다이닝 및 연회&부대시설 리스트 디자인 리뉴 */
+    .facil-wrap {font-family: "Noto Sans KR", "Nanum Gothic", sans-serif;}
+    .facil-wrap .banner-box {margin-bottom: 30px;}
+    .facil-wrap .facil-list {position: relative; width: 100%;}
+    .facil-wrap .facil-list > li {position: relative; box-sizing: border-box; margin-top: 35px; border: 1px solid #cecece;}
+    .facil-wrap .facil-list > li:first-child {margin-top: 0;}
+    .facil-wrap .facil-list .fc-img, .facil-wrap .facil-list .fc-box {position: relative; float: left; box-sizing: border-box; width: 50%; text-align: left;}
+    .facil-wrap .facil-list .fc-img {}
+    .facil-wrap .facil-list .fc-img img {width: 100%;}
+    .facil-wrap .facil-list .fc-box {padding: 45px 20px 20px 40px;}
+    .facil-wrap .facil-list .fc-box p {letter-spacing: -0.5px; color: #2b2b2b;}
+    .facil-wrap .facil-list .fc-box .p-0 {font-size: 35px; font-weight: bold; line-height: 45px;}
+    .facil-wrap .facil-list .fc-box .p-1 {margin-top: 8px; font-size: 18px; line-height: 25px;}
+    .facil-wrap .facil-list .fc-box .p-2 {margin-top: 20px; font-size: 16px; font-weight: 300; line-height: 24px; color: #666;}
+    .facil-wrap .facil-list .fc-box .p-list {margin-top: 33px;}
+    .facil-wrap .facil-list .fc-box .p-list li {position: relative; padding-left: 8px; font-size: 16px; font-weight: 300; line-height: 26px; color: #666;} 
+    .facil-wrap .facil-list .fc-box .p-list li:before {content: ''; display: block; position: absolute; width: 3px; height: 3px; left: 0; top: 12px; border-radius: 50%; background: #666;}
+    .facil-wrap .facil-list .fc-box .p-list li em {padding-right: 5px; font-weight: 500;}
+    .facil-wrap .facil-list .fc-box .p-list li span {}
+    .facil-wrap .facil-list .fc-box .p-mark {font-size: 16px; font-weight: 300; line-height: 26px; color: #666;}
+    .facil-wrap .facil-list .btn-view {position: absolute; display: inline-block; bottom: 20px; right: 20px; text-align: center; border: 1px solid #666;}
+    .facil-wrap .facil-list .btn-view span {position: relative; display: inline-block; height: 40px; padding: 0 53px 0 23px; font-size: 15px; line-height: 40px;}
+    .facil-wrap .facil-list .btn-view span:before, .facil-wrap .facil-list .btn-view span:after {content: ''; position: absolute; display: block; height: 1px; top: 50%; background: #5c5c5c;}
+    .facil-wrap .facil-list .btn-view span:before {width: 26px; right: 11px; margin-top: 0px;}
+    .facil-wrap .facil-list .btn-view span:after {width: 9px; right: 10px; margin-top: -3px; -webkit-transform: rotate(45deg); -ms-transform: rotate(45deg);  -o-transform: rotate(45deg); transform: rotate(45deg);}
 }
 

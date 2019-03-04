@@ -216,7 +216,7 @@
 	.title .tit-box .p0 {font-size: 20px; margin-top: 10px;}
 	
 	.resort {position: relative; padding: 100px 0 0px;}
-	.resort .container {width: 1280px; padding-bottom: 65px; border-bottom: 1px solid #e0e0e0;}
+	.resort .container {width: 1180px; padding-bottom: 65px; border-bottom: 1px solid #e0e0e0;}
 	.resort .resortImg {}
 	.resort h3 {font-size: 22px; margin-top: 50px; color: #373737;}
 	.resort .p1, .resort .p2 {font-size: 18px; color: #7c7c7c; line-height: 1.8; word-break: keep-all; letter-spacing: -1.5px;}
@@ -238,7 +238,7 @@
 	.resort .rv-a .gt {position: absolute; top: 24px; right: 25px;}
 	
 	.oc2point {position: relative; padding: 130px 0 178px;}
-	.oc2point .container {width: 1280px;}
+	.oc2point .container {width: 1180px;}
 	.oc2point .ul0 {}
 	.oc2point .ul0 > li {position: relative; float: left; height: 446px; word-break: keep-all;}
 	.oc2point .ul0 > li.nth-1, .oc2point .ul0 > li.nth-3 {width: 656px;}

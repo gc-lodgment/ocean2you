@@ -1,14 +1,48 @@
 $(function() {
+
+	// 패키지 탭 wid
+	var packParent = ["#pkg-tab", "#pkg-b-tab"];
+	var packLen = packParent.length;
+
+	packFor(packLen, packParent);
+
+    $(window).resize(function(){
+        packFor(packLen, packParent);
+
+    }).resize();
+
+    //사이드 탭 
+    $(".q-menu .packtab li").removeClass('on');
+    var liLen = $(".q-menu .packtab li").length+1;
+    for(var i = 0; i < liLen ; i++){
+        //console.log(i)
+        $('.packtab li:eq('+ i +')').addClass('nth-'+(i+1));
+        //$('.vari-wrap .packtab li:eq('+ i +')').addClass('nth-'+(i+1));
+    }
 	
-	// 패키지 탭
-	$("#pkg-tab li, #pkg-b-tab li").on('click', function() {
-		var idx = $(this).index();
-		//$(this).addClass('on').siblings().removeClass('on');
-		$("#pkg-box > section").eq(idx).addClass('on').siblings().removeClass('on');
+	// 탭
+	// 180716 index값이 아닌 section값으로 맞추기
+ 	$("#pkg-tab li, #pkg-b-tab li, .packtab li").on('click', function() {
+        //var idx = $(this).index();
+        var numClass = String($(this).attr('class'));
+        var num = Number(numClass.substr( 4, 1 ));
+        console.log(numClass, num)
         
-		$("#pkg-tab li").eq(idx).addClass('on').siblings().removeClass('on');
-		$("#pkg-b-tab li").eq(idx).addClass('on').siblings().removeClass('on');
-		$(window).scrollTop(0);
+        //$(this).addClass('on').siblings().removeClass('on');
+        
+        if( $(this).hasClass("no-tab") == true ){
+            
+        }else{
+            $("#pkg-box > section").removeClass('on');
+            $("#pkg-box > section[class=pkg-"+ num +"]").addClass('on');
+
+            $("#pkg-tab li[class=nth-"+ num +"]").addClass('on').siblings().removeClass('on');
+            $("#pkg-b-tab li").removeClass('on');
+            $("#pkg-b-tab li[class=nth-"+ num +"]").addClass('on');
+        }
+        
+
+        $(window).scrollTop(0);
 	});
 	
 	// bx슬라이더
@@ -41,3 +75,28 @@ $(function() {
 	
 	
 });
+
+function packFor(len, packParent){
+    var winW = $(window).width();
+    
+    if (winW <= 768) {
+        for( var i = 0 ; i < len ; i++ ){
+            var idx = i;
+            $(packParent[idx]).find('li').css({'width' : 48+'%'});
+        }
+    }else{
+        for( var i = 0 ; i < len ; i++ ){
+            var idx = i;
+            packWid($(packParent[idx]));
+        }
+    }
+}
+
+function packWid(itm){
+    var pack = $(itm);
+    var packLi = pack.find('li');
+    var packLiLen = packLi.length;
+    
+    packLi.css({'width' : (100/packLiLen)+'%'});
+    
+}

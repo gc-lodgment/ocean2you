@@ -274,3 +274,6 @@ transform-origin: center;
 .rWing .q-menu > a .s-i {position: relative; top: -2px; left: 4px;font-size: 10px;}
 
 
+/* 배너 박스 */
+.banner-box {background: #ffe7ed; text-align: center;}
+.banner-box img.show-sm-gte {display: inline-block !important;}

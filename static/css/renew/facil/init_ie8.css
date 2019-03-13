@@ -68,6 +68,14 @@
 .facil-wrap .area-arctic > [class*=d-] {position: relative; display: inline-block; vertical-align: middle; line-height: 1.4; word-break: keep-all;}
 .facil-wrap .area-arctic > .d-1 {padding-right: 8px;}
 .facil-wrap .area-arctic > .d-2 {padding-left: 15px; border-left: 1px solid #a3b0c2; color: #285ba7; text-align: left; width: 78%; font-size: 15px;}
+/* gogreen 추가 */ 
+.facil-wrap .area-arctic.green {padding: 26px 105px 26px 190px;}
+.facil-wrap .area-arctic.green > .d-1 {vertical-align: top;}
+.facil-wrap .area-arctic.green > .d-2 {width: 90%; border-color: #478e42;}
+.facil-wrap .area-arctic.green > .d-2 p {letter-spacing: -1.2px; color: #3e3a39;}
+.facil-wrap .area-arctic.green > .d-2 .fc-green {color: #246a01;}
+.facil-wrap .area-arctic.green > .d-2 p + p {margin-top: 13px;}
+
 .bn-amenity-area {background: #fffce8; padding: 12px 0; border: 1px solid #dfdfdf; line-height: 1.5;}
 .bn-amenity-area .bn-box {}
 .bn-amenity-area .bn-box .bn-img, .bn-amenity-area .bn-box .txt {display: inline-block; vertical-align: middle;}

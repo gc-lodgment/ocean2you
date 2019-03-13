@@ -112,8 +112,7 @@ section[class*=-sec] h3 + p {font-size: 18px; color: #454545; text-align: center
 
 /* 190103 노래,합주 관련 추가 */
 .facil-sec .ul-list-2 .li-item {position: relative; float: left; display: block; margin-left: 20px; margin-top: 23px; width: 480px; /*height: 200px;*/}
-.facil-sec .ul-list-2 .li-item:first-child {margin-left: 0;}
-.facil-sec .ul-list-2 .li-item:nth-child(2n+1) {margin-left: 0;}
+.facil-sec .ul-list-2 .li-item:first-child, .facil-sec .ul-list-2 .li-item.nth-3 {margin-left: 0;}
 .facil-sec .ul-list-2 .li-item figure {position: relative;}
 .facil-sec .ul-list-2 .li-item figure img {width: 100%;}
 .facil-sec .ul-list-2 .li-item figure figcaption, .facil-sec .ul-list-2 .li-item .li-txt {box-sizing: border-box; width: 100%; padding: 8px 8px 7px 8px; text-align: center; letter-spacing: -0.7px; color: #fff; background: #000; background: rgba(0,0,0, .7);}

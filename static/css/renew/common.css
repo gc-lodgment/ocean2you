@@ -504,6 +504,8 @@ body.of-hidden {overflow: hidden;}
 
 	/* 배너 박스 */
 	.banner-box {background: #ffe7ed; text-align: center;}
+	.banner-box.bf {background: #ffe7ed;}
+	.banner-box.pets {background: #f3dab4;}
 	.banner-box img.show-sm-gte {display: inline-block !important;}
 
 }

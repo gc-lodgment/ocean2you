@@ -15,12 +15,12 @@
 @media (max-width: 767px) {
 	.xs-block {display: block;}
 	.xs-hidden {display: none;}
-	.vid-wrap {height: 204px;}
+	.vid-wrap {height: auto;}
 	
 	.title {position: relative;}
-	.title .tit-box {text-align: center; padding-top: 0px; color: #fff;}
+	.title .tit-box {text-align: center; padding-top: 16px; padding-bottom: 22px; color: #fff;}
 	.title .tit-box h2 {font-size: 20px;}
-	.title .tit-box .mg- {display: block; height: 1px; width: 30px; margin: 15px auto 15px; background: #fff;}
+	.title .tit-box .mg- {display: block; height: 1px; width: 30px; margin: 18px auto 20px; background: #fff;}
 	.title .tit-box .titTxt img {width: 230px;}
 	.title .tit-box .p0 {display: none;}
 	
@@ -324,7 +324,7 @@
 /*@media (min-width: 1432px) {*/
 @media (min-width: 768px) {
 	.title {position: relative;}
-	.title .tit-box {text-align: center; padding-top: 60px; color: #fff;}
+	.title .tit-box {text-align: center; padding-top: 76px; color: #fff;}
 	.title .tit-box h2 {font-size: 27px;}
 	.title .tit-box .mg- {display: block; height: 1px; width: 60px; margin: 18px auto 20px; background: #fff;}
 	.title .tit-box .p0 {font-size: 20px; margin-top: 10px;}

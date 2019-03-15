@@ -15,7 +15,7 @@
 	.vid-wrap {height: auto;}
 	
 	.title {position: relative;}
-	.title .tit-box {text-align: center; padding-top: 0px; padding-bottom:22px; color: #fff;}
+	.title .tit-box {text-align: center; padding-top: 16px; padding-bottom: 22px; color: #fff;}
 	.title .tit-box h2 {font-size: 20px;}
 	.title .tit-box .mg- {display: block; height: 1px; width: 30px; margin: 18px auto 20px; background: #fff;}
 	.title .tit-box .titTxt img {width: 310px;}
@@ -173,9 +173,6 @@
 	
 }
 
-@media (max-width: 480px) {
-	
-}
 
 @media (max-device-width: 320px) {
 	.pkg-wrap [class*=pkg-] .p0 {font-size: 14.5px;}
@@ -186,7 +183,7 @@
 
 @media (min-width: 768px) and (max-width: 992px) {
 	.title {position: relative;}
-	.title .tit-box {text-align: center; padding-top: 47px; color: #fff;}
+	.title .tit-box {text-align: center; padding-top: 76px; color: #fff;}
 	.title .tit-box h2 {font-size: 24px; letter-spacing:-2.5px}
 	.title .tit-box .mg- {display: block; height: 1px; width: 30px; margin: 18px auto 20px; background: #fff;}
 	.title .tit-box .titTxt img {width: 500px;}
@@ -211,7 +208,7 @@
     
     .title .pkg-tab.tab-wid .no-tab a {cursor: default;}
 	
-	.pkg-wrap {padding: 60px 0 56px;}
+	.pkg-wrap {padding: 60px 0 80px;}
 	.bx-wrapper, .pkg-wrap .container, .vari-wrap .container {width: 768px;}
 	#pkg-box > section {opacity: 0; visibility: hidden; word-break: keep-all; height: 0; overflow: hidden;}
 	#pkg-box > section.on {opacity: 1; visibility: visible;  height: auto; overflow: visible;}
@@ -356,7 +353,7 @@
 @media (min-width: 992px) and (max-width: 1431px) {
 	
 	.title {position: relative;}
-	.title .tit-box {text-align: center; padding-top: 47px; color: #fff;}
+	.title .tit-box {text-align: center; padding-top: 76px; color: #fff;}
 	.title .tit-box h2 {font-size: 24px; letter-spacing:-2.5px}
 	.title .tit-box .mg- {display: block; height: 1px; width: 60px; margin: 18px auto 20px; background: #fff;}
 	.title .titTxt img {width: 500px;}
@@ -379,7 +376,7 @@
 	.title .pkg-tab.tab-wid > li a:after {content: none;}
     .title .pkg-tab.tab-wid .no-tab a {cursor: default;}
 	
-	.pkg-wrap {padding:97px 0 88px;}
+	.pkg-wrap {padding: 60px 0 80px;}
 	.bx-wrapper, .pkg-wrap .container, .vari-wrap .container {width: 992px;}
 	#pkg-box > section {opacity: 0; visibility: hidden; word-break: keep-all; height: 0; overflow: hidden;}
 	#pkg-box > section.on {opacity: 1; visibility: visible;  height: auto; overflow: visible;}
@@ -552,9 +549,9 @@
 @media (min-width: 1432px) {
 	
 	.title {position: relative;}
-	.title .tit-box {text-align: center; padding-top:47px; color: #fff;}
+	.title .tit-box {text-align: center; padding-top: 76px; color: #fff;}
 	.title .tit-box h2 {font-size: 27px; letter-spacing:-2.5px}
-	.title .tit-box .mg- {display: block; height: 1px; width: 60px; margin: 22px auto 14px; background: #fff;}
+	.title .tit-box .mg- {display: block; height: 1px; width: 60px; margin: 18px auto 20px; background: #fff;}
 	.title .pkg-tab {position: relative; margin: 22px auto 0; width: 826px; left: 1.5px;}
 	.title .pkg-tab > li {position: relative; float: left; top: 0; width:25%; border: 2px solid transparent; border-left: 1px solid #a8a6a4; margin-left: -1px; padding-left: 1px; padding-right:1px}
 	.title .pkg-tab > li.nth-1 {border-left: none; margin-left: 0;}
@@ -570,7 +567,7 @@
     .title .pkg-tab.tab-wid > li a span {display:none}
     .title .pkg-tab.tab-wid .no-tab a {cursor: default;}
     
-	.pkg-wrap {padding:97px 0 88px;}
+	.pkg-wrap {padding: 60px 0 80px;}
 	.bx-wrapper, .bx-wrapper, .pkg-wrap .container, .vari-wrap .container {width: 1180px;}
 	#pkg-box > section {opacity: 0; visibility: hidden; word-break: keep-all; height: 0; overflow: hidden;}
 	#pkg-box > section.on {opacity: 1; visibility: visible;  height: auto; overflow: visible;}

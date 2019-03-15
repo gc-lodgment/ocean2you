@@ -1,7 +1,7 @@
 @charset 'utf-8';
 
 
-.vid-wrap {background: url(http://img.ocean2you.co.kr/renew/intro/intro_titBg.jpg) no-repeat top center; padding-top: 98px; position: relative; width: 100%; height: 286px;
+.vid-wrap {background: url(http://img.ocean2you.co.kr/renew/intro/intro_titBg.jpg) no-repeat top center; padding-top: 98px; position: relative; width: 100%; height: 320px;
 -webkit-background-size: cover; background-size: cover;}
 
 #wrapper {line-height: 1.5;}
@@ -12,12 +12,12 @@
 @media (max-width: 767px) {
 	.xs-block {display: block;}
 
-	.vid-wrap {height: 205px;}
+	.vid-wrap {height: auto;}
 	
 	.title {position: relative;}
-	.title .tit-box {text-align: center; padding-top: 5px; color: #fff;}
+	.title .tit-box {text-align: center; padding-top: 16px; padding-bottom: 22px; color: #fff;}
 	.title .tit-box h2 {font-size: 20px; font-weight: 400; color: #fff;}
-	.title .tit-box .mg- {display: block; height: 1px; width: 30px; margin: 15px auto; background: #fff;}
+	.title .tit-box .mg- {display: block; height: 1px; width: 30px; margin: 18px auto 20px; background: #fff;}
 	.title .titTxt img {width: 310px;}
 	.title .tit-box .p0 {font-size: 16px; margin-top: 5px; line-height: 1.4; word-break: keep-all; letter-spacing: -1px;}
 	.title .facil-tab {position: relative; margin: 22px auto 0; width: 310px; left: 1.5px;}
@@ -42,7 +42,7 @@
 	
 	
 	.title {position: relative;}
-	.title .tit-box {text-align: center; padding-top: 36px; color: #fff;}
+	.title .tit-box {text-align: center; padding-top: 76px; color: #fff;}
 	.title .tit-box h2 {font-size: 24px; font-weight: 400;}
 	.title .tit-box .mg- {display: block; height: 1px; width: 30px; margin: 18px auto 20px; background: #fff;}
 	.title .titTxt img {width: 570px;}
@@ -67,7 +67,7 @@
 @media (min-width: 992px) and (max-width: 1431px) {
 	
 	.title {position: relative;}
-	.title .tit-box {text-align: center; padding-top: 36px; color: #fff;}
+	.title .tit-box {text-align: center; padding-top: 76px; color: #fff;}
 	.title .tit-box h2 {font-size: 24px; font-weight: 400;}
 	.title .tit-box .mg- {display: block; height: 1px; width: 60px; margin: 18px auto 20px; background: #fff;}
 	.title .titTxt img {width: 570px;}
@@ -96,7 +96,7 @@
 	
 
 	.title {position: relative;}
-	.title .tit-box {text-align: center; padding-top: 36px; color: #fff;}
+	.title .tit-box {text-align: center; padding-top: 76px; color: #fff;}
 	.title .tit-box h2 {font-size: 27px; font-weight: 400;}
 	.title .tit-box .mg- {display: block; height: 1px; width: 60px; margin: 18px auto 20px; background: #fff;}
 	.title .facil-tab {position: relative; margin: 22px auto 0; width: 462px; left: 1.5px;}

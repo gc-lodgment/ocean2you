@@ -18,7 +18,7 @@
 	.vid-wrap {height: auto;}
 	
 	.title {position: relative;}
-	.title .tit-box {text-align: center; padding-top: 0; padding-bottom:22px; color: #fff;}
+	.title .tit-box {text-align: center; padding-top: 16px; padding-bottom: 22px; color: #fff;}
 	.title .tit-box h2 {font-size: 20px;}
 	.title .tit-box .mg- {display: block; height: 1px; width: 30px; margin: 18px auto 20px; background: #fff;}
 	.title .tit-box .titTxt img {width: 310px;}
@@ -32,7 +32,6 @@
 	.title .facil-tab > li.on a {border: 2px solid #fff; padding-left: 0;}
     .title .facil-tab > li a span {display:block}
 	
-	.facil-wrap {padding: 40px 0 100px;}
 	.bx-wrapper, .bx-wrapper, .facil-wrap .container {width: 94%;}
 	#facil-box > section, #facil-box > section div.d-area-1 + section {word-break: keep-all; text-align: center; opacity: 0; visibility: hidden; height: 0; overflow: hidden;}
 	#facil-box > section.on, #facil-box > section div.d-area-1.on + section {opacity: 1; visibility: visible;  height: auto; overflow: visible;}
@@ -108,7 +107,7 @@
 	.bx-wrapper .bx-next {right: 5px;}
 	
     /* 190304 다이닝 및 연회&부대시설 리스트 디자인 리뉴 */
-    .facil-wrap {font-family: "Noto Sans KR", "Nanum Gothic", sans-serif;}
+    .facil-wrap {padding: 40px 0 50px; font-family: "Noto Sans KR", "Nanum Gothic", sans-serif;}
     .facil-wrap .banner-box {margin-top: 17px; margin-bottom: 15px;}
     .facil-wrap .facil-list {position: relative; width: 100%; margin-top: 17px;}
     .facil-wrap .banner-box + .facil-list {margin-top: 0;}
@@ -142,7 +141,7 @@
 	
     .vid-wrap {height: auto;}
 	.title {position: relative;}
-	.title .tit-box {text-align: center; padding-top: 47px; color: #fff;}
+	.title .tit-box {text-align: center; padding-top: 76px; color: #fff;}
 	.title .tit-box h2 {font-size: 24px;}
 	.title .tit-box .mg- {display: block; height: 1px; width: 30px; margin: 18px auto 20px; background: #fff;}
 	.title .titTxt img {width: 650px;}
@@ -167,7 +166,6 @@
     .title .facil-tab > li a span {display:block}
 	.title .facil-tab > li a:after {content: none; display: inline-block; height: 108%; vertical-align: middle;}*/
     
-	.facil-wrap {padding: 60px 0 170px;}
 	.bx-wrapper, .bx-wrapper, .facil-wrap .container {width: 768px;}
 	#facil-box > section, #facil-box > section div.d-area-1 + section {word-break: keep-all; text-align: center; opacity: 0; visibility: hidden; height: 0; overflow: hidden;}
 	#facil-box > section.on, #facil-box > section div.d-area-1.on + section {opacity: 1; visibility: visible;  height: auto; overflow: visible;}
@@ -242,7 +240,7 @@
 	
     
     /* 190304 다이닝 및 연회&부대시설 리스트 디자인 리뉴 */
-    .facil-wrap {font-family: "Noto Sans KR", "Nanum Gothic", sans-serif;}
+    .facil-wrap {padding: 60px 0 80px; font-family: "Noto Sans KR", "Nanum Gothic", sans-serif;}
     .facil-wrap .banner-box {margin-top: 35px; margin-bottom: 20px;}
     .facil-wrap .facil-list {position: relative; width: 100%; margin-top: 35px;}
     .facil-wrap .banner-box + .facil-list {margin-top: 0;}
@@ -274,7 +272,7 @@
 @media (min-width: 992px) and (max-width: 1431px) {
 	
 	.title {position: relative;}
-	.title .tit-box {text-align: center; padding-top: 47px; color: #fff;}
+	.title .tit-box {text-align: center; padding-top: 76px; color: #fff;}
 	.title .tit-box h2 {font-size: 24px; letter-spacing:-2.5px}
 	.title .tit-box .mg- {display: block; height: 1px; width: 60px; margin: 18px auto 20px; background: #fff;}
 	.title .titTxt img {width: 650px;}
@@ -290,7 +288,6 @@
 	.title .facil-tab > li a:after {content: none; display: inline-block; height: 108%; vertical-align: middle;}
     .title .facil-tab > li a span {display:block}
 	
-	.facil-wrap {padding: 60px 0 170px;}
 	.bx-wrapper, .bx-wrapper, .facil-wrap .container {width: 992px;}
 	#facil-box > section, #facil-box > section div.d-area-1 + section {word-break: keep-all; text-align: center; opacity: 0; visibility: hidden; height: 0; overflow: hidden;}
 	#facil-box > section.on, #facil-box > section div.d-area-1.on + section {opacity: 1; visibility: visible;  height: auto; overflow: visible;}
@@ -362,7 +359,7 @@
 	
     
     /* 190304 다이닝 및 연회&부대시설 리스트 디자인 리뉴 */
-    .facil-wrap {font-family: "Noto Sans KR", "Nanum Gothic", sans-serif;}
+    .facil-wrap {padding: 60px 0 80px; font-family: "Noto Sans KR", "Nanum Gothic", sans-serif;}
     .facil-wrap .banner-box {margin-bottom: 30px;}
     .facil-wrap .facil-list {position: relative; width: 100%;}
     .facil-wrap .facil-list > li {position: relative; box-sizing: border-box; margin-top: 35px; border: 1px solid #cecece;}
@@ -394,9 +391,9 @@
 	
 
 	.title {position: relative;}
-	.title .tit-box {text-align: center; padding-top:47px; color: #fff;}
+	.title .tit-box {text-align: center; padding-top: 76px; color: #fff;}
 	.title .tit-box h2 {font-size: 27px; letter-spacing:-2.5px}
-	.title .tit-box .mg- {display: block; height: 1px; width: 60px; margin: 22px auto 14px; background: #fff;}
+	.title .tit-box .mg- {display: block; height: 1px; width: 60px; margin: 18px auto 20px; background: #fff;}
     /* 201800614 tab수정 */
     .title .facil-tab {position: relative; width: 1180px; margin: 47px auto 0; left: 1.5px;}
     /*.title .facil-tab > li {position: relative; float: left; top: 0; width: 16.666%; border: 2px solid transparent; border-left: 1px solid #a8a6a4; margin-left: -1px; padding-left: 1px;}*/
@@ -408,7 +405,6 @@
     .title .facil-tab > li a:after {content: ""; display: inline-block; height: 108%; vertical-align: middle;}
     .title .facil-tab > li a span {display: none}
     
-	.facil-wrap {padding:100px 0 170px;}
 	.bx-wrapper, .bx-wrapper, .facil-wrap .container {width: 1180px;}
 	#facil-box > section, #facil-box > section div.d-area-1 + section {word-break: keep-all; text-align: center; opacity: 0; visibility: hidden; height: 0; overflow: hidden;}
 	#facil-box > section.on, #facil-box > section div.d-area-1.on + section {opacity: 1; visibility: visible;  height: auto; overflow: visible;}
@@ -480,7 +476,7 @@
 	
     
     /* 190304 다이닝 및 연회&부대시설 리스트 디자인 리뉴 */
-    .facil-wrap {font-family: "Noto Sans KR", "Nanum Gothic", sans-serif;}
+    .facil-wrap {padding: 60px 0 80px; font-family: "Noto Sans KR", "Nanum Gothic", sans-serif;}
     .facil-wrap .banner-box {margin-bottom: 30px;}
     .facil-wrap .facil-list {position: relative; width: 100%;}
     .facil-wrap .facil-list > li {position: relative; box-sizing: border-box; margin-top: 35px; border: 1px solid #cecece;}

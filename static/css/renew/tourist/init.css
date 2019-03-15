@@ -13,9 +13,9 @@
     .vid-wrap {height: auto;}
     
 	.title {position: relative;}
-	.title .tit-box {text-align: center; padding-top: 30px; color: #fff;}
+	.title .tit-box {text-align: center; padding-top: 16px; color: #fff;}
 	.title .tit-box h2 {font-size: 18px; letter-spacing: -2.5px}
-	.title .tit-box .mg- {display: block; height: 1px; width: 30px; margin: 10px auto 9px; background: #fff;}
+	.title .tit-box .mg- {display: block; height: 1px; width: 30px; margin: 18px auto 20px; background: #fff;}
     .title .tit-box .titTxt {width: 70%; margin: 0 auto;}
 	.title .pkg-tab {position: relative; box-sizing: border-box; display: block; margin: 25px auto 0; padding: 0 5px 25px;}
 	.title .pkg-tab > li {position: relative; float: left; top: 0; width: 49%; margin-left: 2%; border: 3px solid #a8a6a4;}
@@ -27,7 +27,8 @@
 	
     
     /*관광지*/
-    .tour-wrap {padding: 20px 15px 21px;}
+    .tour-wrap {padding: 40px 0 50px; /*padding: 20px 15px 21px;*/}
+    .tour-wrap .container {width: 94%; margin: 0 auto;}
     .tour-wrap .tour-sec {/*display: none;*/ margin: 0 auto; text-align: center;}
     .tour-wrap .tour-sec .area {display: inline-block; text-align: left;}
     .tour-wrap .tour-sec .area .h3-tit {position: relative; padding-left: 10px; font-size: 16px; margin: 10px 0 13px;}
@@ -53,10 +54,12 @@
 
 
 @media (min-width: 768px) and (max-width: 992px) {
+	.title .container, .tour-wrap .container {width: 768px;}
+    
 	.title {position: relative;}
-	.title .tit-box {text-align: center; padding-top: 57px; color: #fff;}
+	.title .tit-box {text-align: center; padding-top: 76px; color: #fff;}
 	.title .tit-box h2 {font-size: 27px; letter-spacing: -2.5px}
-	.title .tit-box .mg- {display: block; height: 1px; width: 60px; margin: 22px auto 14px; background: #fff;}
+	.title .tit-box .mg- {display: block; height: 1px; width: 60px; margin: 18px auto 20px; background: #fff;}
 	.title .pkg-tab {position: relative; box-sizing: border-box; display: block; max-width: 768px; margin: 25px auto 0; padding: 0 10px;}
 	.title .pkg-tab > li {position: relative; float: left; top: 0; width: 49%; margin-left: 2%; border: 3px solid #a8a6a4;}
 	.title .pkg-tab > li:first-child { margin-left: 0;}
@@ -66,7 +69,7 @@
     .title .pkg-tab > li a span {display:none}
     
     /*관광지*/
-    .tour-wrap {padding: 28px 28px 70px;}
+    .tour-wrap {padding: 60px 0 80px; /*padding: 28px 28px 70px;*/}
     .tour-wrap .tour-sec {/*display: none;*/ margin: 0 auto; text-align: center;}
     .tour-wrap .tour-sec .area {display: inline-block; text-align: left;}
     .tour-wrap .tour-sec .area .h3-tit {position: relative; padding-left: 20px; font-size: 24px; margin: 30px 0 15px;}
@@ -86,10 +89,12 @@
 }
 
 @media (min-width: 992px) and (max-width: 1431px) {
+	.title .container, .tour-wrap .container {width: 992px;}
+    
 	.title {position: relative;}
-	.title .tit-box {text-align: center; padding-top: 57px; color: #fff;}
+	.title .tit-box {text-align: center; padding-top: 76px; color: #fff;}
 	.title .tit-box h2 {font-size: 27px; letter-spacing: -2.5px}
-	.title .tit-box .mg- {display: block; height: 1px; width: 60px; margin: 22px auto 14px; background: #fff;}
+	.title .tit-box .mg- {display: block; height: 1px; width: 60px; margin: 18px auto 20px; background: #fff;}
 	.title .pkg-tab {position: relative; display: inline-block; margin: 25px auto 0;}
 	.title .pkg-tab > li {position: relative; float: left; top: 0; width: 165px; /*border: 2px solid transparent; border-left: 1px solid #a8a6a4; margin-left: -1px;*/ padding: 2px;}
 	.title .pkg-tab > li.nth-1 {margin-left: 0;}
@@ -100,7 +105,7 @@
     .title .pkg-tab .no-tab a {cursor: default;}
     
     /*관광지*/
-    .tour-wrap {padding: 23px 20px 70px;}
+    .tour-wrap {padding: 60px 0 80px; /*padding: 23px 20px 70px*/}
     .tour-wrap .tour-sec {/*display: none;*/ margin: 0 auto; text-align: center;}
     .tour-wrap .tour-sec .area {display: inline-block; text-align: left;}
     .tour-wrap .tour-sec .area .h3-tit {position: relative; padding-left: 20px; font-size: 24px; margin: 30px 0 15px;}
@@ -122,9 +127,9 @@
 	.title .container, .tour-wrap .container {width: 1180px;}
 	
 	.title {position: relative;}
-	.title .tit-box {text-align: center; padding-top: 57px; color: #fff;}
+	.title .tit-box {text-align: center; padding-top: 76px; color: #fff;}
 	.title .tit-box h2 {font-size: 27px; letter-spacing: -2.5px}
-	.title .tit-box .mg- {display: block; height: 1px; width: 60px; margin: 22px auto 14px; background: #fff;}
+	.title .tit-box .mg- {display: block; height: 1px; width: 60px; margin: 18px auto 20px; background: #fff;}
 	.title .pkg-tab {position: relative; display: inline-block; margin: 25px auto 0;}
 	.title .pkg-tab > li {position: relative; float: left; top: 0; width: 165px; /*border: 2px solid transparent; border-left: 1px solid #a8a6a4; margin-left: -1px;*/ padding: 2px;}
 	.title .pkg-tab > li.nth-1 {margin-left: 0;}
@@ -135,7 +140,8 @@
     .title .pkg-tab .no-tab a {cursor: default;}
     
     /*관광지*/
-    .tour-wrap {padding: 33px 0 100px;}
+    .tour-wrap {padding: 60px 0 80px; /*padding: 33px 0 100px*/}
+    .tour-wrap .container {margin: 0 auto;}
     .tour-wrap .tour-sec {/*display: none; */}
     .tour-wrap .tour-sec .area {}
     .tour-wrap .tour-sec .area .h3-tit {position: relative; padding-left: 20px; font-size: 26px; margin: 30px 0 15px; line-height: 38px;}

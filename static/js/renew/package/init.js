@@ -22,7 +22,8 @@ $(function() {
 	
 	// 탭
 	// 180716 index값이 아닌 section값으로 맞추기
- 	$("#pkg-tab li, #pkg-b-tab li, .packtab li").on('click', function() {
+ 	//$("#pkg-tab li, #pkg-b-tab li, .packtab li").on('click', function() {
+    $("#pkg-tab li").on('click', function() {
         //var idx = $(this).index();
         var numClass = String($(this).attr('class'));
         var num = Number(numClass.substr( 4, 1 ));
@@ -37,8 +38,8 @@ $(function() {
             $("#pkg-box > section[class=pkg-"+ num +"]").addClass('on');
 
             $("#pkg-tab li[class=nth-"+ num +"]").addClass('on').siblings().removeClass('on');
-            $("#pkg-b-tab li").removeClass('on');
-            $("#pkg-b-tab li[class=nth-"+ num +"]").addClass('on');
+            //$("#pkg-b-tab li").removeClass('on');
+            //$("#pkg-b-tab li[class=nth-"+ num +"]").addClass('on');
         }
         
 

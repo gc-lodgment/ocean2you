@@ -61,6 +61,7 @@
 .pkg-wrap [class*=pkg-] {clear:both}
 .pkg-wrap .ul-box {position:relative; margin-top:35px;}
 .pkg-wrap .ul-box.wd-full {clear: both; width: 100%;}
+.pkg-wrap .ul-box.wd-il {display: inline-block; min-width: 340px;}
 .pkg-wrap .ul-box.wid50 {float:left; width:50%;}
 .pkg-wrap .ul-box:before {content:''; display:block; position:absolute; width:30px; height:2px; top:0; background:#44a8ff}
 .pkg-wrap .ul-box h5, .pkg-wrap .ul-box .ul-sub-tit {font-weight: 600; letter-spacing:-1px; color:#373737;}
@@ -91,7 +92,7 @@
 .pkg-wrap .ul-box li > span:first-child {padding-right: 9px;}
 .pkg-wrap .ul-box li > span:first-child:before {content: ':'; position: absolute; top: -1px; right: 3px; vertical-align: middle;}
 /* type-2 */
-.pkg-wrap .ul-box.type-2 {font-size: 16px; color: #838383;}
+.pkg-wrap .ul-box.type-2 {font-size: 16px; vertical-align: top; color: #838383;}
 .pkg-wrap .ul-box.type-2:before {width: 68px;}
 .pkg-wrap .ul-box.type-2 h5 {padding: 16px 0 15px;}
 .pkg-wrap .ul-box.type-2 .ul0-1 li {font-size: 16px;}

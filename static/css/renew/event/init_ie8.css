@@ -80,6 +80,8 @@
 	.event-wrap .musicFire .bxBox li {background: url(http://img.ocean2you.co.kr/renew/event/event_musicFire.jpg) no-repeat; background-size: cover;}
 	/* 181106 소확행 캠프파이어 불꽃축제 */
 	.event-wrap .sohwaghaeng .bxBox li {background: url(http://img.ocean2you.co.kr/renew/event/event_sohwaghaeng.jpg) no-repeat; background-size: cover;}
+	/* 190322 고성 미시령 힐클라임대회 */
+	.event-wrap .hill .bxBox li {background: url(http://img.ocean2you.co.kr/renew/event/event_thebike.jpg) no-repeat; background-size: cover;}
 
 	.event-wrap .evt01-tb {position: relative; text-align: left; margin-top: 54px; letter-spacing: -1px; line-height: 1.2;}
 	.event-wrap .evt01-tb > li {float: left; width: 100%; border: 1px solid #bfbfbf; margin-top: -1px;}

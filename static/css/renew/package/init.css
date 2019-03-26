@@ -567,7 +567,7 @@
 	.vari-wrap .ul1 > li a .i-scut {display: block; position: absolute; right: 0; top: 0; color: #fff; width: 66px; height: 74px; background: url(http://img.ocean2you.co.kr/renew/i-scut.png) no-repeat; text-align: right; padding: 6px 4px 0 0;}
 	.vari-wrap .ul1 > li a h4 {font-size: 22px;}
 	.vari-wrap .ul1 > li a .p1 {font-size: 16px;line-height: 1.5; margin-top: 12px;}
-	.vari-wrap .ul1 > li:last-child a .p1 {width: 90%;}
+	.vari-wrap .ul1 > li:last-child a .p1 {width: 90%; min-height: 72px;}
 	.vari-wrap .ul1 > li a .variImg {display: block; margin-top: 13px;}
 	
 	/* 연회장 표 추가 */

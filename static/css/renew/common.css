@@ -665,7 +665,7 @@ body.of-hidden {overflow: hidden;}
 
 
 	.footer {background: #323232; padding: 5px 0 45px;}
-	.footer .container {position: relative; width: 992px;}
+	.footer .container {position: relative; width: 975px;}
 	.footer .container div[class*=flt-] {position: relative; float: left; color: #cdcdcd;}
 	.footer .f_menu {padding: 15px 0;}
 	.footer .f_menu > li {position: relative; display: inline-block; margin-left: 40px;}

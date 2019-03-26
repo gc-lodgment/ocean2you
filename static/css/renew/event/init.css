@@ -137,6 +137,7 @@
 	
 	
 }
+
 @media (max-device-width: 320px) {
 	.bx-wrapper, .bx-wrapper, .event-wrap .container {width: 320px;}
 	.event-wrap .bxBox .bxS > li {width: 320px; height: 162px; background-size: 320px;}
@@ -146,8 +147,7 @@
 	.event-wrap .evt01-tb .l-td .s-txt {font-size: 12px; letter-spacing: -1.5px;}
 }
 
-
-/*@media (min-width: 768px) and (max-width: 992px) {
+@media (min-width: 768px) and (max-width: 992px) {
 	.vid-wrap {height: 320px;}
 	
 	.title {position: relative;}
@@ -157,11 +157,28 @@
 	.title .tit-box .p0 {font-size: 18px; margin-top: 10px;}
 	
 	.event-wrap {padding: 60px 0 170px;}
-	.bx-wrapper, .bx-wrapper, .event-wrap .container {width: 768px;}
+    
+    /* 탭메뉴 */
+	.tab-region {position: relative; text-align: center; margin-bottom: 35px; font-size: 0;}
+	.tab-region > li {display: inline-block; font-size: 16px; padding-left: 10px;}
+	.tab-region > li:first-child {padding-left: 0;}
+	.tab-region > li > a { 
+		display: block; color: #000; background: #fff; border: 1px solid #99adcb; 
+		padding: 0 35px; line-height: 52px; font-size: 20px; box-sizing: border-box;
+	}
+	.tab-region > li > a .d-arr {display: none;}
+	.tab-region > li.on > a {background: #99adcb; color: #fff;}
+	.tab-region > li.on > a .d-arr {display: inline-block;}
+	.cont-region {}
+	/* .cont-region > li {display: none;}
+	.cont-region > li.on {display: block;} */
+    
+	.bx-wrapper, .bx-wrapper, .event-wrap .container {width: 100%; max-width: 768px;}
 	#evt-box > section {word-break: keep-all; text-align: center;}
 	.event-wrap [class*=facil-] h3 {font-size: 20px; margin: 0px auto 18px; color: #595959; font-weight: 600;}
+    /* 슬라이드영역 */
 	.event-wrap .bxBox {position: relative;}
-	.event-wrap .bxBox .bxS > li {width: 768px; height: 326px;}
+	.event-wrap .bxBox .bxS > li {width: 768px !important; height: 326px;}
 	.event-wrap .bxBox .li-1 {background: url(http://img.ocean2you.co.kr/renew/event/event_01_t.jpg) no-repeat;}
 	.event-wrap .bxBox .li-2 {background: url(http://img.ocean2you.co.kr/renew/event/event_02_t.jpg) no-repeat;}
     
@@ -178,12 +195,52 @@
 	
 	.event-wrap .ocKite .bxBox .li-1 {background: url(http://img.ocean2you.co.kr/renew/event/event_ocKite01_t.jpg) no-repeat; background-size: cover;}
 	.event-wrap .ocKite .bxBox .li-2 {background: url(http://img.ocean2you.co.kr/renew/event/event_ocKite02_t.jpg) no-repeat; background-size: cover;}
+    .event-wrap .ocKite .evt01-tb .l-td.nth-6 .s-txt {letter-spacing: -1.7px;} 
 	
+	/* 181015_축제 6종 추가 + 텍스트로 변경_다솜 */
+    .event-wrap .facil-1 {position: relative;}
+    .event-wrap .facil-1 + .facil-1 {margin-top: 30px; padding-top: 30px; border-top: 1px solid #ccc;}
+    .event-wrap .facil-1 .bxBox li {position: relative; /*background: url(http://img.ocean2you.co.kr/renew/event/event_01_m.jpg) no-repeat; background-size: cover;*/} /* 기본 캠프파이어 축제 */
+    .event-wrap .facil-1 .bxBox .fc-li-box {box-sizing: border-box; display: table; width: 100%; height: 100%; padding: 0 52px; background: rgba(0, 0, 0, 0.65);}
+    .event-wrap .facil-1 .bxBox .fc-txt-box {display: table-cell; width: 100%; text-align: center; vertical-align: middle;}
+    .event-wrap .facil-1 .bxBox .fc-txt-box p {letter-spacing: -1px; color: #fff; word-break: keep-all;}
+    .event-wrap .facil-1 .bxBox .fc-txt-box .fc-li-tit {margin-bottom: 20px; font-size: 24px; line-height: 24px;}
+    .event-wrap .facil-1 .bxBox .fc-txt-box .fc-li-txt {font-size: 18px; line-height: 24px;}
+    .event-wrap .facil-1 .bxBox .li-1 {}
+    .event-wrap .facil-1 .bxBox .li-2 {}
+    
+	/* DMZ 전국 플라잉디스크 대회 */
+    .event-wrap .flying .bxBox li {background: url(http://img.ocean2you.co.kr/renew/event/event_fiying.jpg) no-repeat; background-size: cover;}
+	/* GBA 고성 DMZ 그란폰도 */
+    .event-wrap .granfondo .bxBox li {background: url(http://img.ocean2you.co.kr/renew/event/event_granfondo.jpg) no-repeat; background-size: cover;}
+	/* 통일 고성 명태축제 */
+    .event-wrap .pollock .bxBox li {background: url(http://img.ocean2you.co.kr/renew/event/event_pollock.jpg) no-repeat; background-size: cover;}
+	/* 설악문화제 */
+    .event-wrap .seolag .bxBox li {background: url(http://img.ocean2you.co.kr/renew/event/event_seolag.jpg) no-repeat; background-size: cover;}
+	/* 바다별빛 대포야 사랑해 */
+    .event-wrap .sscLove .bxBox li {background: url(http://img.ocean2you.co.kr/renew/event/event_sscLove.jpg) no-repeat; background-size: cover;}
+	/* 속초국화전 */
+    .event-wrap .gughwa .bxBox li {background: url(http://img.ocean2you.co.kr/renew/event/event_gughwa.jpg) no-repeat; background-size: cover;}
+    /* 설악동 단풍축제 */
+    .event-wrap .seolagMaple .bxBox li {background: url(http://img.ocean2you.co.kr/renew/event/event_seolagMaple.jpg) no-repeat; background-size: cover;}
+    /* 스탬프투어 */
+    .event-wrap .stamp .bxBox li {background: url(http://img.ocean2you.co.kr/renew/event/event_stamp.jpg) no-repeat; background-size: cover;}
+    /* 음악불꽃크루즈 */
+    .event-wrap .musicFire .bxBox li {background: url(http://img.ocean2you.co.kr/renew/event/event_musicFire.jpg) no-repeat; background-size: cover;}
+    /* 181106 소확행 캠프파이어 불꽃축제 */
+    .event-wrap .sohwaghaeng .bxBox li {background: url(http://img.ocean2you.co.kr/renew/event/event_sohwaghaeng.jpg) no-repeat; background-size: cover;}
+    /* 춘계 전국 중고등학교 검도대회 */
+    .event-wrap .geomdo .bxBox li {background: url(http://img.ocean2you.co.kr/renew/event/event_geomdo.jpg) no-repeat; background-size: cover;}
+	/* 190322 고성 미시령 힐클라임대회 */
+	.event-wrap .hill .bxBox li {background: url(http://img.ocean2you.co.kr/renew/event/event_thebike.jpg) no-repeat; background-size: cover;}
+    
+    
 	.fac-mt {margin-top: 40px; padding-top: 40px; border-top: 1px solid #ccc;}
 	.fac-mt-b {margin-bottom: 40px; padding-bottom: 40px; border-bottom: 1px solid #ccc;}
 	
-	.event-wrap .evt01-tb {position: relative; padding: 0 10px; text-align: left; margin-top: 54px; letter-spacing: -1px; line-height: 1.2;}
-	.event-wrap .evt01-tb > li {float: left; width: 100%; border: 1px solid #bfbfbf; margin-top: -1px;} 
+    /* 표 영역 */
+	.event-wrap .evt01-tb {position: relative; padding: 0 10px; text-align: left; margin-top: 54px; letter-spacing: -1px;}
+	.event-wrap .evt01-tb > li {float: left; width: 100%; border: 1px solid #bfbfbf; margin-top: -1px; line-height: 2.4;} 
 	.event-wrap .evt01-tb > li:first-child {margin-top: 0;}
 	.event-wrap .evt01-tb > li span {display: inline-block; vertical-align: top;}
 	.event-wrap .evt01-tb .l-th, .event-wrap .evt01-tb .s-lbl {background: #eaeaea;}
@@ -193,8 +250,6 @@
 	.event-wrap .evt01-tb .l-td.type02 > span  {height: 70px;}
 	.event-wrap .evt01-tb .l-td .s-lbl {border-right: 1px solid #bfbfbf; width: 25%; text-align: center;}
 	.event-wrap .evt01-tb .l-td .s-txt {padding-left: 10px; width: 75%;}
-	.event-wrap .evt01-tb .l-td:nth-child(4)
-	, .event-wrap .evt01-tb .l-td:nth-child(5) .s-lbl {line-height: 2.4;}
 	.event-wrap .evt01-tb .l-td:nth-child(2)
 	, .event-wrap .evt01-tb .l-td:nth-child(4)
 	, .event-wrap .evt01-tb .l-td:nth-child(6) {border-right: 0;}
@@ -202,14 +257,11 @@
 	.event-wrap .evt01-tb .l-td.nth-2
 	, .event-wrap .evt01-tb .l-td.nth-4
 	, .event-wrap .evt01-tb .l-td.nth-6 {border-right: 0;}
-	.event-wrap .lh-01 {line-height: 2.4 !important;}
-	.event-wrap .lh-02 {line-height: 1.2 !important;}
+	.event-wrap .evt01-tb .lh-01 {line-height: 2.4;}
+	.event-wrap .evt01-tb .lh-02 {line-height: 1.2;}
 	.event-wrap .br-r-01 {border-right: 0 !important;}
-	
-	.event-wrap .kite .l-td.nth-6 .s-txt,
-	.event-wrap .kite .l-td.nth-7 .s-txt,
-	.event-wrap .ocKite .l-td.nth-6 .s-txt,
-	.event-wrap .ocKite .l-td.nth-7 .s-txt {font-size: 15px; position: relative; top: 4px;}
+    .event-wrap .evt01-tb .l-td.type02.type03 {line-height: 1.2}
+    .event-wrap .evt01-tb .l-td.type02.type03 span:first-child {line-height: 2.4}
 	
 	.event-wrap .fc-list .txt-box {position: absolute; left: 0; top: 70px; width: 100%; color: #fff;}
 	.event-wrap .fc-list .txt-box .p1 {font-size: 22px;}
@@ -234,9 +286,9 @@
 	
 	
 	
-}*/
+}
 
-/*@media (min-width: 768px) and (max-width: 1431px) {
+@media (min-width: 992px) and (max-width: 1431px) {
 	
 	.title {position: relative;}
 	.title .tit-box {text-align: center; padding-top: 60px; color: #fff;}
@@ -245,12 +297,29 @@
 	.title .tit-box .p0 {font-size: 18px; margin-top: 10px;}
 	
 	.event-wrap {padding: 60px 0 170px;}
-	.bx-wrapper, .bx-wrapper, .event-wrap .container {width: 992px;}
+    
+    /* 탭메뉴 */
+	.tab-region {position: relative; text-align: center; margin-bottom: 35px; font-size: 0;}
+	.tab-region > li {display: inline-block; font-size: 16px; padding-left: 10px;}
+	.tab-region > li:first-child {padding-left: 0;}
+	.tab-region > li > a { 
+		display: block; color: #000; background: #fff; border: 1px solid #99adcb; 
+		padding: 0 35px; line-height: 52px; font-size: 20px; box-sizing: border-box;
+	}
+	.tab-region > li > a .d-arr {display: none;}
+	.tab-region > li.on > a {background: #99adcb; color: #fff;}
+	.tab-region > li.on > a .d-arr {display: inline-block;}
+	.cont-region {}
+	/* .cont-region > li {display: none;}
+	.cont-region > li.on {display: block;} */
+    
+	.bx-wrapper, .bx-wrapper, .event-wrap .container {max-width: 992px;}
 	#evt-box > section {word-break: keep-all; text-align: center;}
 	.event-wrap [class*=facil-] h3 {font-size: 21px; margin: 0px auto 25px; color: #595959; font-weight: 600;}
-	.event-wrap .bxBox {position: relative;}
     
-	.event-wrap .bxBox .bxS > li {width: 992px; height: 414px; background-size: 992px;}
+    /* 슬라이드영역 */
+	.event-wrap .bxBox {position: relative;}
+	.event-wrap .bxBox .bxS > li {width: 992px !important; height: 414px; background-size: 992px;}
 	.event-wrap .bxBox .li-1 {background: url(http://img.ocean2you.co.kr/renew/event/event_01.jpg) no-repeat;}
 	.event-wrap .bxBox .li-2 {background: url(http://img.ocean2you.co.kr/renew/event/event_02.jpg) no-repeat;}
     
@@ -269,19 +338,55 @@
 	.event-wrap .ocKite .bxBox .li-1 {background: url(http://img.ocean2you.co.kr/renew/event/event_ocKite01.jpg) no-repeat; background-size: cover;}
 	.event-wrap .ocKite .bxBox .li-2 {background: url(http://img.ocean2you.co.kr/renew/event/event_ocKite02.jpg) no-repeat; background-size: cover;}
 	
-	.event-wrap .evt01-tb {position: relative; padding: 0 10px; text-align: left; margin-top: 54px; letter-spacing: -1px; line-height: 1.2;}
-	.event-wrap .evt01-tb > li {float: left; width: 100%; border: 1px solid #bfbfbf; margin-top: -1px;} 
+	/* 181015_축제 6종 추가 + 텍스트로 변경_다솜 */
+    .event-wrap .facil-1 {position: relative; text-align: center;}
+    .event-wrap .facil-1 + .facil-1 {margin-top: 60px; padding-top: 60px; border-top: 1px solid #ccc;}
+    .event-wrap .facil-1 .bxBox li {position: relative; /*background: url(http://img.ocean2you.co.kr/renew/event/event_01.jpg) no-repeat; background-size: cover;*/} /* 기본 캠프파이어 축제 */
+    .event-wrap .facil-1 .bxBox .fc-li-box {box-sizing: border-box; display: table; width: 100%; height: 100%; padding: 0 125px; background: rgba(0, 0, 0, 0.65);}
+    .event-wrap .facil-1 .bxBox .fc-txt-box {display: table-cell; width: 100%; text-align: center; vertical-align: middle;}
+    .event-wrap .facil-1 .bxBox .fc-txt-box p {letter-spacing: -1px; color: #fff; word-break: keep-all;}
+    .event-wrap .facil-1 .bxBox .fc-txt-box .fc-li-tit {margin-bottom: 18px; font-size: 28px; line-height: 40px;}
+    .event-wrap .facil-1 .bxBox .fc-txt-box .fc-li-txt {font-size: 18px; line-height: 40px;}
+    .event-wrap .facil-1 .bxBox .li-1 {}
+    .event-wrap .facil-1 .bxBox .li-2 {}
+    
+	/* DMZ 전국 플라잉디스크 대회 */
+    .event-wrap .flying .bxBox li {background: url(http://img.ocean2you.co.kr/renew/event/event_fiying.jpg) no-repeat; background-size: cover;}
+	/* GBA 고성 DMZ 그란폰도 */
+    .event-wrap .granfondo .bxBox li {background: url(http://img.ocean2you.co.kr/renew/event/event_granfondo.jpg) no-repeat; background-size: cover;}
+	/* 통일 고성 명태축제 */
+    .event-wrap .pollock .bxBox li {background: url(http://img.ocean2you.co.kr/renew/event/event_pollock.jpg) no-repeat; background-size: cover;}
+	/* 설악문화제 */
+    .event-wrap .seolag .bxBox li {background: url(http://img.ocean2you.co.kr/renew/event/event_seolag.jpg) no-repeat; background-size: cover;}
+	/* 바다별빛 대포야 사랑해 */
+    .event-wrap .sscLove .bxBox li {background: url(http://img.ocean2you.co.kr/renew/event/event_sscLove.jpg) no-repeat; background-size: cover;}
+	/* 속초국화전 */
+    .event-wrap .gughwa .bxBox li {background: url(http://img.ocean2you.co.kr/renew/event/event_gughwa.jpg) no-repeat; background-size: cover;}
+    /* 설악동 단풍축제 */
+    .event-wrap .seolagMaple .bxBox li {background: url(http://img.ocean2you.co.kr/renew/event/event_seolagMaple.jpg) no-repeat; background-size: cover;}
+    /* 스탬프투어 */
+    .event-wrap .stamp .bxBox li {background: url(http://img.ocean2you.co.kr/renew/event/event_stamp.jpg) no-repeat; background-size: cover;}
+    /* 음악불꽃크루즈 */
+    .event-wrap .musicFire .bxBox li {background: url(http://img.ocean2you.co.kr/renew/event/event_musicFire.jpg) no-repeat; background-size: cover;}
+    /* 181106 소확행 캠프파이어 불꽃축제 */
+    .event-wrap .sohwaghaeng .bxBox li {background: url(http://img.ocean2you.co.kr/renew/event/event_sohwaghaeng.jpg) no-repeat; background-size: cover;}
+    /* 춘계 전국 중고등학교 검도대회 */
+    .event-wrap .geomdo .bxBox li {background: url(http://img.ocean2you.co.kr/renew/event/event_geomdo.jpg) no-repeat; background-size: cover;}
+	/* 190322 고성 미시령 힐클라임대회 */
+	.event-wrap .hill .bxBox li {background: url(http://img.ocean2you.co.kr/renew/event/event_thebike.jpg) no-repeat; background-size: cover;}
+    
+    /* 표 영역 */
+	.event-wrap .evt01-tb {position: relative; padding: 0 10px; text-align: left; margin-top: 54px; letter-spacing: -1px; /*line-height: 1.2;*/}
+	.event-wrap .evt01-tb > li {float: left; width: 100%; border: 1px solid #bfbfbf; margin-top: -1px; line-height: 2.4;} 
 	.event-wrap .evt01-tb > li:first-child {margin-top: 0;}
 	.event-wrap .evt01-tb > li span {display: inline-block; vertical-align: top;}
 	.event-wrap .evt01-tb .l-th, .event-wrap .evt01-tb .s-lbl {background: #eaeaea;}
-	.event-wrap .evt01-tb .l-th {text-align: center; color: #414141; font-size: 20px; padding: 15px 0; font-weight: 700;}
+	.event-wrap .evt01-tb .l-th {text-align: center; color: #414141; font-size: 20px; padding: 15px 0; font-weight: 700; line-height: 2.4;}
 	.event-wrap .evt01-tb .l-td {color: #5d5d5d; font-size: 0; width: 50%;}
 	.event-wrap .evt01-tb .l-td > span {padding: 12px 0; font-size: 19px;}
 	.event-wrap .evt01-tb .l-td.type02 > span  {height: 70px;}
 	.event-wrap .evt01-tb .l-td .s-lbl {border-right: 1px solid #bfbfbf; width: 25%; text-align: center;}
 	.event-wrap .evt01-tb .l-td .s-txt {padding-left: 10px; width: 75%;}
-	.event-wrap .evt01-tb .l-td:nth-child(4)
-	, .event-wrap .evt01-tb .l-td:nth-child(5) .s-lbl {line-height: 2.4;}
 	.event-wrap .evt01-tb .l-td:nth-child(2)
 	, .event-wrap .evt01-tb .l-td:nth-child(4)
 	, .event-wrap .evt01-tb .l-td:nth-child(6) {border-right: 0;}
@@ -292,17 +397,19 @@
 	.event-wrap .lh-01 {line-height: 2.4 !important;}
 	.event-wrap .lh-02 {line-height: 1.2 !important;}
 	.event-wrap .br-r-01 {border-right: 0 !important;}
+    .event-wrap .evt01-tb .l-td.type02.type03 {line-height: 1.2;}
+    .event-wrap .evt01-tb .l-td.type02.type03 span:first {line-height: 2.4;}
 	
 	.fac-mt {margin-top: 50px; padding-top: 50px; border-top: 1px solid #ccc;}
 	.fac-mt-b {margin-bottom: 50px; padding-bottom: 50px; border-bottom: 1px solid #ccc;}
-	.event-wrap .evt02-tb .l-td {color: #5d5d5d; font-size: 0; width: 33.33%;}
+	/*.event-wrap .evt02-tb .l-td {color: #5d5d5d; font-size: 0; width: 33.33%;}
 	.event-wrap .evt02-tb .l-td:nth-child(4) {line-height:1.2; border-right:1px solid #bfbfbf;}
 	.event-wrap .evt02-tb .l-td:nth-child(2), .event-wrap .evt02-tb .l-td:nth-child(3), .event-wrap .evt02-tb .l-td:nth-child(5), .event-wrap .evt02-tb .l-td:nth-child(6) {border-right:0;}
 	.event-wrap .evt02-tb .l-td.type03, .event-wrap .evt01-tb .l-td:nth-child(5) .s-lbl {line-height:2.4;}
 	.event-wrap .evt02-tb .l-td.type02, .event-wrap .evt02-tb .l-td:nth-child(5) .s-txt {line-height:1.2;}
 	.event-wrap .evt02-tb .l-td > span {font-size: 18px;}
-	.event-wrap .evt02-tb .l-td.type02 > span {height:auto;}
-	
+	.event-wrap .evt02-tb .l-td.type02 > span {height:auto;}*/
+    
 	
 	.event-wrap .fc-list .txt-box {position: absolute; left: 0; top: 105px; width: 100%; color: #fff;}
 	.event-wrap .fc-list .txt-box .p1 {font-size: 30px;}
@@ -320,10 +427,10 @@
 	.bx-wrapper .bx-pager.bx-default-pager a:hover, .bx-wrapper .bx-pager.bx-default-pager a.active {background: #44a8ff; border-color: #44a8ff;}
 	
 	
-}*/
+}
 
-/*@media (min-width: 1432px) {*/
-@media (min-width: 768px) {
+/*@media (min-width: 768px) {*/
+@media (min-width: 1432px) {
 	.title {position: relative;}
 	.title .tit-box {text-align: center; padding-top: 76px; color: #fff;}
 	.title .tit-box h2 {font-size: 27px;}
@@ -464,8 +571,4 @@
 	.bx-wrapper .bx-pager.bx-default-pager a:hover, .bx-wrapper .bx-pager.bx-default-pager a.active {background: #44a8ff; border-color: #44a8ff;}
 	
 	
-}
-
-@media (min-width: 768px) and (max-width: 768px) {
-    
 }

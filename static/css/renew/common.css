@@ -88,19 +88,22 @@ body.of-hidden {overflow: hidden;}
 .mNav-box {
 	position: fixed; right: -260px; top: 0;
 	height: 100%; width: 260px; 
-    background: #000;
+    background: #19223f;
     /*background: url(http://img.ocean2you.co.kr/renew/intro_bg.jpg) center top;
-	background-attachment: fixed;
+	background-attachment: fixed; 
 	-webkit-background-size: cover;
 	background-size: cover;*/
 	z-index: 4; /*z-index: 99995;*/
 	color: #fff;
 }
 .mNav-box.on {right: 0;}
-.mNav-box h2 {padding: 40px 20px; font-size: 18px;}
-.mNav-box .mNav {border-top: 1px solid #fff;}
-.mNav-box .mNav > li {padding: 12px 20px;}
-.mNav-box .mNav > li:first-child {padding-top: 20px;}
+.mNav-box h2 {position: relative; box-sizing: border-box; padding: 33px 22px 25px; font-size: 18px; background: #334675;}
+.mNav-box .logo-m a {position: relative; display: inline-block; min-width: 120px; width: 60%;}
+.mNav-box .logo-m img {position: relative; width: 100%;}
+.mNav-box .mNav {border-top: 1px solid #484e68;}
+.mNav-box .mNav > li {/*padding: 12px 20px; */border-bottom: 1px solid #454f68;}
+/*.mNav-box .mNav > li:first-child {padding-top: 20px;}*/
+.mNav-box .mNav > li a {display: block; padding: 12px 20px 13px;}
 .mNav-box h2 a, .mNav-box .mNav > li a {color: #fff; font-size: 16px;}
 .header .nav-bar .nav > li.on > a, .mNav-box .mNav > li.on a,
 .mNav-box h2 a:hover, .mNav-box .mNav > li a:hover {color: #44a8ff;}
@@ -134,7 +137,7 @@ body.of-hidden {overflow: hidden;}
 
 	.rtBookingBn {position: fixed; display: block; right: 6px; bottom: 65px;background: rgba(38, 154, 255, 0.76); font-size: 14px; color: #fff !important; line-height: 1.2; text-align: center; box-sizing: border-box; padding: 8px 20px; box-shadow: 1px 2px 2px 2px rgba(0,0,0, 0.2); letter-spacing: -0.5px;}
 	.rtBookingBn img {width: 19px; margin-bottom: 2px;}
-	.header.on, .header.on .nav-bar .nav > li {height: 78px;}
+	.header.on, .header.on .nav-bar .nav > li {height: 88px;}
 
 	.header {font-family: "Noto Sans KR", "Nanum Gothic", sans-serif;}
 	.header {position: absolute; z-index: 5; top:0; width: 100%; height: 98px;}

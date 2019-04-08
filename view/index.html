@@ -32,9 +32,9 @@
 	<link rel="stylesheet" href="http://static.ocean2you.co.kr/css/renew/reset_custom.css">
 	<link rel="stylesheet" href="http://static.ocean2you.co.kr/css/renew/jquery.mb.YTPlayer.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.12/jquery.bxslider.css">
-	<!--<link rel="stylesheet" href="http://static.ocean2you.co.kr/css/renew/common.css"-->
+	<link rel="stylesheet" href="http://static.ocean2you.co.kr/css/renew/common.css">
+	<!--<link rel="stylesheet" href="../static/css/renew/common.css">-->
 	<link rel="stylesheet" href="http://static.ocean2you.co.kr/css/renew/index.css">
-	<link rel="stylesheet" href="../static/css/renew/common.css">
 	<!--<link rel="stylesheet" href="../static/css/renew/index.css">-->
 	<!-- 190226 css 추가 -->
 	<link rel="stylesheet" href="http://static.ramadapt.co.kr/css/totalweb.css">
@@ -143,7 +143,7 @@
 	    </div>
 -->
 	    
-	    <div class="layer-pop-bg" id="pop-bustour" style="display: none;">
+	   <!-- <div class="layer-pop-bg" id="pop-bustour" style="display: none;">
             <div class="bus-pop-wrap">
                 <div class="bus-pop-con">
                     <a href="http://ocean2you.co.kr/view/" target="_blank" title="예약 페이지로 이동">
@@ -152,7 +152,7 @@
                 </div>
                 <a href="javascript:;" class="btn-pop-close"></a>
             </div>
-        </div>
+        </div>-->
         <!-- // END : 181211 상단띠배너 추가 및 팝업 추가 -->
 	    
 		<div class="vid-wrap">
@@ -167,82 +167,80 @@
 			</section>
 
 			<header class="header type-2" id="gnb-header">
-				<div class="container">
-				    <!-- 180711 로고 텍스트 추가 -->
-					<a href="#none" class="logo-box">
-						<img class="logo" src="http://img.ocean2you.co.kr/renew/logo.png" alt="오션투유리조트">
+							<div class="container">
+					<a href="http://ocean2you.co.kr" class="logo-box">
+						<img class="logo" src="http://img.ocean2you.co.kr/renew/logo.png" alt="오션투유 리조트">
 						<p class="logo-txt">
 						    오션투유리조트
                             <span>속초설악비치 호텔앤콘도</span>
 						</p>
+						<!--
+						<span class="mg-l"></span>
+						<img class="gcLogo" src="http://img.ocean2you.co.kr/renew/oc2_gcLogo.png" alt="고코투어">
+						-->
 					</a>
-
+					
 					<button class="mNav-btn" id="mNav-btn" type="button">
 						<span></span>
 						<span></span>
 						<span></span>
 					</button>
-
-					<!--171023 faq버튼 추가-->
-					<nav class="nav-bar">
+					<nav class="nav-bar">						
 						<div class="d1">
-							<a class="faq-a" id="faq-a" href="#">고코투어 이벤트 당첨안내</a>
+														<a class="faq-a" id="faq-a" href="#">고코투어 이벤트 당첨안내</a>
 							<a class="mFaq-a" id="mFaq-a" href="#"><span><img src="http://img.ocean2you.co.kr/renew/m_icon.png">이벤트 안내</span></a>
-						</div>
-						<!-- 190226 메뉴 수정 -->
+													</div>
 						<ul class="nav clr">
-							<li class="fst"><a href="">오션투유소개</a></li>
-							<li><a href="">객실안내</a></li>
-							<li><a href="">다이닝</a></li>
-							<li><a href="">연회&amp;부대시설</a></li>
-							<li><a href="">이벤트/축제</a></li>
-							<li><a href="">관광지</a></li>
-							<li><a href="">오시는길</a></li>
-							<li><a href="">단체문의</a></li>
-							<li><a href="">장기/단기숙박</a></li>
-							<!--<li class="lst"><a href="">예약/예약확인</a></li>-->
+							<li class="fst"><a href="http://ocean2you.co.kr/intro/">오션투유소개</a></li>
+							<li><a href="http://ocean2you.co.kr/facil/">객실안내</a></li>
+							<li><a href="http://ocean2you.co.kr/dining">다이닝</a></li>
+							<li><a href="http://ocean2you.co.kr/amenities/">연회&amp;부대시설</a></li>
+							<li><a href="http://ocean2you.co.kr/event/">이벤트/축제</a></li>
+							<li><a href="http://ocean2you.co.kr/tourist">관광지</a></li>
+							<li><a href="http://ocean2you.co.kr/?go_scroll=wayto">오시는길</a></li>
+							<li><a href="http://ocean2you.co.kr/group/">단체문의</a></li>
+							<li><a href="http://ocean2you.co.kr/rent/">장기/단기숙박</a></li>
+							<li class="lst" onclick="location.href='http://ocean2you.co.kr/view/';" style="cursor:pointer"><a href="javascript:;">예약/예약확인</a></li>
 						</ul>
 					</nav>
-					
-                    <!-- 190226 예약하기 메뉴 추가 -->
                     <div class="bk-menu ocean">
-                        <a href="#none" class="btn-bk">예약하기</a>
-                        <ul class="bk-list">
-                            <li class="item item-1 fst"><a href="#none">객실예약</a></li>
-                            <li class="item item-2"><a href="#none">예약확인</a></li>
-                            <li class="item item-3"><a href="#none">단체예약</a></li>
-                            <li class="item item-4"><a href="#none">장기/단기예약</a></li>
+                        <a href="/view" class="btn-bk">예약하기</a>
+                        <ul class="bk-list" style="display: none; height: 303px; padding-top: 0px; margin-top: 0px; padding-bottom: 0px; margin-bottom: 0px;">
+                            <li class="item item-1 fst"><a href="/view">객실예약</a></li>
+                            <li class="item item-2"><a href="/history/?dd=Sws5TzdVKg==">예약확인</a></li>
+                            <li class="item item-3"><a href="/group">단체예약</a></li>
+                            <li class="item item-4"><a href="/rent">장기/단기예약</a></li>
                         </ul>
                     </div>
 				</div>
 				<nav class="mNav-box" id="mNav-box">
-                    <!-- 190403 h2 변경 -->
-					<h2 class="logo-m"><a href="#none"><img src="http://img.ocean2you.co.kr/renew/logo_m.png" alt="오션투유리조트"></a></h2>
-                    <!-- 190226 예약하기 메뉴 추가 -->
-                    <!-- 190403 멀티클래스 ocean 추가 -->
+					<h2 class="logo-m"><a href="http://ocean2you.co.kr"><img src="http://img.ocean2you.co.kr/renew/logo_m.png" alt="오션투유리조트"></a></h2>
+					 <!-- 190226 예약하기 메뉴 추가 -->
                     <ul class="bk-menu-m ocean clr">
                         <li>
-                            <a href="#none" target="_blank">객실예약</a>
+                            <a href="/view/">객실예약</a>
                         </li>
                         <li>
-                            <a href="#none">예약확인</a>
+                            <a href="/history">예약확인</a>
                         </li>	
                     </ul>
-				    <!-- 190226 메뉴 수정 -->
 					<ul class="mNav">
-                        <li class="fst"><a href="">오션투유소개</a></li>
-                        <li><a href="">객실안내</a></li>
-                        <li><a href="">다이닝</a></li>
-                        <li><a href="">연회&amp;부대시설</a></li>
-                        <li><a href="">이벤트/축제</a></li>
-                        <li><a href="">관광지</a></li>
-                        <li><a href="">오시는길</a></li>
-                        <li><a href="">단체문의</a></li>
-                        <li><a href="">장기/단기숙박</a></li>
+						<li class="fst"><a href="http://ocean2you.co.kr/intro/">오션투유소개</a></li>
+						<li><a href="http://ocean2you.co.kr/facil/">객실안내</a></li>
+						<li><a href="http://ocean2you.co.kr/dining">다이닝</a></li>
+                        <li><a href="http://ocean2you.co.kr/amenities/">연회&amp;부대시설</a></li>
+						<li><a href="http://ocean2you.co.kr/event/">이벤트/축제</a></li>
+						<li><a href="http://ocean2you.co.kr/tourist">주변관광지</a></li>
+						<li><a href="http://ocean2you.co.kr/?go_scroll=wayto">오시는길</a></li>
+						<li><a href="http://ocean2you.co.kr/group/">단체행사문의</a></li>
+						<li><a href="http://ocean2you.co.kr/rent/">장기/단기숙박</a></li>
+						<!--<li class="lst" onclick="location.href='http://ocean2you.co.kr/view/';" style="cursor:pointer"><a href="javascript:;">예약/예약확인</a></li>-->
 					</ul>
 				</nav>
 			</header>
 
+        
+            
 			<section class="main" id="main">
 
 				<div class="txt-box" id="txt-box">
@@ -287,6 +285,14 @@
 			</section>
 		</div>
 
+        <!-- 190405 오션투유 메인 공지 -->
+        <div class="pop-notice">
+            <p class="pop-ugn-box">
+                <a href="#none" class="img-pop-ugn"><img src="http://img.ocean2you.co.kr/renew/banner/notice_20190405.png" alt="현재 오션투유는 정상 운영 중입니다" /></a>
+            </p>
+        </div>
+        <!--//END : 190405 오션투유 메인 공지 -->
+        
 		<section class="intro" id="setTop">
 			<div class="container">
                 

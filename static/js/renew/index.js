@@ -6,6 +6,13 @@ $(function () {
 	$(window).on('resize', function () {
         resizeWin();
 	});
+    
+	// 190405 메인 공지 클릭 시 
+    if( $('.pop-notice').css('display') == 'block' ){
+        $('html, body').on('click', function() {
+            $('.pop-notice').hide();
+        });
+    }
 	
 	// 자세히보기 클릭시
 	$("#txt-box .more-a").on('click', function() {

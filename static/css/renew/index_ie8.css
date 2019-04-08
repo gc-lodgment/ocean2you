@@ -1,5 +1,11 @@
 @charset 'utf-8';
 
+/* 190405 오션투유 메인 공지 */
+.pop-notice {position: fixed; z-index: 99999; width: 100%; height: 100%; top: 0; left: 0; text-align: center;}
+.pop-notice .pop-ugn-box {position: relative; display: table; box-sizing: border-box; width: 100%; height: 100%;}
+.pop-notice .pop-ugn-box .img-pop-ugn {display: table-cell; text-align: center; vertical-align: middle;}
+.pop-notice .pop-ugn-box .img-pop-ugn img {position: relative;}
+
 /* 1810110 상단띠배너_다솜 */
 .topbn-wrap {z-index: 99991; position: absolute; width: 100%; /*height: 77px;*/ margin: 0 auto; top: 0; text-align: center;}
 .topbn-wrap .bx-wrapper {width: 100%;}

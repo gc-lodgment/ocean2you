@@ -21,7 +21,6 @@
 	<meta name="twitter:description" content="천혜의 절경이 펼쳐진 강원도 설악, 속초, 고성에 위치한 오션투유 리조트">
 	<meta name="twitter:title" content="오션투유리조트">
 	<!--<link rel="canonical" href="도메인">-->
-	<script type="text/javascript" src="http://localhost:35729/livereload.js"></script>
 	
 <!--	<link rel="stylesheet" href="http://static.ocean2you.co.kr/fonts/nanumbarungothic/nanumbarungothic.css"> -->
 <!--	<link rel="stylesheet" href="../../static/fonts/nanumbarungothic/nanumbarungothic.css"> -->
@@ -31,7 +30,7 @@
 	<link rel="stylesheet" href="http://static.ocean2you.co.kr/css/renew/reset_custom.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.12/jquery.bxslider.css">
 	<link rel="stylesheet" href="http://static.ocean2you.co.kr/css/renew/common.css">
-	<!--<link rel="stylesheet" href="http://static.ocean2you.co.kr/css/renew/event/init.css">-->
+	<link rel="stylesheet" href="http://static.ocean2you.co.kr/css/renew/event/init.css">
 
 	<!--<link rel="stylesheet" href="../../static/css/renew/event/init.css">-->
 <!--
@@ -55,7 +54,8 @@
 		<link rel="stylesheet" href="http://static.ocean2you.co.kr/css/renew/event/init_ie8.css">
 		<script type="text/javascript" src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
 	<![endif]-->
-	
+
+	<script type="text/javascript" src="http://localhost:35729/livereload.js"></script>
 </head>
 <body>
 
@@ -206,7 +206,6 @@
 
 				<ul class="cont-region">
 					<li class="goseong on">
-						<!--180621 오션투유연나리기-->
 						<section class="facil-1 ocKite">
 							<ul class="fc-list">
 								<li class="nth-1">
@@ -253,285 +252,8 @@
 									<span class="s-txt" style="cursor:pointer;" onclick="window.open('http://korean.visitkorea.or.kr/kor/bz15/where/festival/festival.jsp?cid=2541578','_blank')">▷소망 연날리기 축제</span>
 								</li>
 							</ul>
-							
 						</section>
-				
-						<!-- 180425 미드나잇 이벤트 추가-->
-						<section class="facil-1 midnight">
-							<ul class="fc-list">
-								<li class="nth-1">
-									<h3 class="ftfm-mg">2018 Midnight Picnic Festival</h3>
-									<div class="bxBox">
-										<!--<iframe src="https://www.youtube.com/embed/n0foR1sU99Y?version=3&loop=1&autoplay=1&playlist=n0foR1sU99Y" frameborder="0" allowfullscreen></iframe>-->
-										<!--<iframe src="https://www.youtube.com/embed/n0foR1sU99Y?autoplay=1&loop=1" frameborder="0" allowfullscreen></iframe>-->
-										<iframe id="movieStyle" src="https://www.youtube.com/embed/n0foR1sU99Y?rel=0&enablejsapi=1" frameborder="0" allowfullscreen></iframe>
-										<!-- 181016 api 스크립트 삽입 -->
-										<script type="text/javascript">
-											var tag = document.createElement('script');
-											tag.src = "https://www.youtube.com/iframe_api";
-											var firstScriptTag = document.getElementsByTagName('script')[0];
-											firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
-						
-											var player;
-											function onYouTubeIframeAPIReady() {
-												player = new YT.Player('movieStyle', {
-													events: {
-														'onReady': onPlayerReady
-													}
-												});
-											}
-											function onPlayerReady(event) {
-												event.target.setVolume(20);
-												event.target.playVideo();// 플레이어 자동실행 
-											}
-										</script>
-									</div>
-								</li>
-							</ul>
-							
-							<ul class="evt01-tb clr">
-								<li class="l-th ftfm-mg nth-1">
-									2018 Midnight Picnic Festival
-								</li>
-								<li class="l-td nth-2">
-									<span class="s-lbl">기간</span>
-									<span class="s-txt">2018년 7월 13일(금)~15일(일)</span>
-								</li>
-								<li class="l-td nth-3">
-									<span class="s-lbl">주최</span>
-									<span class="s-txt">reve</span>
-								</li>
-								<li class="l-td nth-4">
-									<span class="s-lbl">요금</span>
-									<span class="s-txt">-</span>
-								</li>
-								<li class="l-td nth-5 lh-01">
-									<span class="s-lbl">시간</span>
-									<span class="s-txt">10:00 ~ 23:00</span>
-								</li>
-								<li class="l-td nth-6">
-									<span class="s-lbl lh-01">위치</span>
-									<span class="s-txt">
-										강원도 고성 삼포해수욕장
-									</span>
-								</li>
-								<li class="l-td nth-7 lh-01">
-									<span class="s-lbl">상세보기</span>
-									<span class="s-txt" style="cursor:pointer;" onclick="window.open('http://www.mipic.co.kr/','_blank');">http://www.mipic.co.kr/</span>
-								</li>
-							</ul>
-						</section>
-						<!-- // -->
 
-						<section class="facil-1 sohwaghaeng">
-							<ul class="fc-list">
-								<li class="nth-1">
-									<h3 class="ftfm-mg">삼포해수욕장 소확행 불꽃놀이 & 캠프파이어 축제 </h3>
-									<div class="bxBox" id="bxBox-3">
-										<ul class="bxS">
-											<li class="li-1"></li>
-											<li class="li-2">
-												<div class="fc-li-box">
-													<div class="fc-txt-box">
-														<p class="fc-li-tit">고성 오션투유 삼포해수욕장 소/확/행 불꽃 캠프파이어 축제</p>
-														<p class="fc-li-txt">
-															<span class="hidden-xs">2018년을 정리하는 소소하지만 확실한 행복<br></span>
-															2018년의 마지막날, 사랑하는 가족, 친구와 함께 아름다운 삼포해변의 밤하늘을 만나보세요.<br>
-															<br>
-															<span class="hidden-xs">별과 바람, 푸른바다를 배경으로 하는 삼포해변에서 불꽃축제와 캠프파이어!<br></span>
-															“고성 오션투유 삼포해수욕장 소/확/행 불꽃 캠프파이어 축제”로 초대합니다.<br>
-															<br>
-															※ 본 행사는 우천 시 취소될 수 있습니다.
-														</p>
-													</div>
-												</div>
-											</li>
-										</ul>
-										
-									</div>
-								</li>
-							</ul>
-							<ul class="evt01-tb evt02-tb clr">
-								<li class="l-th ftfm-mg">
-									삼포해수욕장 소확행 불꽃놀이 & 캠프파이어 축제 
-								</li>
-								<li class="l-td">
-									<span class="s-lbl">기간</span>
-									<span class="s-txt">2018년 12월 31일(월)</span>
-								</li>
-								<li class="l-td">
-									<span class="s-lbl">주최</span>
-									<span class="s-txt">오션투유리조트</span>
-								</li>
-								<li class="l-td type02">
-									<span class="s-lbl">요금</span>
-									<span class="s-txt">무료</span>
-								</li>
-								<li class="l-td type02 type03">
-									<span class="s-lbl">시간</span>
-									<span class="s-txt">일몰 이후 캠프파이어<br>23:30 새해맞이 불꽃놀이 진행</span>
-								</li>
-								<li class="l-td type03">
-									<span class="s-lbl">위치</span>
-									<span class="s-txt">강원도 고성 삼포해수욕장</span>
-								</li>
-								<li class="l-td type03">
-									<span class="s-lbl">상세보기</span>
-									
-									<!-- 링크가 걸립니다. URL 미정 -->
-									<span class="s-txt" style="cursor:pointer;" onclick="window.open('https://korean.visitkorea.or.kr/detail/fes_detail.html?cotid=f289af9c-82e9-44ef-848b-cea1c6fd6a86','_blank')">▶불꽃 캠프파이어 축제</span>
-								</li>
-							</ul>
-							
-						</section>
-						
-						
-						<!-- 180515 라벤더 축제 -->
-						<section class="facil-1 lavender">
-							<ul class="fc-list">
-								<li class="nth-1">
-									<h3 class="ftfm-mg">2018 고성 라벤더 축제</h3>
-									<div class="bxBox" id="bxBox-1">
-										<ul class="bxS">
-											<li class="li-1"></li>
-											<li class="li-2"></li>
-										</ul>
-										
-									</div>
-								</li>
-							</ul>
-							
-							<ul class="evt01-tb clr">
-								<li class="l-th ftfm-mg nth-1">
-									2018 고성 라벤더 축제
-								</li>
-								<li class="l-td nth-2 lh-01">
-									<span class="s-lbl">기간</span>
-									<span class="s-txt">2018.06.01(금)~2018.06.21(목)</span>
-								</li>
-								<li class="l-td nth-3 lh-02">
-									<span class="s-lbl lh-01">주최</span>
-									<span class="s-txt">하늬라벤더팜,<span class="hidden-xs"></span>꽃내마루 라벤더 연구회</span>
-								</li>
-								<li class="l-td nth-4 lh-01">
-									<span class="s-lbl">요금</span>
-									<span class="s-txt">무료</span>
-								</li>
-								<li class="l-td nth-5 lh-01">
-									<span class="s-lbl">시간</span>
-									<span class="s-txt">09:00 ~ 19:00</span>
-								</li>
-								<li class="l-td nth-6 lh-02">
-									<span class="s-lbl lh-01">위치</span>
-									<span class="s-txt">강원도 고성군 간성읍 꽃대마을길 <span class="hidden-xs"></span>175</span>
-								</li>
-								<li class="l-td nth-7 lh-01">
-									<span class="s-lbl">상세보기</span>
-									<span class="s-txt" style="cursor:pointer;" onclick="window.open('http://www.lavenderfarm.co.kr/src/contents/onepage.php?design_one_pages_id=3','_blank');">▷고성 라벤더 축제</span>
-								</li>
-							</ul>
-							
-						</section>
-						
-						<!-- 20180323 연날리기 이벤트 추가 kite 클래스 추가 -->
-						<!--<section class="facil-1 kite fac-mt">
-							<ul class="fc-list">
-								<li class="nth-1">
-									<h3 class="ftfm-mg"> 리기태 명장과 함께 하는 삼포해수욕장 어린이날 연날리기 축제 2018</h3>
-									<div class="bxBox" id="bxBox-2">
-										<ul class="bxS">
-											<li class="li-1"></li>
-											<li class="li-2"></li>
-										</ul>
-										
-									</div>
-								</li>
-							</ul>
-							
-							<ul class="evt01-tb clr">
-								<li class="l-th ftfm-mg nth-1">
-									 리기태 명장과 함께 하는 삼포해수욕장 어린이날 연날리기 축제 2018
-								</li>
-								<li class="l-td nth-2">
-									<span class="s-lbl">기간</span>
-									<span class="s-txt">2018년 5월 6일 하루</span>
-								</li>
-								<li class="l-td nth-3">
-									<span class="s-lbl">주최</span>
-									<span class="s-txt">오션투유리조트</span>
-								</li>
-								<li class="l-td nth-4">
-									<span class="s-lbl">요금</span>
-									<span class="s-txt">무료</span>
-								</li>
-								<li class="l-td nth-5 lh-01">
-									<span class="s-lbl">시간</span>
-									<span class="s-txt">12:00 ~ 16:00</span>
-								</li>
-								<li class="l-td nth-6 lh-02">
-									<span class="s-lbl lh-01">위치</span>
-									<span class="s-txt">
-										※연 세트 프론트에서 제공<br>
-										※소망연날리기체험장 : 삼포해수욕장
-									</span>
-								</li>
-								<li class="l-td nth-7 lh-01">
-									<span class="s-lbl">상세보기</span>
-									<span class="s-txt" style="cursor:pointer;" onclick="window.open('http://korean.visitkorea.or.kr/kor/bz15/where/festival/festival.jsp?cid=2541578','_blank');">▷소망 연날리기 축제</span>
-								</li>
-							</ul>
-						</section>-->
-						
-						<section class="facil-1">
-							<ul class="fc-list">
-								<li class="nth-1">
-									<h3 class="ftfm-mg">삼포해수욕장 불꽃놀이 및 캠프파이어</h3>
-									<div class="bxBox" id="bxBox-1">
-										<ul class="bxS">
-											<li class="li-1"></li>
-											<li class="li-2"></li>
-										</ul>
-										
-									</div>
-								</li>
-							</ul>
-							
-							<ul class="evt01-tb evt02-tb clr">
-								<li class="l-th ftfm-mg">
-									삼포해수욕장 불꽃놀이 및 캠프파이어
-								</li>
-								<li class="l-td">
-									<span class="s-lbl">기간</span>
-									<span class="s-txt">2017년 12월 31일 하루</span>
-								</li>
-								<li class="l-td">
-									<span class="s-lbl">주최</span>
-									<span class="s-txt">오션투유리조트</span>
-								</li>
-								<li class="l-td type02">
-									<span class="s-lbl">요금</span>
-									<span class="s-txt">무료</span>
-								</li>
-								<li class="l-td type02 type03">
-									<span class="s-lbl">시간</span>
-									<span class="s-txt">일몰 이후 캠프파이어 / 23:30 새해맞이 불꽃놀이 진행</span>
-								</li>
-								<li class="l-td">
-									<span class="s-lbl">위치</span>
-									<span class="s-txt">강원도 고성 삼포해수욕장</span>
-								</li>
-								<li class="l-td">
-									<span class="s-lbl">상세보기</span>
-									<span class="s-txt" style="cursor:pointer;" onclick="window.open('http://korean.visitkorea.or.kr/kor/bz15/where/festival/festival.jsp?cid=2525641','_blank');">▷불꽃 캠프파이어 축제 2017</span>
-								</li>
-								<!-- <li class="l-td">
-									<span class="s-lbl">홈페이지</span>
-									<span class="s-txt" style="cursor:pointer;" onclick="location.href='http://www.ocean2you.co.kr'">http://www.ocean2you.co.kr</span>
-								</li> -->
-							</ul>
-						</section>
-                            
-                        <!-- 190322 고성 미시령 힐클라임대회 추가 -->
 						<section class="facil-1 hill">
 							<ul class="fc-list">
 								<li class="nth-1">
@@ -645,12 +367,230 @@
 								</li>
 							</ul>
 						</section>
+
+						<section class="facil-1 lavender">
+							<ul class="fc-list">
+								<li class="nth-1">
+									<h3 class="ftfm-mg">2019 고성 라벤더 축제</h3>
+									<div class="bxBox" id="bxBox-1">
+										<ul class="bxS">
+											<li class="li-1"></li>
+											<li class="li-2"></li>
+										</ul>
+										
+									</div>
+								</li>
+							</ul>
+							
+							<ul class="evt01-tb clr">
+								<li class="l-th ftfm-mg nth-1">
+									2019 고성 라벤더 축제
+								</li>
+								<li class="l-td nth-2 lh-01">
+									<span class="s-lbl">기간</span>
+									<span class="s-txt">2019.06.01(토) ~ 06.23(일)</span>
+								</li>
+								<li class="l-td nth-3 lh-02">
+									<span class="s-lbl lh-01">주최</span>
+									<span class="s-txt">하늬라벤더팜,<span class="hidden-xs"></span>꽃내마루 라벤더 연구회</span>
+								</li>
+								<li class="l-td nth-4 lh-01">
+									<span class="s-lbl">요금</span>
+									<span class="s-txt">무료</span>
+								</li>
+								<li class="l-td nth-5 lh-01">
+									<span class="s-lbl">시간</span>
+									<span class="s-txt">09:00 ~ 19:00</span>
+								</li>
+								<li class="l-td nth-6 lh-02">
+									<span class="s-lbl lh-01">위치</span>
+									<span class="s-txt">강원도 고성군 간성읍 꽃대마을길 <span class="hidden-xs"></span>175</span>
+								</li>
+								<li class="l-td nth-7 lh-01">
+									<span class="s-lbl">상세보기</span>
+									<span class="s-txt" style="cursor:pointer;" onclick="window.open('http://www.lavenderfarm.co.kr/src/contents/onepage.php?design_one_pages_id=3','_blank');">▷고성 라벤더 축제</span>
+								</li>
+							</ul>
+						</section>
+
+						<section class="facil-1 midnight">
+							<ul class="fc-list">
+								<li class="nth-1">
+									<h3 class="ftfm-mg">2019 Midnight Picnic Festival</h3>
+									<div class="bxBox">
+										<!--<iframe src="https://www.youtube.com/embed/n0foR1sU99Y?version=3&loop=1&autoplay=1&playlist=n0foR1sU99Y" frameborder="0" allowfullscreen></iframe>-->
+										<!--<iframe src="https://www.youtube.com/embed/n0foR1sU99Y?autoplay=1&loop=1" frameborder="0" allowfullscreen></iframe>-->
+										<iframe id="movieStyle" src="https://www.youtube.com/embed/n0foR1sU99Y?rel=0&enablejsapi=1" frameborder="0" allowfullscreen></iframe>
+										<!-- 181016 api 스크립트 삽입 -->
+										<script type="text/javascript">
+											var tag = document.createElement('script');
+											tag.src = "https://www.youtube.com/iframe_api";
+											var firstScriptTag = document.getElementsByTagName('script')[0];
+											firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
 						
-						<!-- DMZ 전국 플라잉디스크 대회 추가 -->
+											var player;
+											function onYouTubeIframeAPIReady() {
+												player = new YT.Player('movieStyle', {
+													events: {
+														'onReady': onPlayerReady
+													}
+												});
+											}
+											function onPlayerReady(event) {
+												event.target.setVolume(20);
+												event.target.playVideo();// 플레이어 자동실행 
+											}
+										</script>
+									</div>
+								</li>
+							</ul>
+							
+							<ul class="evt01-tb clr">
+								<li class="l-th ftfm-mg nth-1">
+									2019 Midnight Picnic Festival
+								</li>
+								<li class="l-td nth-2">
+									<span class="s-lbl">기간</span>
+									<span class="s-txt">2019년 7월 12일(금) ~ 13일(토)</span>
+								</li>
+								<li class="l-td nth-3">
+									<span class="s-lbl">주최</span>
+									<span class="s-txt">reve</span>
+								</li>
+								<li class="l-td nth-4">
+									<span class="s-lbl">요금</span>
+									<span class="s-txt">-</span>
+								</li>
+								<li class="l-td nth-5 lh-01">
+									<span class="s-lbl">시간</span>
+									<span class="s-txt">10:00 ~ 23:00</span>
+								</li>
+								<li class="l-td nth-6">
+									<span class="s-lbl lh-01">위치</span>
+									<span class="s-txt">
+										강원도 고성 삼포해수욕장
+									</span>
+								</li>
+								<li class="l-td nth-7 lh-01">
+									<span class="s-lbl">상세보기</span>
+									<span class="s-txt" style="cursor:pointer;" onclick="window.open('http://www.mipic.co.kr/','_blank');">http://www.mipic.co.kr/</span>
+								</li>
+							</ul>
+						</section>
+						
+						<section class="facil-1 granfondo">
+							<ul class="fc-list">
+								<li class="nth-1">
+									<h3 class="ftfm-mg">2019 GBA 고성 DMZ 그란폰도</h3>
+									<div class="bxBox" id="bxBox-3">
+										<ul class="bxS">
+											<li class="li-1"></li>
+											<li class="li-2">
+												<div class="fc-li-box">
+													<div class="fc-txt-box">
+														<p class="fc-li-tit">2019 GBA 고성 DMZ 그란폰도</p>
+														<p class="fc-li-txt">
+															고성군 천혜의 자연환경인 산, 바다, 호수 그리고 DMZ를 달릴 수 있는 코스로 참가자들에게 보다 전문적인 특별한 경험을 선사하고 자신의 한계를 뛰어넘는 스포츠의 진정한 재미를 느낄 수 있습니다. <br>
+															고성 그란폰도에서만 느낄 수 있는 온 가족이 함께 하는 특별한 이벤트도 즐겨보세요!
+														</p>
+													</div>
+												</div>
+											</li>
+										</ul>
+										
+									</div>
+								</li>
+							</ul>
+							
+							<ul class="evt01-tb clr">
+								<li class="l-th ftfm-mg nth-1">
+									 2019 GBA 고성 DMZ 그란폰도
+								</li>
+								<li class="l-td nth-2">
+									<span class="s-lbl">기간</span>
+									<span class="s-txt">2019-10-12 ~ 10-12 (1일간)</span>
+								</li>
+								<li class="l-td nth-3">
+									<span class="s-lbl">주최</span>
+									<span class="s-txt">경동대학교</span>
+								</li>
+								<li class="l-td nth-4">
+									<span class="s-lbl">요금</span>
+									<span class="s-txt">40,000원</span>
+								</li>
+								<li class="l-td nth-5">
+									<span class="s-lbl">시간</span>
+									<span class="s-txt">10월 12일 15시</span>
+								</li>
+								<li class="l-td nth-6">
+									<span class="s-lbl">위치</span>
+									<span class="s-txt">거진읍 공설운동장</span>
+								</li>
+								<li class="l-td nth-7">
+									<span class="s-lbl">상세보기</span>
+									<span class="s-txt" style="cursor:pointer;" onclick="window.open('http://www.thebike.co.kr/race/view.php?r_idx=147','_blank')">▶여기를 클릭해 주세요.</span>
+								</li>
+							</ul>
+						</section>
+						
+						<section class="facil-1 pollock">
+							<ul class="fc-list">
+								<li class="nth-1">
+									<h3 class="ftfm-mg">2019 통일 고성 명태축제</h3>
+									<div class="bxBox" id="bxBox-3">
+										<ul class="bxS">
+											<li class="li-1"></li>
+											<li class="li-2">
+												<div class="fc-li-box">
+													<div class="fc-txt-box">
+														<p class="fc-li-tit">2019 통일 고성 명태축제</p>
+														<p class="fc-li-txt">
+															고성 통일명태와 떠나는 4GO 여행! 이라는 주제로 여러분을 고성 통일 명태축제에 초대합니다.
+														</p>
+													</div>
+												</div>
+											</li>
+										</ul>
+										
+									</div>
+								</li>
+							</ul>
+							
+							<ul class="evt01-tb clr">
+								<li class="l-th ftfm-mg nth-1">
+									 2019 통일 고성 명태축제
+								</li>
+								<li class="l-td nth-2">
+									<span class="s-lbl">기간</span>
+									<span class="s-txt">2019-10-18 ~ 10-21 (4일간)</span>
+								</li>
+								<li class="l-td nth-3">
+									<span class="s-lbl">주최</span>
+									<span class="s-txt">고성명태축제위원회</span>
+								</li>
+								<li class="l-td nth-4">
+									<span class="s-lbl">요금</span>
+									<span class="s-txt">무료</span>
+								</li>
+								<li class="l-td nth-5">
+									<span class="s-lbl">시간</span>
+									<span class="s-txt">10월 21일 18시</span>
+								</li>
+								<li class="l-td nth-6">
+									<span class="s-lbl">위치</span>
+									<span class="s-txt">강원 고성군 거진항 일원</span>
+								</li>
+								<li class="l-td nth-7">
+									<span class="s-lbl">상세보기</span>
+									<span class="s-txt" style="cursor:pointer;" onclick="window.open('http://www.myeongtae.com/main/','_blank')">▶여기를 클릭해 주세요.</span>
+								</li>
+							</ul>
+						</section>
+
 						<section class="facil-1 flying">
 							<ul class="fc-list">
 								<li class="nth-1">
-									<h3 class="ftfm-mg">제1회 고성군 DMZ 전국 플라잉디스크 대회</h3>
+									<h3 class="ftfm-mg">제2회 고성군 DMZ 전국 플라잉디스크 대회</h3>
 									<div class="bxBox" id="bxBox-3">
 										<ul class="bxS">
 											<li class="li-1"></li>
@@ -674,11 +614,11 @@
 							
 							<ul class="evt01-tb clr">
 								<li class="l-th ftfm-mg nth-1">
-									 제1회 고성군 DMZ 전국 플라잉디스크 대회
+									 제2회 고성군 DMZ 전국 플라잉디스크 대회
 								</li>
 								<li class="l-td nth-2">
 									<span class="s-lbl">기간</span>
-									<span class="s-txt">2018-11-17 ~ 11-18 (2일간)</span>
+									<span class="s-txt">2019-11-16 ~ 11-17 (2일간)</span>
 								</li>
 								<li class="l-td nth-3">
 									<span class="s-lbl">주최</span>
@@ -690,7 +630,7 @@
 								</li>
 								<li class="l-td nth-5">
 									<span class="s-lbl">시간</span>
-									<span class="s-txt">11월 18일 19시</span>
+									<span class="s-txt">11월 16일 19시</span>
 								</li>
 								<li class="l-td nth-6">
 									<span class="s-lbl">위치</span>
@@ -701,187 +641,87 @@
 									<span class="s-txt" style="cursor:pointer;" onclick="window.open('http://www.kfdf.info/','_blank')">▶여기를 클릭해 주세요.</span>
 								</li>
 							</ul>
-							
 						</section>
 
-						<!-- 180413 튤립축제 수정 -->
-<!--
-						<section class="facil-1 tulip fac-mt">
+						<section class="facil-1 sohwaghaeng">
 							<ul class="fc-list">
 								<li class="nth-1">
-									<h3 class="ftfm-mg">2018 삼포해변 튤립축제</h3>
-									<div class="bxBox">
+									<h3 class="ftfm-mg">삼포해수욕장 소확행 불꽃놀이 & 캠프파이어 축제 </h3>
+									<div class="bxBox" id="bxBox-3">
 										<ul class="bxS">
-											<li class="li-2"></li>
+											<li class="li-1"></li>
+											<li class="li-2">
+												<div class="fc-li-box">
+													<div class="fc-txt-box">
+														<p class="fc-li-tit">고성 오션투유 삼포해수욕장 소/확/행 불꽃 캠프파이어 축제</p>
+														<p class="fc-li-txt">
+															<span class="hidden-xs">2019년을 정리하는 소소하지만 확실한 행복<br></span>
+															2018년의 마지막날, 사랑하는 가족, 친구와 함께 아름다운 삼포해변의 밤하늘을 만나보세요.<br>
+															<br>
+															<span class="hidden-xs">별과 바람, 푸른바다를 배경으로 하는 삼포해변에서 불꽃축제와 캠프파이어!<br></span>
+															“고성 오션투유 삼포해수욕장 소/확/행 불꽃 캠프파이어 축제”로 초대합니다.<br>
+															<br>
+															※ 본 행사는 우천 시 취소될 수 있습니다.
+														</p>
+													</div>
+												</div>
+											</li>
 										</ul>
+										
 									</div>
 								</li>
 							</ul>
-							<ul class="evt01-tb clr">
-								<li class="l-th ftfm-mg nth-1">
-									 2018 삼포해변 튤립축제
+							<ul class="evt01-tb evt02-tb clr">
+								<li class="l-th ftfm-mg">
+									삼포해수욕장 소확행 불꽃놀이 & 캠프파이어 축제 
 								</li>
-								<li class="l-td nth-2">
+								<li class="l-td">
 									<span class="s-lbl">기간</span>
-									<span class="s-txt">2018년 4월 21일 ~ 5월 23일</span>
+									<span class="s-txt">2019년 12월 31일(월)</span>
 								</li>
-								<li class="l-td nth-3">
+								<li class="l-td">
 									<span class="s-lbl">주최</span>
 									<span class="s-txt">오션투유리조트</span>
 								</li>
-								<li class="l-td nth-4 lh-02">
+								<li class="l-td type02">
 									<span class="s-lbl">요금</span>
 									<span class="s-txt">무료</span>
 								</li>
-								<li class="l-td nth-5 lh-02">
-									<span class="s-lbl lh-02">시간</span>
-									<span class="s-txt lh-02">10:00 ~ 19:00</span>
+								<li class="l-td type02 type03">
+									<span class="s-lbl">시간</span>
+									<span class="s-txt">일몰 이후 캠프파이어<br>23:30 새해맞이 불꽃놀이 진행</span>
 								</li>
-								<li class="l-td nth-6 lh-02">
+								<li class="l-td type03">
 									<span class="s-lbl">위치</span>
 									<span class="s-txt">강원도 고성 삼포해수욕장</span>
 								</li>
-								<li class="l-td nth-7 lh-02">
+								<li class="l-td type03">
 									<span class="s-lbl">상세보기</span>
-									<span class="s-txt" style="cursor:pointer;" onclick="window.open('http://www.ocean2you.co.kr/','_blank');">http://www.ocean2you.co.kr/</span>
+									
+									<!-- 링크가 걸립니다. URL 미정 -->
+									<span class="s-txt" style="cursor:pointer;" onclick="window.open('https://korean.visitkorea.or.kr/detail/fes_detail.html?cotid=f289af9c-82e9-44ef-848b-cea1c6fd6a86','_blank')">▶불꽃 캠프파이어 축제</span>
 								</li>
 							</ul>
-						</section>
--->
-						<!-- // -->
-						
-						<!-- GBA 고성 DMZ 그란폰도 추가 -->
-						<section class="facil-1 granfondo">
-							<ul class="fc-list">
-								<li class="nth-1">
-									<h3 class="ftfm-mg">2018 GBA 고성 DMZ 그란폰도</h3>
-									<div class="bxBox" id="bxBox-3">
-										<ul class="bxS">
-											<li class="li-1"></li>
-											<li class="li-2">
-												<div class="fc-li-box">
-													<div class="fc-txt-box">
-														<p class="fc-li-tit">2018 GBA 고성 DMZ 그란폰도</p>
-														<p class="fc-li-txt">
-															고성군 천혜의 자연환경인 산, 바다, 호수 그리고 DMZ를 달릴 수 있는 코스로 참가자들에게 보다 전문적인 특별한 경험을 선사하고 자신의 한계를 뛰어넘는 스포츠의 진정한 재미를 느낄 수 있습니다. <br>
-															고성 그란폰도에서만 느낄 수 있는 온 가족이 함께 하는 특별한 이벤트도 즐겨보세요!
-														</p>
-													</div>
-												</div>
-											</li>
-										</ul>
-										
-									</div>
-								</li>
-							</ul>
-							
-							<ul class="evt01-tb clr">
-								<li class="l-th ftfm-mg nth-1">
-									 2018 GBA 고성 DMZ 그란폰도
-								</li>
-								<li class="l-td nth-2">
-									<span class="s-lbl">기간</span>
-									<span class="s-txt">2018-10-13 ~ 10-13 (1일간)</span>
-								</li>
-								<li class="l-td nth-3">
-									<span class="s-lbl">주최</span>
-									<span class="s-txt">경동대학교</span>
-								</li>
-								<li class="l-td nth-4">
-									<span class="s-lbl">요금</span>
-									<span class="s-txt">40,000원</span>
-								</li>
-								<li class="l-td nth-5">
-									<span class="s-lbl">시간</span>
-									<span class="s-txt">10월 13일 15시</span>
-								</li>
-								<li class="l-td nth-6">
-									<span class="s-lbl">위치</span>
-									<span class="s-txt">거진읍 공설운동장</span>
-								</li>
-								<li class="l-td nth-7">
-									<span class="s-lbl">상세보기</span>
-									<span class="s-txt" style="cursor:pointer;" onclick="window.open('http://www.thebike.co.kr/race/view.php?r_idx=147','_blank')">▶여기를 클릭해 주세요.</span>
-								</li>
-							</ul>
-							
-						</section>
-						
-						<!-- 통일 고성 명태축제 추가 -->
-						<section class="facil-1 pollock">
-							<ul class="fc-list">
-								<li class="nth-1">
-									<h3 class="ftfm-mg">2018 통일 고성 명태축제</h3>
-									<div class="bxBox" id="bxBox-3">
-										<ul class="bxS">
-											<li class="li-1"></li>
-											<li class="li-2">
-												<div class="fc-li-box">
-													<div class="fc-txt-box">
-														<p class="fc-li-tit">2018 통일 고성 명태축제</p>
-														<p class="fc-li-txt">
-															고성 통일명태와 떠나는 4GO 여행! 이라는 주제로 여러분을 고성 통일 명태축제에 초대합니다.
-														</p>
-													</div>
-												</div>
-											</li>
-										</ul>
-										
-									</div>
-								</li>
-							</ul>
-							
-							<ul class="evt01-tb clr">
-								<li class="l-th ftfm-mg nth-1">
-									 2018 통일 고성 명태축제
-								</li>
-								<li class="l-td nth-2">
-									<span class="s-lbl">기간</span>
-									<span class="s-txt">2018-10-18 ~ 10-21 (4일간)</span>
-								</li>
-								<li class="l-td nth-3">
-									<span class="s-lbl">주최</span>
-									<span class="s-txt">고성명태축제위원회</span>
-								</li>
-								<li class="l-td nth-4">
-									<span class="s-lbl">요금</span>
-									<span class="s-txt">무료</span>
-								</li>
-								<li class="l-td nth-5">
-									<span class="s-lbl">시간</span>
-									<span class="s-txt">10월 21일 18시</span>
-								</li>
-								<li class="l-td nth-6">
-									<span class="s-lbl">위치</span>
-									<span class="s-txt">강원 고성군 거진항 일원</span>
-								</li>
-								<li class="l-td nth-7">
-									<span class="s-lbl">상세보기</span>
-									<span class="s-txt" style="cursor:pointer;" onclick="window.open('http://www.myeongtae.com/main/','_blank')">▶여기를 클릭해 주세요.</span>
-								</li>
-							</ul>
-							
 						</section>
 					</li>
 					<!-- // 고성 축제 끝 -->
 
 					<li class="sokcho">
-						<!-- 설악문화제 추가 -->
-						<section class="facil-1 seolag">
+						<section class="facil-1 musicFire">
 							<ul class="fc-list">
 								<li class="nth-1">
-									<h3 class="ftfm-mg">2018 설악문화제</h3>
+									<h3 class="ftfm-mg">2019 속초 음악불꽃크루즈</h3>
 									<div class="bxBox" id="bxBox-3">
 										<ul class="bxS">
 											<li class="li-1"></li>
 											<li class="li-2">
 												<div class="fc-li-box">
 													<div class="fc-txt-box">
-														<p class="fc-li-tit">2018 설악문화제</p>
+														<p class="fc-li-tit">2019 속초 음악불꽃크루즈</p>
 														<p class="fc-li-txt">
-															설악 문화제는 설악산과 관련된 산촌 문화, 동해바다를 근원으로 하는<br class="hidden-xs">
-															어촌문화 그리고 청호동 아바이 마을로 대표되는 실향민문화 등 속초의 사회,역사,문화적 유산을<br class="hidden-xs">
-															형상화한 소중한 우리의 문화 축제에 여러분을 초대합니다.
+															별빛 속 바다를 달리는 낭만 속초여행!<br>
+															푸르고 시원한 동해바다를 배경으로 낭만과 감동이 있는 음악 불꽃 쇼를<br>
+															사랑하는 사람과 속초 밤바다에서 즐겨보세요
 														</p>
 													</div>
 												</div>
@@ -894,51 +734,50 @@
 							
 							<ul class="evt01-tb clr">
 								<li class="l-th ftfm-mg nth-1">
-									 2018 설악문화제
+									 2019 속초 음악불꽃크루즈
 								</li>
 								<li class="l-td nth-2">
 									<span class="s-lbl">기간</span>
-									<span class="s-txt">2018-10-12 ~ 10-14 (3일간)</span>
+									<span class="s-txt">2019-05-03 ~ 12-30 (242일간)</span>
 								</li>
 								<li class="l-td nth-3">
 									<span class="s-lbl">주최</span>
-									<span class="s-txt">(사)속초축제위원회</span>
+									<span class="s-txt">크루즈 스토리</span>
 								</li>
 								<li class="l-td nth-4">
 									<span class="s-lbl">요금</span>
-									<span class="s-txt">무료</span>
+									<span class="s-txt">별도요금</span>
 								</li>
 								<li class="l-td nth-5">
 									<span class="s-lbl">시간</span>
-									<span class="s-txt">10월 14일 19시</span>
+									<span class="s-txt">12월 30일 19시</span>
 								</li>
 								<li class="l-td nth-6">
 									<span class="s-lbl">위치</span>
-									<span class="s-txt">속초시청 ~ 청학사거리</span>
+									<span class="s-txt">하모니크루즈 선착장</span>
 								</li>
 								<li class="l-td nth-7">
 									<span class="s-lbl">상세보기</span>
-									<span class="s-txt" style="cursor:pointer;" onclick="window.open('http://sokchofestival.com/wordpress/?page_id=11026','_blank')">▶여기를 클릭해 주세요.</span>
+									<span class="s-txt" style="cursor:pointer;" onclick="window.open('http://cruisestory.co.kr/goods/catalog?code=00210001','_blank')">▶여기를 클릭해 주세요.</span>
 								</li>
 							</ul>
-							
 						</section>
 						
-						<!-- 바다별빛 대포야 사랑해 추가 -->
-						<section class="facil-1 sscLove">
+						<section class="facil-1 stamp">
 							<ul class="fc-list">
 								<li class="nth-1">
-									<h3 class="ftfm-mg">2018 바다별빛 대포야 사랑해</h3>
+									<h3 class="ftfm-mg">2019 스탬프투어, 오감만족 속초여행</h3>
 									<div class="bxBox" id="bxBox-3">
 										<ul class="bxS">
 											<li class="li-1"></li>
 											<li class="li-2">
 												<div class="fc-li-box">
 													<div class="fc-txt-box">
-														<p class="fc-li-tit">2018 바다별빛 대포야 사랑해</p>
+														<p class="fc-li-tit">2019 스탬프투어, 오감만족 속초여행</p>
 														<p class="fc-li-txt">
-															올해로 4년회재를 맞는 이번 행사에서는 7080 가요와 전통 국악 공연과 함께<br class="hidden-xs">
-															가족과 연인이 즐길 수 있는 마술, 풍선아트 등 다채로운 체험 공연을 즐기실 수 있습니다.
+															오감만족 속초여행! 앱깔고, 스탬프 찍고,<br class="show-xs"> 여행후기 쓰고 경품 받자!<br>
+															총 550만원의 경품이 있는 최고의 여행 이벤트가 될것입니다.<br>
+															많은 참여 부탁드립니다.
 														</p>
 													</div>
 												</div>
@@ -951,15 +790,15 @@
 							
 							<ul class="evt01-tb clr">
 								<li class="l-th ftfm-mg nth-1">
-									 2018 바다별빛 대포야 사랑해
+									 2019 스탬프투어, 오감만족 속초여행
 								</li>
 								<li class="l-td nth-2">
 									<span class="s-lbl">기간</span>
-									<span class="s-txt">2018-10-20 ~ 10-20 (1일간)</span>
+									<span class="s-txt">2019-07-01 ~ 11-30 (153일간)</span>
 								</li>
 								<li class="l-td nth-3">
 									<span class="s-lbl">주최</span>
-									<span class="s-txt">속초시</span>
+									<span class="s-txt">속초시청</span>
 								</li>
 								<li class="l-td nth-4">
 									<span class="s-lbl">요금</span>
@@ -967,32 +806,30 @@
 								</li>
 								<li class="l-td nth-5">
 									<span class="s-lbl">시간</span>
-									<span class="s-txt">10월 20일 21시</span>
+									<span class="s-txt">11월 30일 24시</span>
 								</li>
 								<li class="l-td nth-6">
 									<span class="s-lbl">위치</span>
-									<span class="s-txt">대포항 친수호안 특설무대</span>
+									<span class="s-txt">속초 전지역</span>
 								</li>
 								<li class="l-td nth-7">
 									<span class="s-lbl">상세보기</span>
-									<span class="s-txt" style="cursor:pointer;" onclick="window.open('http://sokchofestival.com/wordpress/?page_id=16604','_blank')">▶여기를 클릭해 주세요.</span>
+									<span class="s-txt" style="cursor:pointer;" onclick="window.open('http://www.sokchotour.com/korean/sub/tour_news.asp?mode=view&sno=9443','_blank')">▶여기를 클릭해 주세요.</span>
 								</li>
 							</ul>
-							
 						</section>
-						
-						<!-- 속초국화전 -->
+
 						<section class="facil-1 gughwa">
 							<ul class="fc-list">
 								<li class="nth-1">
-									<h3 class="ftfm-mg">2018 속초국화전</h3>
+									<h3 class="ftfm-mg">2019 속초국화전</h3>
 									<div class="bxBox" id="bxBox-3">
 										<ul class="bxS">
 											<li class="li-1"></li>
 											<li class="li-2">
 												<div class="fc-li-box">
 													<div class="fc-txt-box">
-														<p class="fc-li-tit">2018 속초국화전</p>
+														<p class="fc-li-tit">2019 속초국화전</p>
 														<p class="fc-li-txt">
 															푸른 동해바다와 설악의 오색 단풍이 함께하는<br class="show-xs"> 속초 청포호유원지에 여러분을 초대합니다
 														</p>
@@ -1007,11 +844,11 @@
 							
 							<ul class="evt01-tb clr">
 								<li class="l-th ftfm-mg nth-1">
-									 2018 속초국화전
+									 2019 속초국화전
 								</li>
 								<li class="l-td nth-2">
 									<span class="s-lbl">기간</span>
-									<span class="s-txt">2018-10-08 ~ 11-02 (26일간)</span>
+									<span class="s-txt">2019-10-08 ~ 11-02 (26일간)</span>
 								</li>
 								<li class="l-td nth-3">
 									<span class="s-lbl">주최</span>
@@ -1034,10 +871,64 @@
 									<span class="s-txt" style="cursor:pointer;" onclick="window.open('http://www.sokchotour.com/intro/intro.asp','_blank')">▶여기를 클릭해 주세요.</span>
 								</li>
 							</ul>
+						</section>
+
+						<section class="facil-1 seolag">
+							<ul class="fc-list">
+								<li class="nth-1">
+									<h3 class="ftfm-mg">2019 설악문화제</h3>
+									<div class="bxBox" id="bxBox-3">
+										<ul class="bxS">
+											<li class="li-1"></li>
+											<li class="li-2">
+												<div class="fc-li-box">
+													<div class="fc-txt-box">
+														<p class="fc-li-tit">2019 설악문화제</p>
+														<p class="fc-li-txt">
+															설악 문화제는 설악산과 관련된 산촌 문화, 동해바다를 근원으로 하는<br class="hidden-xs">
+															어촌문화 그리고 청호동 아바이 마을로 대표되는 실향민문화 등 속초의 사회,역사,문화적 유산을<br class="hidden-xs">
+															형상화한 소중한 우리의 문화 축제에 여러분을 초대합니다.
+														</p>
+													</div>
+												</div>
+											</li>
+										</ul>
+										
+									</div>
+								</li>
+							</ul>
 							
+							<ul class="evt01-tb clr">
+								<li class="l-th ftfm-mg nth-1">
+									 2019 설악문화제
+								</li>
+								<li class="l-td nth-2">
+									<span class="s-lbl">기간</span>
+									<span class="s-txt">2019-10-12 ~ 10-14 (3일간)</span>
+								</li>
+								<li class="l-td nth-3">
+									<span class="s-lbl">주최</span>
+									<span class="s-txt">(사)속초축제위원회</span>
+								</li>
+								<li class="l-td nth-4">
+									<span class="s-lbl">요금</span>
+									<span class="s-txt">무료</span>
+								</li>
+								<li class="l-td nth-5">
+									<span class="s-lbl">시간</span>
+									<span class="s-txt">10월 14일 19시</span>
+								</li>
+								<li class="l-td nth-6">
+									<span class="s-lbl">위치</span>
+									<span class="s-txt">속초시청 ~ 청학사거리</span>
+								</li>
+								<li class="l-td nth-7">
+									<span class="s-lbl">상세보기</span>
+									<span class="s-txt" style="cursor:pointer;" onclick="window.open('http://sokchofestival.com/wordpress/?page_id=11026','_blank')">▶여기를 클릭해 주세요.</span>
+								</li>
+							</ul>
 						</section>
 						
-						<!-- 2차 : 설악동 단풍축제 -->
 						<section class="facil-1 seolagMaple">
 							<ul class="fc-list">
 								<li class="nth-1">
@@ -1068,7 +959,7 @@
 								</li>
 								<li class="l-td nth-2">
 									<span class="s-lbl">기간</span>
-									<span class="s-txt">2018-10-19 ~ 10-21 (3일간)</span>
+									<span class="s-txt">2019-10-19 ~ 10-21 (3일간)</span>
 								</li>
 								<li class="l-td nth-3">
 									<span class="s-lbl">주최</span>
@@ -1091,25 +982,22 @@
 									<span class="s-txt" style="cursor:pointer;" onclick="window.open('https://www.sokchotour.com/korean/sub/list.asp?mode=view&sno=930','_blank')">▶여기를 클릭해 주세요.</span>
 								</li>
 							</ul>
-							
 						</section>
-						
-						<!-- 2차 : 스탬프투어 -->
-						<section class="facil-1 stamp">
+
+						<section class="facil-1 sscLove">
 							<ul class="fc-list">
 								<li class="nth-1">
-									<h3 class="ftfm-mg">2018 스탬프투어, 오감만족 속초여행</h3>
+									<h3 class="ftfm-mg">2019 바다별빛 대포야 사랑해</h3>
 									<div class="bxBox" id="bxBox-3">
 										<ul class="bxS">
 											<li class="li-1"></li>
 											<li class="li-2">
 												<div class="fc-li-box">
 													<div class="fc-txt-box">
-														<p class="fc-li-tit">2018 스탬프투어, 오감만족 속초여행</p>
+														<p class="fc-li-tit">2019 바다별빛 대포야 사랑해</p>
 														<p class="fc-li-txt">
-															오감만족 속초여행! 앱깔고, 스탬프 찍고,<br class="show-xs"> 여행후기 쓰고 경품 받자!<br>
-															총 550만원의 경품이 있는 최고의 여행 이벤트가 될것입니다.<br>
-															많은 참여 부탁드립니다.
+															올해로 4년회재를 맞는 이번 행사에서는 7080 가요와 전통 국악 공연과 함께<br class="hidden-xs">
+															가족과 연인이 즐길 수 있는 마술, 풍선아트 등 다채로운 체험 공연을 즐기실 수 있습니다.
 														</p>
 													</div>
 												</div>
@@ -1122,15 +1010,15 @@
 							
 							<ul class="evt01-tb clr">
 								<li class="l-th ftfm-mg nth-1">
-									 2018 스탬프투어, 오감만족 속초여행
+									 2019 바다별빛 대포야 사랑해
 								</li>
 								<li class="l-td nth-2">
 									<span class="s-lbl">기간</span>
-									<span class="s-txt">2018-07-01 ~ 11-30 (153일간)</span>
+									<span class="s-txt">2019-10-20 ~ 10-20 (1일간)</span>
 								</li>
 								<li class="l-td nth-3">
 									<span class="s-lbl">주최</span>
-									<span class="s-txt">속초시청</span>
+									<span class="s-txt">속초시</span>
 								</li>
 								<li class="l-td nth-4">
 									<span class="s-lbl">요금</span>
@@ -1138,73 +1026,15 @@
 								</li>
 								<li class="l-td nth-5">
 									<span class="s-lbl">시간</span>
-									<span class="s-txt">11월 30일 24시</span>
+									<span class="s-txt">10월 20일 21시</span>
 								</li>
 								<li class="l-td nth-6">
 									<span class="s-lbl">위치</span>
-									<span class="s-txt">속초 전지역</span>
+									<span class="s-txt">대포항 친수호안 특설무대</span>
 								</li>
 								<li class="l-td nth-7">
 									<span class="s-lbl">상세보기</span>
-									<span class="s-txt" style="cursor:pointer;" onclick="window.open('http://www.sokchotour.com/korean/sub/tour_news.asp?mode=view&sno=9443','_blank')">▶여기를 클릭해 주세요.</span>
-								</li>
-							</ul>
-							
-						</section>
-						
-						<!-- 2차 : 음악불꽃크루즈 -->
-						<section class="facil-1 musicFire">
-							<ul class="fc-list">
-								<li class="nth-1">
-									<h3 class="ftfm-mg">2018 속초 음악불꽃크루즈</h3>
-									<div class="bxBox" id="bxBox-3">
-										<ul class="bxS">
-											<li class="li-1"></li>
-											<li class="li-2">
-												<div class="fc-li-box">
-													<div class="fc-txt-box">
-														<p class="fc-li-tit">2018 속초 음악불꽃크루즈</p>
-														<p class="fc-li-txt">
-															별빛 속 바다를 달리는 낭만 속초여행!<br>
-															푸르고 시원한 동해바다를 배경으로 낭만과 감동이 있는 음악 불꽃 쇼를<br>
-															사랑하는 사람과 속초 밤바다에서 즐겨보세요
-														</p>
-													</div>
-												</div>
-											</li>
-										</ul>
-										
-									</div>
-								</li>
-							</ul>
-							
-							<ul class="evt01-tb clr">
-								<li class="l-th ftfm-mg nth-1">
-									 2018 속초 음악불꽃크루즈
-								</li>
-								<li class="l-td nth-2">
-									<span class="s-lbl">기간</span>
-									<span class="s-txt">2018-05-03 ~ 12-30 (242일간)</span>
-								</li>
-								<li class="l-td nth-3">
-									<span class="s-lbl">주최</span>
-									<span class="s-txt">크루즈 스토리</span>
-								</li>
-								<li class="l-td nth-4">
-									<span class="s-lbl">요금</span>
-									<span class="s-txt">별도요금</span>
-								</li>
-								<li class="l-td nth-5">
-									<span class="s-lbl">시간</span>
-									<span class="s-txt">12월 30일 19시</span>
-								</li>
-								<li class="l-td nth-6">
-									<span class="s-lbl">위치</span>
-									<span class="s-txt">하모니크루즈 선착장</span>
-								</li>
-								<li class="l-td nth-7">
-									<span class="s-lbl">상세보기</span>
-									<span class="s-txt" style="cursor:pointer;" onclick="window.open('http://cruisestory.co.kr/goods/catalog?code=00210001','_blank')">▶여기를 클릭해 주세요.</span>
+									<span class="s-txt" style="cursor:pointer;" onclick="window.open('http://sokchofestival.com/wordpress/?page_id=16604','_blank')">▶여기를 클릭해 주세요.</span>
 								</li>
 							</ul>
 						</section>

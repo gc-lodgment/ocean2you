@@ -76,12 +76,17 @@
 	.event-wrap .seolagMaple .bxBox li {background: url(http://img.ocean2you.co.kr/renew/event/event_seolagMaple.jpg) no-repeat; background-size: cover;}
 	/* 스탬프투어 */
 	.event-wrap .stamp .bxBox li {background: url(http://img.ocean2you.co.kr/renew/event/event_stamp.jpg) no-repeat; background-size: cover;}
-	/* 음악불꽃크루즈 */
-	.event-wrap .musicFire .bxBox li {background: url(http://img.ocean2you.co.kr/renew/event/event_musicFire.jpg) no-repeat; background-size: cover;}
-	/* 181106 소확행 캠프파이어 불꽃축제 */
-	.event-wrap .sohwaghaeng .bxBox li {background: url(http://img.ocean2you.co.kr/renew/event/event_sohwaghaeng.jpg) no-repeat; background-size: cover;}
+    /* 음악불꽃크루즈 */
+    .event-wrap .musicFire .bxBox li {background: url(http://img.ocean2you.co.kr/renew/event/event_musicFire.jpg) no-repeat; background-size: cover;}
+    /* 181106 소확행 캠프파이어 불꽃축제 */
+    .event-wrap .sohwaghaeng .bxBox li {background: url(http://img.ocean2you.co.kr/renew/event/event_sohwaghaeng.jpg) no-repeat; background-size: cover;}
+    /* 춘계 전국 중고등학교 검도대회 */
+    .event-wrap .geomdo .bxBox li {background: url(http://img.ocean2you.co.kr/renew/event/event_geomdo.jpg) no-repeat; background-size: cover;}
 	/* 190322 고성 미시령 힐클라임대회 */
 	.event-wrap .hill .bxBox li {background: url(http://img.ocean2you.co.kr/renew/event/event_thebike.jpg) no-repeat; background-size: cover;}
+	/* 190417 동해안 최북단 저도어장 대문어축제 2019 */
+	.event-wrap .octopus .bxBox li {background: url(http://img.ocean2you.co.kr/renew/event/event_octopus_01.jpg) no-repeat; background-size: cover;}
+	.event-wrap .octopus .bxBox .li-2 {background: url(http://img.ocean2you.co.kr/renew/event/event_octopus_02.jpg) no-repeat; background-size: cover;}
 
 	.event-wrap .evt01-tb {position: relative; text-align: left; margin-top: 54px; letter-spacing: -1px; line-height: 1.2;}
 	.event-wrap .evt01-tb > li {float: left; width: 100%; border: 1px solid #bfbfbf; margin-top: -1px;}

@@ -100,6 +100,9 @@
     .event-wrap .geomdo .bxBox li {background: url(http://img.ocean2you.co.kr/renew/event/event_geomdo.jpg) no-repeat; background-size: cover;}
 	/* 190322 고성 미시령 힐클라임대회 */
 	.event-wrap .hill .bxBox li {background: url(http://img.ocean2you.co.kr/renew/event/event_thebike_m.jpg) no-repeat; background-size: cover;}
+	/* 190417 동해안 최북단 저도어장 대문어축제 2019 */
+	.event-wrap .octopus .bxBox li {background: url(http://img.ocean2you.co.kr/renew/event/event_octopus_01.jpg) no-repeat; background-size: cover;}
+	.event-wrap .octopus .bxBox .li-2 {background: url(http://img.ocean2you.co.kr/renew/event/event_octopus_02.jpg) no-repeat; background-size: cover;}
 	
 	.event-wrap .evt01-tb {position: relative; padding: 0 4px; margin: 0 auto; text-align: left; margin-top: 40px; letter-spacing: -1px; line-height: 1.2;}
 	.event-wrap .evt01-tb > li {/*float: left;*/display:table; width: 100%; border: 1px solid #bfbfbf; margin-top: -1px;} 
@@ -233,6 +236,9 @@
     .event-wrap .geomdo .bxBox li {background: url(http://img.ocean2you.co.kr/renew/event/event_geomdo.jpg) no-repeat; background-size: cover;}
 	/* 190322 고성 미시령 힐클라임대회 */
 	.event-wrap .hill .bxBox li {background: url(http://img.ocean2you.co.kr/renew/event/event_thebike.jpg) no-repeat; background-size: cover;}
+	/* 190417 동해안 최북단 저도어장 대문어축제 2019 */
+	.event-wrap .octopus .bxBox li {background: url(http://img.ocean2you.co.kr/renew/event/event_octopus_01.jpg) no-repeat; background-size: cover;}
+	.event-wrap .octopus .bxBox .li-2 {background: url(http://img.ocean2you.co.kr/renew/event/event_octopus_02.jpg) no-repeat; background-size: cover;}
     
     
 	.fac-mt {margin-top: 40px; padding-top: 40px; border-top: 1px solid #ccc;}
@@ -374,6 +380,9 @@
     .event-wrap .geomdo .bxBox li {background: url(http://img.ocean2you.co.kr/renew/event/event_geomdo.jpg) no-repeat; background-size: cover;}
 	/* 190322 고성 미시령 힐클라임대회 */
 	.event-wrap .hill .bxBox li {background: url(http://img.ocean2you.co.kr/renew/event/event_thebike.jpg) no-repeat; background-size: cover;}
+	/* 190417 동해안 최북단 저도어장 대문어축제 2019 */
+	.event-wrap .octopus .bxBox li {background: url(http://img.ocean2you.co.kr/renew/event/event_octopus_01.jpg) no-repeat; background-size: cover;}
+	.event-wrap .octopus .bxBox .li-2 {background: url(http://img.ocean2you.co.kr/renew/event/event_octopus_02.jpg) no-repeat; background-size: cover;}
     
     /* 표 영역 */
 	.event-wrap .evt01-tb {position: relative; padding: 0 10px; text-align: left; margin-top: 54px; letter-spacing: -1px; /*line-height: 1.2;*/}
@@ -515,6 +524,9 @@
     .event-wrap .geomdo .bxBox li {background: url(http://img.ocean2you.co.kr/renew/event/event_geomdo.jpg) no-repeat; background-size: cover;}
 	/* 190322 고성 미시령 힐클라임대회 */
 	.event-wrap .hill .bxBox li {background: url(http://img.ocean2you.co.kr/renew/event/event_thebike.jpg) no-repeat; background-size: cover;}
+	/* 190417 동해안 최북단 저도어장 대문어축제 2019 */
+	.event-wrap .octopus .bxBox li {background: url(http://img.ocean2you.co.kr/renew/event/event_octopus_01.jpg) no-repeat; background-size: cover;}
+	.event-wrap .octopus .bxBox .li-2 {background: url(http://img.ocean2you.co.kr/renew/event/event_octopus_02.jpg) no-repeat; background-size: cover;}
     
 	.event-wrap .evt01-tb {position: relative; text-align: left; margin-top: 54px; letter-spacing: -1px; line-height: 1.2;}
 	.event-wrap .evt01-tb > li {float: left; width: 100%; border: 1px solid #bfbfbf; margin-top: -1px;}

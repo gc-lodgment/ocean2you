@@ -249,26 +249,15 @@
 						var f_scr = $('footer').offset().top - 850;
 						
 						if(scrollTop > 100) {																			
-							$("#right_banner, #left_banner").css({"position":"fixed", "top" : "180px"});
+							$("#right_banner").css({"position":"fixed", "top" : "180px"});
 						} 
 						if(scrollTop > f_scr) {
-							$("#right_banner").css({"position":"fixed", "top" : "-180px"}); //left_banner 제거
+							$("#right_banner").css({"position":"fixed", "top" : "-180px"});
 						}
 						if(scrollTop < 100) {																	
-							$("#right_banner, #left_banner").css({"position":"absolute", "top":"auto"});
+							$("#right_banner").css({"position":"absolute", "top":"auto"});
 						}
 					});
-                    
-                    //상담배너 예약문의 버튼 클릭 시
-                    $('.lWing-wrap .btn-cst').on('click', function(){
-                        if( $(this).hasClass('open') ){
-                            $(this).addClass('off');
-                            $('.lWing-wrap .cst-box-2').addClass('on');
-                        }else{ // 도움요청 버튼 클릭 시
-                            $(this).parents('.lWing-wrap').find('.off').removeClass('off');
-                            $('.lWing-wrap .cst-box-2').removeClass('on');
-                        }
-                    });
 				});
 				</script>
 			</div>

@@ -26,7 +26,7 @@
 	
 	.event-wrap {padding: 20px 0 100px;}
 
-    .tab-rg-box {z-index: 100; position: absolute; width: 100%; text-align: center; margin: 0 auto 0; padding: 15px 0; background: #fff;}
+    .tab-rg-box {z-index: 2; position: absolute; width: 100%; text-align: center; margin: 0 auto 0; padding: 15px 0; background: #fff;}
     .tab-rg-box.on {position: fixed; top: 94px; left: 0; margin: 0;}
 	.tab-region {position: relative; text-align: center; /*margin-bottom: 20px;*/ font-size: 0;}
 	.tab-region > li {display: inline-block; font-size: 16px; padding-left: 10px;}
@@ -44,7 +44,7 @@
 	#evt-box > section {word-break: keep-all; text-align: center;}
 	.event-wrap [class*=facil-] h3 {font-size: 15px; margin: 0px auto 10px; color: #595959; font-weight: 600; letter-spacing: -1px; line-height: 1.2; text-align: center;}
 	.event-wrap .bxBox {position: relative;}
-	.event-wrap .bxBox .bxS > li {position: relative; width: 360px; height: 183px; background-size: 360px;}
+	.event-wrap .bxBox .bxS > li {z-index: 1 !important; position: relative; width: 360px; height: 183px; background-size: 360px;}
 	.event-wrap .bxBox .li-1 {background: url(http://img.ocean2you.co.kr/renew/event/event_01_m.jpg) no-repeat;}
 	.event-wrap .bxBox .li-2 {background: url(http://img.ocean2you.co.kr/renew/event/event_02_m.jpg) no-repeat;}
 	/* 20180306_이벤트페이지 추가 및 디자인 수정_다솜 */
@@ -164,7 +164,7 @@
 	.event-wrap {padding: 100px 0 170px;}
     
     /* 탭메뉴 */
-    .tab-rg-box {z-index: 100; position: absolute; width: 100%; text-align: center; margin: 0 auto 0; padding: 20px 0; background: #fff;}
+    .tab-rg-box {z-index: 2; position: absolute; width: 100%; text-align: center; margin: 0 auto 0; padding: 20px 0; background: #fff;}
     .tab-rg-box.on {position: fixed; top: 94px; left: 0; margin: 0;}
 	.tab-region {position: relative; text-align: center; /*margin-bottom: 35px;*/ font-size: 0;}
 	.tab-region > li {display: inline-block; font-size: 16px; padding-left: 10px;}
@@ -185,7 +185,7 @@
 	.event-wrap [class*=facil-] h3 {font-size: 20px; margin: 0px auto 18px; text-align: center; color: #595959; font-weight: 600;}
     /* 슬라이드영역 */
 	.event-wrap .bxBox {position: relative;}
-	.event-wrap .bxBox .bxS > li {width: 768px !important; height: 326px;}
+	.event-wrap .bxBox .bxS > li {z-index: 1 !important; width: 768px !important; height: 326px;}
 	.event-wrap .bxBox .li-1 {background: url(http://img.ocean2you.co.kr/renew/event/event_01_t.jpg) no-repeat;}
 	.event-wrap .bxBox .li-2 {background: url(http://img.ocean2you.co.kr/renew/event/event_02_t.jpg) no-repeat;}
     
@@ -309,7 +309,7 @@
 	.event-wrap {padding: 125px 0 170px;}
     
     /* 탭메뉴 */
-    .tab-rg-box {z-index: 100; position: absolute; width: 100%; text-align: center; margin: 20px auto 0; padding: 20px 0; background: #fff;}
+    .tab-rg-box {z-index: 2; position: absolute; width: 100%; text-align: center; margin: 20px auto 0; padding: 20px 0; background: #fff;}
     .tab-rg-box.on {position: fixed; top: 94px; left: 0; margin: 0;}
 	.tab-region {position: relative; text-align: center; /*margin-bottom: 35px;*/ font-size: 0;}
 	.tab-region > li {display: inline-block; font-size: 16px; padding-left: 10px;}
@@ -331,7 +331,7 @@
     
     /* 슬라이드영역 */
 	.event-wrap .bxBox {position: relative;}
-	.event-wrap .bxBox .bxS > li {width: 992px !important; height: 414px; background-size: 992px;}
+	.event-wrap .bxBox .bxS > li {z-index: 1 !important; width: 992px !important; height: 414px; background-size: 992px;}
 	.event-wrap .bxBox .li-1 {background: url(http://img.ocean2you.co.kr/renew/event/event_01.jpg) no-repeat;}
 	.event-wrap .bxBox .li-2 {background: url(http://img.ocean2you.co.kr/renew/event/event_02.jpg) no-repeat;}
     
@@ -454,7 +454,7 @@
 	
 	.event-wrap {padding: 130px 0 170px; min-width: 1432px;}
 
-    .tab-rg-box {z-index: 100; position: absolute; width: 100%; text-align: center; margin: 20px auto 0; padding: 20px 0; background: #fff;}
+    .tab-rg-box {z-index: 2; position: absolute; width: 100%; text-align: center; margin: 20px auto 0; padding: 20px 0; background: #fff;}
     .tab-rg-box.on {position: fixed; top: 94px; left: 0; margin: 0;}
 	.tab-region {position: relative; display: inline-block; text-align: center; /*margin-bottom: 35px;*/ font-size: 0;}
 	.tab-region > li {display: inline-block; font-size: 16px; padding-left: 10px;}
@@ -474,7 +474,7 @@
 	#evt-box > section {word-break: keep-all; text-align: center;}
 	.event-wrap [class*=facil-] h3 {font-size: 21px; margin: 0px auto 25px; color: #595959; font-weight: 600;}
 	.event-wrap .bxBox {position: relative;}
-	.event-wrap .bxBox .bxS > li {width: 1180px; height: 493px;}
+	.event-wrap .bxBox .bxS > li {z-index: 1 !important; width: 1180px; height: 493px;}
 	.event-wrap .bxBox .li-1 {background: url(http://img.ocean2you.co.kr/renew/event/event_01.jpg) no-repeat;}
 	.event-wrap .bxBox .li-2 {background: url(http://img.ocean2you.co.kr/renew/event/event_02.jpg) no-repeat;}
 	/* 20180306_이벤트페이지 배너추가_다솜 */

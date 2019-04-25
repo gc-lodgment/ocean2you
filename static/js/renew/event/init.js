@@ -12,4 +12,19 @@ $(function() {
 	});
 
 	
+	$(window).on('scroll', function() {
+		var scr = $(window).scrollTop();
+		var setTop = $("#setTop").offset().top;
+        var tab = $('.tab-rg-box');
+        
+		if ( $("#gnb-header").hasClass('on') ) {
+            //console.log('on');
+			tab.addClass('on');
+            tab.css({'top' : ($("#gnb-header").height())+'px'});
+        }else {
+			tab.removeClass('on');
+            tab.css({'top' : 'auto'});
+        }
+		
+	});
 });

@@ -26,7 +26,9 @@
 	
 	.event-wrap {padding: 20px 0 100px;}
 
-	.tab-region {position: relative; text-align: center; margin-bottom: 20px; font-size: 0;}
+    .tab-rg-box {z-index: 100; position: absolute; width: 100%; text-align: center; margin: 0 auto 0; padding: 15px 0; background: #fff;}
+    .tab-rg-box.on {position: fixed; top: 94px; left: 0; margin: 0;}
+	.tab-region {position: relative; text-align: center; /*margin-bottom: 20px;*/ font-size: 0;}
 	.tab-region > li {display: inline-block; font-size: 16px; padding-left: 10px;}
 	.tab-region > li:first-child {padding-left: 0;}
 	.tab-region > li > a { 
@@ -159,10 +161,12 @@
 	.title .tit-box .mg- {display: block; height: 1px; width: 30px; margin: 18px auto 20px; background: #fff;}
 	.title .tit-box .p0 {font-size: 18px; margin-top: 10px;}
 	
-	.event-wrap {padding: 60px 0 170px;}
+	.event-wrap {padding: 100px 0 170px;}
     
     /* 탭메뉴 */
-	.tab-region {position: relative; text-align: center; margin-bottom: 35px; font-size: 0;}
+    .tab-rg-box {z-index: 100; position: absolute; width: 100%; text-align: center; margin: 0 auto 0; padding: 20px 0; background: #fff;}
+    .tab-rg-box.on {position: fixed; top: 94px; left: 0; margin: 0;}
+	.tab-region {position: relative; text-align: center; /*margin-bottom: 35px;*/ font-size: 0;}
 	.tab-region > li {display: inline-block; font-size: 16px; padding-left: 10px;}
 	.tab-region > li:first-child {padding-left: 0;}
 	.tab-region > li > a { 
@@ -178,7 +182,7 @@
     
 	.bx-wrapper, .bx-wrapper, .event-wrap .container {width: 100%; max-width: 768px;}
 	#evt-box > section {word-break: keep-all; text-align: center;}
-	.event-wrap [class*=facil-] h3 {font-size: 20px; margin: 0px auto 18px; color: #595959; font-weight: 600;}
+	.event-wrap [class*=facil-] h3 {font-size: 20px; margin: 0px auto 18px; text-align: center; color: #595959; font-weight: 600;}
     /* 슬라이드영역 */
 	.event-wrap .bxBox {position: relative;}
 	.event-wrap .bxBox .bxS > li {width: 768px !important; height: 326px;}
@@ -302,10 +306,12 @@
 	.title .tit-box .mg- {display: block; height: 1px; width: 60px; margin: 18px auto 20px; background: #fff;}
 	.title .tit-box .p0 {font-size: 18px; margin-top: 10px;}
 	
-	.event-wrap {padding: 60px 0 170px;}
+	.event-wrap {padding: 125px 0 170px;}
     
     /* 탭메뉴 */
-	.tab-region {position: relative; text-align: center; margin-bottom: 35px; font-size: 0;}
+    .tab-rg-box {z-index: 100; position: absolute; width: 100%; text-align: center; margin: 20px auto 0; padding: 20px 0; background: #fff;}
+    .tab-rg-box.on {position: fixed; top: 94px; left: 0; margin: 0;}
+	.tab-region {position: relative; text-align: center; /*margin-bottom: 35px;*/ font-size: 0;}
 	.tab-region > li {display: inline-block; font-size: 16px; padding-left: 10px;}
 	.tab-region > li:first-child {padding-left: 0;}
 	.tab-region > li > a { 
@@ -446,9 +452,11 @@
 	.title .tit-box .mg- {display: block; height: 1px; width: 60px; margin: 18px auto 20px; background: #fff;}
 	.title .tit-box .p0 {font-size: 20px; margin-top: 10px;}
 	
-	.event-wrap {padding: 50px 0 170px; min-width: 1432px;}
+	.event-wrap {padding: 130px 0 170px; min-width: 1432px;}
 
-	.tab-region {position: relative; text-align: center; margin-bottom: 35px; font-size: 0;}
+    .tab-rg-box {z-index: 100; position: absolute; width: 100%; text-align: center; margin: 20px auto 0; padding: 20px 0; background: #fff;}
+    .tab-rg-box.on {position: fixed; top: 94px; left: 0; margin: 0;}
+	.tab-region {position: relative; display: inline-block; text-align: center; /*margin-bottom: 35px;*/ font-size: 0;}
 	.tab-region > li {display: inline-block; font-size: 16px; padding-left: 10px;}
 	.tab-region > li:first-child {padding-left: 0;}
 	.tab-region > li > a { 

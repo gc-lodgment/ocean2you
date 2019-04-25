@@ -45,7 +45,7 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.12/jquery.bxslider.min.js"></script>
 	<script src="http://static.ocean2you.co.kr/js/renew/common_ocean.js"></script>
 	<script src="http://static.ocean2you.co.kr/js/renew/event/init.js"></script>
-	<!--<script src="../../static/js/event/init.js"></script>-->
+	<!--<script src="../../static/js/renew/event/init.js"></script>-->
 	<!-- 190226 js 추가 -->
 	<script src="http://static.ramadapt.co.kr/js/totalweb.js"></script>
 	
@@ -164,45 +164,49 @@
 			<a href="http://ocean2you.co.kr/view/"><img src="http://img.ocean2you.co.kr/renew/group/group_bn_01.png" alt="일반예약하러가기"></a>
 			<!--<a href="javascript:;" onclick="$('#pop-bustour').show()"><img src="http://img.ocean2you.co.kr/renew/banner/right/bn_bus_1.png" alt="속초관광버스투어상품안내"></a>-->
 		</div>
+				
+        <!-- 190425 탭 감싸는 태그 추가 및 위치 이동 -->
+        <div class="tab-rg-box">
+            <ul class="tab-region">
+                <li class="on">
+                    <a href="javascript:;">고성지역 행사 <span class="d-arr">▼</span></a>
+                </li>
+                <li>
+                    <a href="javascript:;">속초지역 행사 <span class="d-arr">▼</span></a>
+                </li>
+            </ul>
+        </div>
+        <script>
+            $(function() {	
+                $(".cont-region > li.sokcho").hide();
+                $(".tab-region > li").on("click", function() {
+                    var idx = $(this).index();
+
+                    $(this).addClass("on").siblings().removeClass();
+                    $(".cont-region > li").eq(idx).show().siblings().hide();
+                    $(window).scrollTop(0);
+                });
+
+                $(window).resize(function() {
+                    var winWd = $(window).width();
+                    var $slider = $(".event-wrap .bxBox .bxS > li");
+                    // console.log(winWd);
+
+                    if (winWd < 360) {
+                        $slider.width(320);
+                    } else if (winWd < 767) {
+                        $slider.width(360);
+                    } else {
+                        $slider.width(1180);
+                    }
+
+                });
+            });
+        </script>
+        <!-- // .tab-region -->
 
 		<div class="event-wrap" id="setTop">
 			<div class="container" id="evt-box">
-				
-				<ul class="tab-region">
-					<li class="on">
-						<a href="javascript:;">고성지역 행사 <span class="d-arr">▼</span></a>
-					</li>
-					<li>
-						<a href="javascript:;">속초지역 행사 <span class="d-arr">▼</span></a>
-					</li>
-				</ul>
-				<script>
-					$(function() {	
-						$(".cont-region > li.sokcho").hide();
-						$(".tab-region > li").on("click", function() {
-							var idx = $(this).index();
-
-							$(this).addClass("on").siblings().removeClass();
-							$(".cont-region > li").eq(idx).show().siblings().hide();
-						});
-
-						$(window).resize(function() {
-							var winWd = $(window).width();
-							var $slider = $(".event-wrap .bxBox .bxS > li");
-							// console.log(winWd);
-
-							if (winWd < 360) {
-								$slider.width(320);
-							} else if (winWd < 767) {
-								$slider.width(360);
-							} else {
-								$slider.width(1180);
-							}
-
-						});
-					});
-				</script>
-				<!-- // .tab-region -->
 
 				<ul class="cont-region">
 					<li class="goseong on">

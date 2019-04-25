@@ -184,7 +184,8 @@
 
                     $(this).addClass("on").siblings().removeClass();
                     $(".cont-region > li").eq(idx).show().siblings().hide();
-                    $(window).scrollTop(0);
+                    $(window).scrollTop( ($(".event-wrap").offset().top) - ($(".tab-rg-box").height()) ); //스크롤 탑 추가
+                    //console.log(($(".event-wrap").offset().top) - ($(".tab-rg-box").height()))
                 });
 
                 $(window).resize(function() {

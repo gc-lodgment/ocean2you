@@ -24,7 +24,7 @@
 	.title .tit-box .titTxt img {width: 230px;}
 	.title .tit-box .p0 {display: none;}
 	
-	.event-wrap {padding: 20px 0 100px;}
+	.event-wrap {padding: 70px 0 100px;}
 
     .tab-rg-box {z-index: 2; position: absolute; width: 100%; text-align: center; margin: 0 auto 0; padding: 15px 0; background: #fff;}
     .tab-rg-box.on {position: fixed; top: 94px; left: 0; margin: 0;}
@@ -105,6 +105,10 @@
 	/* 190417 동해안 최북단 저도어장 대문어축제 2019 */
 	.event-wrap .octopus .bxBox li {background: url(http://img.ocean2you.co.kr/renew/event/event_octopus_01.jpg) no-repeat; background-size: cover;}
 	.event-wrap .octopus .bxBox .li-2 {background: url(http://img.ocean2you.co.kr/renew/event/event_octopus_02.jpg) no-repeat; background-size: cover;}
+	/* 190426 속초 사잇길 음악여행 버스킹 */
+	.event-wrap .skBusking .bxBox li {background: url(http://img.ocean2you.co.kr/renew/event/event_busking_m.jpg) no-repeat; background-size: cover;}
+	/* 190426 속초 봄빛 축제 */
+	.event-wrap .skNuri .bxBox li {background: url(http://img.ocean2you.co.kr/renew/event/event_nuri_m.jpg) no-repeat; background-size: cover;}
 	
 	.event-wrap .evt01-tb {position: relative; padding: 0 4px; margin: 0 auto; text-align: left; margin-top: 40px; letter-spacing: -1px; line-height: 1.2;}
 	.event-wrap .evt01-tb > li {/*float: left;*/display:table; width: 100%; border: 1px solid #bfbfbf; margin-top: -1px;} 
@@ -243,6 +247,10 @@
 	/* 190417 동해안 최북단 저도어장 대문어축제 2019 */
 	.event-wrap .octopus .bxBox li {background: url(http://img.ocean2you.co.kr/renew/event/event_octopus_01.jpg) no-repeat; background-size: cover;}
 	.event-wrap .octopus .bxBox .li-2 {background: url(http://img.ocean2you.co.kr/renew/event/event_octopus_02.jpg) no-repeat; background-size: cover;}
+	/* 190426 속초 사잇길 음악여행 버스킹 */
+	.event-wrap .skBusking .bxBox li {background: url(http://img.ocean2you.co.kr/renew/event/event_busking.jpg) no-repeat; background-size: cover;}
+	/* 190426 속초 봄빛 축제 */
+	.event-wrap .skNuri .bxBox li {background: url(http://img.ocean2you.co.kr/renew/event/event_nuri.jpg) no-repeat; background-size: cover;}
     
     
 	.fac-mt {margin-top: 40px; padding-top: 40px; border-top: 1px solid #ccc;}
@@ -389,6 +397,10 @@
 	/* 190417 동해안 최북단 저도어장 대문어축제 2019 */
 	.event-wrap .octopus .bxBox li {background: url(http://img.ocean2you.co.kr/renew/event/event_octopus_01.jpg) no-repeat; background-size: cover;}
 	.event-wrap .octopus .bxBox .li-2 {background: url(http://img.ocean2you.co.kr/renew/event/event_octopus_02.jpg) no-repeat; background-size: cover;}
+	/* 190426 속초 사잇길 음악여행 버스킹 */
+	.event-wrap .skBusking .bxBox li {background: url(http://img.ocean2you.co.kr/renew/event/event_busking.jpg) no-repeat; background-size: cover;}
+	/* 190426 속초 봄빛 축제 */
+	.event-wrap .skNuri .bxBox li {background: url(http://img.ocean2you.co.kr/renew/event/event_nuri.jpg) no-repeat; background-size: cover;}
     
     /* 표 영역 */
 	.event-wrap .evt01-tb {position: relative; padding: 0 10px; text-align: left; margin-top: 54px; letter-spacing: -1px; /*line-height: 1.2;*/}
@@ -535,6 +547,12 @@
 	/* 190417 동해안 최북단 저도어장 대문어축제 2019 */
 	.event-wrap .octopus .bxBox li {background: url(http://img.ocean2you.co.kr/renew/event/event_octopus_01.jpg) no-repeat; background-size: cover;}
 	.event-wrap .octopus .bxBox .li-2 {background: url(http://img.ocean2you.co.kr/renew/event/event_octopus_02.jpg) no-repeat; background-size: cover;}
+	/* 190426 속초 봄빛 축제 */
+	.event-wrap .skNuri .bxBox li {background: url(http://img.ocean2you.co.kr/renew/event/event_nuri.jpg) no-repeat; background-size: cover;}
+	/* 190426 속초 사잇길 음악여행 버스킹 */
+	.event-wrap .skBusking .bxBox li {background: url(http://img.ocean2you.co.kr/renew/event/event_busking.jpg) no-repeat; background-size: cover;}
+	/* 190426 속초 봄빛 축제 */
+	.event-wrap .skNuri .bxBox li {background: url(http://img.ocean2you.co.kr/renew/event/event_nuri.jpg) no-repeat; background-size: cover;}
     
 	.event-wrap .evt01-tb {position: relative; text-align: left; margin-top: 54px; letter-spacing: -1px; line-height: 1.2;}
 	.event-wrap .evt01-tb > li {float: left; width: 100%; border: 1px solid #bfbfbf; margin-top: -1px;}

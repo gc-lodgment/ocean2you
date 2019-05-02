@@ -37,6 +37,7 @@ a {color: inherit;}
 .f-bd {font-weight: bold;}
 .ta-left {text-align: left !important;}
 .ta-right {text-align: right !important;}
+.ta-center {text-align: center !important;}
 
 .mg-, .mgl, .mg-l {position: relative; display: inline-block;}
 .mt-0 {margin-top: 0 !important;}

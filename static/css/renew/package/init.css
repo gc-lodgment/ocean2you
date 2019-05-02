@@ -550,7 +550,7 @@
 	.pkg-b-tab-box .pkg-b-tab .nth-1 {border-left:1px solid #e2e2e2;}
 	.pkg-b-tab-box .pkg-b-tab li a {display:block; padding:20px 0; font-size:17px; font-weight:700; line-height:21px; color:#373737;}
 	/* .pkg-b-tab-box .pkg-b-tab .nth-1 a {padding:9px 0;} */
-    .pkg-b-tab-box .pkg-b-tab .nth-2 a, .pkg-b-tab-box .pkg-b-tab .nth-7 a {padding:9px 0;} 
+    /*.pkg-b-tab-box .pkg-b-tab .nth-2 a, .pkg-b-tab-box .pkg-b-tab .nth-7 a {padding:9px 0;} */
     .pkg-b-tab-box .pkg-b-tab li .line-two {padding:9px 0;} 
 	.pkg-b-tab-box .pkg-b-tab li a > span {display:block}
 	.pkg-b-tab-box .pkg-b-tab .on { background:#3197f0}

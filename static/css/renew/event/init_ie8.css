@@ -95,6 +95,8 @@
 	.event-wrap .skNuri .bxBox li {background: url(http://img.ocean2you.co.kr/renew/event/event_nuri.jpg) no-repeat; background-size: cover;}
 	/* 실향민 문화 축제 */
 	.event-wrap .silyang .bxBox li {background: url(http://img.ocean2you.co.kr/renew/event/event_silyang.jpg) no-repeat; background-size: cover;}
+	/* 190521 속초 시민의 날 */
+	.event-wrap .skBusking .bxBox li {background: url(http://img.ocean2you.co.kr/renew/event/event_simin.jpg) no-repeat; background-size: cover;}
 
 	.event-wrap .evt01-tb {position: relative; text-align: left; margin-top: 54px; letter-spacing: -1px; line-height: 1.2;}
 	.event-wrap .evt01-tb > li {float: left; width: 100%; border: 1px solid #bfbfbf; margin-top: -1px;}

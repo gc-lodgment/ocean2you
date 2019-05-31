@@ -74,7 +74,7 @@ legend, caption {overflow: hidden; font-size:0; width:0; height:0; line-height:0
 /* a태그 아이콘 X버튼*/
 .a-i-x, .a-i-x2 {position: absolute; display: block; width: 20px; height: 20px; top: 10px; right: 10px;}
 .a-i-x:before, .a-i-x:after,
-.a-i-x2:before, .a-i-x2:after {content: ""; display: inline-block; position: absolute; width: 1px; height: 20px; background: #555;}
+.a-i-x2:before, .a-i-x2:after {content: ""; display: inline-block; position: absolute; width: 20px; height: 1px; background: #555;}
 .a-i-x2:before, .a-i-x2:after {width: 20px; height: 1px;}
 .a-i-x:before, .a-i-2:before {
     -webkit-transform: rotate(-45deg);

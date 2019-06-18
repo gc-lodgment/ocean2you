@@ -101,11 +101,11 @@ function resizeWin(){
             //console.log('load')
             $('#bgMov').get(0).load();
             
-            $('#bgMov').get(0).play();
-            $(this).find('#bgMov').on('ended',function(){
-                $(this).parents('.m-vid').fadeOut(500);
-            });
             $('.m-vid').fadeIn(500, function(){
+                $('#bgMov').get(0).play();
+                $(this).find('#bgMov').on('ended',function(){
+                    $(this).parents('.m-vid').fadeOut(500);
+                });
             });
         });
         if( $('.topbn-wrap').css('display') == 'block' ){

@@ -149,7 +149,7 @@ body.of-hidden {overflow: hidden;}
     
 	/* 180711_로고수정_다솜 */
 	.header .logo-box .logo {float:left; margin-right:8px;}
-	.header .logo-box .logo-txt {display: none; float:left; margin-top:29px; font-size:15px; line-height:15px; font-weight:600;}
+	.header .logo-box .logo-txt {display: none; float:left; margin-top:29px; font-size:15px; line-height:15px; font-weight:600; text-align: left;}
 	.header .logo-box .logo-txt span {display:block; margin-top:4px; font-size:13px; line-height:13px;}
 
 	.header .nav-bar {position: absolute; right: 0;}
@@ -338,7 +338,7 @@ body.of-hidden {overflow: hidden;}
 	.privacy-bg .cm-s .d-top {height: 36px; background: #448ad0; color: #FFF; font-size: 15px;}
 	.privacy-bg .cm-s .d-top strong {display: inline-block; position: relative; top: 10px; left: 10px;}
 	.privacy-bg .cm-s .d-top .a-x {position: absolute; display: inline-block; height: 36px; width: 36px; right: 0px; top: 0; background: #448ad0;}
-	.privacy-bg .cm-s .d-top .a-x:before, .privacy-bg .cm-s .d-top .a-x:after {background: #fff; height: 20px; left: 18px; top: 8px;}
+	.privacy-bg .cm-s .d-top .a-x:before, .privacy-bg .cm-s .d-top .a-x:after {background: #fff; width: 20px; left: 10px; top: 17px;}
 	.privacy-bg .cm-s .d-cont {height: 334px; overflow: auto; padding: 10px 8px 10px 10px; font-size: 13px; line-height: 1.3; word-break: keep-all; box-sizing: border-box;}
 	.privacy-bg .cm-s .tablepri {border: 1px solid #000; width: auto; line-height: 1.5em; margin-top: 10px; letter-spacing: -0.2px;}
 	.privacy-bg .cm-s .tablepri th, .privacy-bg .cm-s .tablepri td {padding: 0 5px;}
@@ -498,7 +498,7 @@ body.of-hidden {overflow: hidden;}
 	.privacy-bg .cm-s .d-top {height: 50px; background: #448ad0; color: #FFF; font-size: 18px;}
 	.privacy-bg .cm-s .d-top strong {display: inline-block; position: relative; top: 14px; left: 15px;}
 	.privacy-bg .cm-s .d-top .a-x {position: absolute; display: inline-block; height: 50px; width: 50px; right: 0px; top: 0; background: #448ad0;}
-	.privacy-bg .cm-s .d-top .a-x:before, .privacy-bg .cm-s .d-top .a-x:after {background: #fff; height: 30px; left: 24px; top: 10px;}
+	.privacy-bg .cm-s .d-top .a-x:before, .privacy-bg .cm-s .d-top .a-x:after {background: #fff; width: 30px; left: 10px; top: 25px;}
 	.privacy-bg .cm-s .d-cont {height: 778px; overflow: auto; padding: 15px 12px 15px 15px; font-size: 14px; line-height: 1.3; word-break: keep-all; box-sizing: border-box;}
 	.privacy-bg .cm-s .tablepri {border: 1px solid #000; width: auto; line-height: 1.5em; margin-top: 10px; letter-spacing: -0.2px;}
 	.privacy-bg .cm-s .tablepri th, .privacy-bg .cm-s .tablepri td {padding: 0 5px;}
@@ -764,7 +764,7 @@ body.of-hidden {overflow: hidden;}
     
     /* 180711_로고수정_다솜 */
     .header .logo-box .logo {float:left; margin-right:20px;}
-    .header .logo-box .logo-txt {float:left; margin-top:31px; font-size:18px; line-height:18px; font-weight:600;}
+    .header .logo-box .logo-txt {float:left; margin-top:31px; font-size:18px; line-height:18px; font-weight:600; text-align: left;}
     .header .logo-box .logo-txt span {display:block; margin-top:4px; font-size:15px; line-height:15px;}
 
 	.header .nav-bar {position: absolute; right: 0;}

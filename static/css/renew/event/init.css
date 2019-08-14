@@ -113,6 +113,9 @@
 	.event-wrap .silyang .bxBox li {background: url(http://img.ocean2you.co.kr/renew/event/event_silyang.jpg) no-repeat; background-size: cover;}
 	/* 190521 속초 시민의 날 */
 	.event-wrap .skCitizinDay .bxBox li {background: url(http://img.ocean2you.co.kr/renew/event/event_simin.jpg) no-repeat; background-size: cover;}
+	/* 190814_dmz평화의길 */
+	.event-wrap .dmz .bxBox li {background: url(http://img.ocean2you.co.kr/renew/event/event_dmz01_m.jpg) no-repeat; background-size: cover;}
+	.event-wrap .dmz .bxBox .li-2 {background: url(http://img.ocean2you.co.kr/renew/event/event_dmz02_m.jpg) no-repeat; background-size: cover;}
 	
 	.event-wrap .evt01-tb {position: relative; padding: 0 4px; margin: 0 auto; text-align: left; margin-top: 40px; letter-spacing: -1px; line-height: 1.2;}
 	.event-wrap .evt01-tb > li {/*float: left;*/display:table; width: 100%; border: 1px solid #bfbfbf; margin-top: -1px;} 
@@ -259,6 +262,9 @@
 	.event-wrap .silyang .bxBox li {background: url(http://img.ocean2you.co.kr/renew/event/event_silyang.jpg) no-repeat; background-size: cover;}
 	/* 190521 속초 시민의 날 */
 	.event-wrap .skCitizinDay .bxBox li {background: url(http://img.ocean2you.co.kr/renew/event/event_simin.jpg) no-repeat; background-size: cover;}
+	/* 190814_dmz평화의길 */
+	.event-wrap .dmz .bxBox li {background: url(http://img.ocean2you.co.kr/renew/event/event_dmz01.jpg) no-repeat; background-size: cover;}
+	.event-wrap .dmz .bxBox .li-2 {background: url(http://img.ocean2you.co.kr/renew/event/event_dmz02.jpg) no-repeat; background-size: cover;}
     
 	.fac-mt {margin-top: 40px; padding-top: 40px; border-top: 1px solid #ccc;}
 	.fac-mt-b {margin-bottom: 40px; padding-bottom: 40px; border-bottom: 1px solid #ccc;}
@@ -412,6 +418,9 @@
 	.event-wrap .silyang .bxBox li {background: url(http://img.ocean2you.co.kr/renew/event/event_silyang.jpg) no-repeat; background-size: cover;}
 	/* 190521 속초 시민의 날 */
 	.event-wrap .skCitizinDay .bxBox li {background: url(http://img.ocean2you.co.kr/renew/event/event_simin.jpg) no-repeat; background-size: cover;}
+	/* 190814_dmz평화의길 */
+	.event-wrap .dmz .bxBox li {background: url(http://img.ocean2you.co.kr/renew/event/event_dmz01.jpg) no-repeat; background-size: cover;}
+	.event-wrap .dmz .bxBox .li-2 {background: url(http://img.ocean2you.co.kr/renew/event/event_dmz02.jpg) no-repeat; background-size: cover;}
     
     /* 표 영역 */
 	.event-wrap .evt01-tb {position: relative; padding: 0 10px; text-align: left; margin-top: 54px; letter-spacing: -1px; /*line-height: 1.2;*/}
@@ -566,6 +575,9 @@
 	.event-wrap .silyang .bxBox li {background: url(http://img.ocean2you.co.kr/renew/event/event_silyang.jpg) no-repeat; background-size: cover;}
 	/* 190521 속초 시민의 날 */
 	.event-wrap .skCitizinDay .bxBox li {background: url(http://img.ocean2you.co.kr/renew/event/event_simin.jpg) no-repeat; background-size: cover;}
+	/* 190814_dmz평화의길 */
+	.event-wrap .dmz .bxBox li {background: url(http://img.ocean2you.co.kr/renew/event/event_dmz01.jpg) no-repeat; background-size: cover;}
+	.event-wrap .dmz .bxBox .li-2 {background: url(http://img.ocean2you.co.kr/renew/event/event_dmz02.jpg) no-repeat; background-size: cover;}
 
     
 	.event-wrap .evt01-tb {position: relative; text-align: left; margin-top: 54px; letter-spacing: -1px; line-height: 1.2;}

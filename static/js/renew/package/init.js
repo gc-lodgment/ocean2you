@@ -1,16 +1,4 @@
 $(function() {
-
-	// 패키지 탭 wid
-	var packParent = ["#pkg-tab", "#pkg-b-tab"];
-	var packLen = packParent.length;
-
-	packFor(packLen, packParent);
-
-    $(window).resize(function(){
-        packFor(packLen, packParent);
-
-    }).resize();
-
     //사이드 탭 
     $(".q-menu .packtab li").removeClass('on');
     var liLen = $(".q-menu .packtab li").length+1;
@@ -76,28 +64,3 @@ $(function() {
 	
 	
 });
-
-function packFor(len, packParent){
-    var winW = $(window).width();
-    
-    if (winW <= 768) {
-        for( var i = 0 ; i < len ; i++ ){
-            var idx = i;
-            $(packParent[idx]).find('li').css({'width' : 48+'%'});
-        }
-    }else{
-        for( var i = 0 ; i < len ; i++ ){
-            var idx = i;
-            packWid($(packParent[idx]));
-        }
-    }
-}
-
-function packWid(itm){
-    var pack = $(itm);
-    var packLi = pack.find('li');
-    var packLiLen = packLi.length;
-    
-    packLi.css({'width' : (100/packLiLen)+'%'});
-    
-}

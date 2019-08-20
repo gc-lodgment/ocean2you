@@ -2,6 +2,17 @@ $(function() {
 	// 버스 팝업
 	pop_bus();
 
+	// 패키지 탭 wid
+	var packParent = ["#facil-tab", "#pkg-tab", "#pkg-b-tab"];
+	var packLen = packParent.length;
+
+	packFor(packLen, packParent);
+
+    $(window).resize(function(){
+        packFor(packLen, packParent);
+
+    }).resize();
+
 	// 단체문의 팝업
 	$(".popOpen").on('click', function () {
 
@@ -166,4 +177,29 @@ function pop_bus() {
         $('html').css({'overflow': 'auto', 'height': '100%'});
         $('#pop-bustour').off('scroll');
 	}
+}
+
+function packFor(len, packParent){
+    var winW = $(window).width();
+    
+    if (winW <= 768) {
+        for( var i = 0 ; i < len ; i++ ){
+            var idx = i;
+            $(packParent[idx]).find('li').css({'width' : 48+'%'});
+        }
+    }else{
+        for( var i = 0 ; i < len ; i++ ){
+            var idx = i;
+            packWid($(packParent[idx]));
+        }
+    }
+}
+
+function packWid(itm){
+    var pack = $(itm);
+    var packLi = pack.find('li');
+    var packLiLen = packLi.length;
+    
+    packLi.css({'width' : (100/packLiLen)+'%'});
+    
 }

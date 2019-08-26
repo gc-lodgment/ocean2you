@@ -116,6 +116,9 @@
 	/* 190814_dmz평화의길 */
 	.event-wrap .dmz .bxBox li {background: url(http://img.ocean2you.co.kr/renew/event/event_dmz01_m.jpg) no-repeat; background-size: cover;}
 	.event-wrap .dmz .bxBox .li-2 {background: url(http://img.ocean2you.co.kr/renew/event/event_dmz02_m.jpg) no-repeat; background-size: cover;}
+	/* 190826_금강통일배 유소년클럽 축구대회 */
+	.event-wrap .fifasChild .bxBox li {background: url(http://img.ocean2you.co.kr/renew/event/event_fifasChild01_m.jpg) no-repeat; background-size: cover;}
+	.event-wrap .fifasChild .bxBox .li-2 {background: url(http://img.ocean2you.co.kr/renew/event/event_fifasChild02_m.jpg) no-repeat; background-size: cover;}
 	
 	.event-wrap .evt01-tb {position: relative; padding: 0 4px; margin: 0 auto; text-align: left; margin-top: 40px; letter-spacing: -1px; line-height: 1.2;}
 	.event-wrap .evt01-tb > li {/*float: left;*/display:table; width: 100%; border: 1px solid #bfbfbf; margin-top: -1px;} 
@@ -265,6 +268,9 @@
 	/* 190814_dmz평화의길 */
 	.event-wrap .dmz .bxBox li {background: url(http://img.ocean2you.co.kr/renew/event/event_dmz01.jpg) no-repeat; background-size: cover;}
 	.event-wrap .dmz .bxBox .li-2 {background: url(http://img.ocean2you.co.kr/renew/event/event_dmz02.jpg) no-repeat; background-size: cover;}
+	/* 190826_금강통일배 유소년클럽 축구대회 */
+	.event-wrap .fifasChild .bxBox li {background: url(http://img.ocean2you.co.kr/renew/event/event_fifasChild01.jpg) no-repeat; background-size: cover;}
+	.event-wrap .fifasChild .bxBox .li-2 {background: url(http://img.ocean2you.co.kr/renew/event/event_fifasChild02.jpg) no-repeat; background-size: cover;}
     
 	.fac-mt {margin-top: 40px; padding-top: 40px; border-top: 1px solid #ccc;}
 	.fac-mt-b {margin-bottom: 40px; padding-bottom: 40px; border-bottom: 1px solid #ccc;}
@@ -421,6 +427,9 @@
 	/* 190814_dmz평화의길 */
 	.event-wrap .dmz .bxBox li {background: url(http://img.ocean2you.co.kr/renew/event/event_dmz01.jpg) no-repeat; background-size: cover;}
 	.event-wrap .dmz .bxBox .li-2 {background: url(http://img.ocean2you.co.kr/renew/event/event_dmz02.jpg) no-repeat; background-size: cover;}
+	/* 190826_금강통일배 유소년클럽 축구대회 */
+	.event-wrap .fifasChild .bxBox li {background: url(http://img.ocean2you.co.kr/renew/event/event_fifasChild01.jpg) no-repeat; background-size: cover;}
+	.event-wrap .fifasChild .bxBox .li-2 {background: url(http://img.ocean2you.co.kr/renew/event/event_fifasChild02.jpg) no-repeat; background-size: cover;}
     
     /* 표 영역 */
 	.event-wrap .evt01-tb {position: relative; padding: 0 10px; text-align: left; margin-top: 54px; letter-spacing: -1px; /*line-height: 1.2;*/}
@@ -578,6 +587,9 @@
 	/* 190814_dmz평화의길 */
 	.event-wrap .dmz .bxBox li {background: url(http://img.ocean2you.co.kr/renew/event/event_dmz01.jpg) no-repeat; background-size: cover;}
 	.event-wrap .dmz .bxBox .li-2 {background: url(http://img.ocean2you.co.kr/renew/event/event_dmz02.jpg) no-repeat; background-size: cover;}
+	/* 190826_금강통일배 유소년클럽 축구대회 */
+	.event-wrap .fifasChild .bxBox li {background: url(http://img.ocean2you.co.kr/renew/event/event_fifasChild01.jpg) no-repeat; background-size: cover;}
+	.event-wrap .fifasChild .bxBox .li-2 {background: url(http://img.ocean2you.co.kr/renew/event/event_fifasChild02.jpg) no-repeat; background-size: cover;}
 
     
 	.event-wrap .evt01-tb {position: relative; text-align: left; margin-top: 54px; letter-spacing: -1px; line-height: 1.2;}

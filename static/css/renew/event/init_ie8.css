@@ -100,6 +100,9 @@
 	/* 190814_dmz평화의길 */
 	.event-wrap .dmz .bxBox li {background: url(http://img.ocean2you.co.kr/renew/event/event_dmz01.jpg) no-repeat; background-size: cover;}
 	.event-wrap .dmz .bxBox .li-2 {background: url(http://img.ocean2you.co.kr/renew/event/event_dmz02.jpg) no-repeat; background-size: cover;}
+	/* 190826_금강통일배 유소년클럽 축구대회 */
+	.event-wrap .fifasChild .bxBox li {background: url(http://img.ocean2you.co.kr/renew/event/event_fifasChild01.jpg) no-repeat; background-size: cover;}
+	.event-wrap .fifasChild .bxBox .li-2 {background: url(http://img.ocean2you.co.kr/renew/event/event_fifasChild02.jpg) no-repeat; background-size: cover;}
 
 	.event-wrap .evt01-tb {position: relative; text-align: left; margin-top: 54px; letter-spacing: -1px; line-height: 1.2;}
 	.event-wrap .evt01-tb > li {float: left; width: 100%; border: 1px solid #bfbfbf; margin-top: -1px;}
